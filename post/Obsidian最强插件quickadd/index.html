@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Obsidian最强插件：quickadd | 喜于微</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lillian-who.github.io/favicon.ico?v=1645523725954">
+<link rel="stylesheet" href="https://lillian-who.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-221017306-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-221017306-1');
+</script>
+
+
+    <meta name="description" content="嗨大家！
+今天介绍Obsidian（一款本地化笔记软件）最强的插件：QuickAdd。
+从我开始用quickadd这个插件开始，它就越来越融入到我的日常笔记流程中，而且随着使用的越习惯、越平淡，还开发出了一开始没有想过的用法（虽然就是很简单..." />
+    <meta name="keywords" content="Obsidian,Obsidian插件" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://lillian-who.github.io">
+        <img src="https://lillian-who.github.io/images/avatar.png?v=1645523725954" class="site-logo">
+        <h1 class="site-title">喜于微</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Enjoy it.
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://lillian-who.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Obsidian最强插件：quickadd</h2>
+            <div class="post-date">2021-10-17</div>
+            
+              <div class="feature-container" style="background-image: url('https://i.loli.net/2021/10/17/DegLYXIzp3uQl4x.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>嗨大家！</p>
+<p>今天介绍Obsidian（一款本地化笔记软件）最强的插件：QuickAdd。</p>
+<p>从我开始用quickadd这个插件开始，它就越来越融入到我的日常笔记流程中，而且随着使用的越习惯、越平淡，还开发出了一开始没有想过的用法（虽然就是很简单）。如果现在让我只能留一个第三方插件，毫无疑问，我会选择quickadd。</p>
+<p>QuickAdd，有人称呼它为“快加”，虽然有点不那么优美，可是也很贴切了。插件的官方介绍是：快速地添加笔记（Notes）或内容（Content）到你的库（Vault）。（P.S. 作者英文水平有限，担心翻译不准确才加上英文原单词，不是为了凑字数，不是！）</p>
+<p>如果你的英文水平很好，那么可以去看插件在github里的readme，不仅有视频介绍，还有一些工作流的例子（虽然是国外的），可以说非常有用了。对于高阶用户来说，官方的文档应该会比我的教程更有用。</p>
+<p>本文依然延续往期教程风格，适合新手用户。如果你想尝试QuickAdd，或者正在用QuickAdd，但是在使用上有疑惑，希望这篇文章能够给你一些参考和启发。</p>
+<h2 id="quickadd的4种类型">QuickAdd的4种类型</h2>
+<ol>
+<li>Capture：捕捉。捕捉输入内容到某个文件。</li>
+<li>Template：模板。用模板新建文件。</li>
+<li>multi：多（菜单）。用于把quickadd命令做成可选菜单的形式。</li>
+<li>Macro：宏。执行一系列命令组合。（本篇暂不涉及）</li>
+</ol>
+<p>我没有按照官方的顺序来列这4种类型，而是按照我认为的使用的难易程度排列，或者说这是我认为对于新接触这个插件的用户来说比较容易上手的渐进式的使用过程。</p>
+<p>之前在介绍工作流的时候（<a href="https://lillian-who.github.io/2021/08/18/Obsidian%E5%B7%A5%E4%BD%9C%E6%B5%81/#quickAdd-%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F">我的 Obsidian 工作流：模板+QuickAdd+Dataview 快速创建和自动索引</a>），简单介绍过这个插件，所以基础的怎么创建命令，以及每个设置的释义就不再重复介绍了。本次重点在于这4个快加类型的应用，让我们来看看它们能做到什么，以及如何操作。</p>
+<h2 id="capture-捕捉">📸 Capture 捕捉</h2>
+<p>介绍：捕捉你输入的文本，插入到指定的文件。</p>
+<p>捕捉，可以捕捉内容到指定文件的指定地方。根据这个特性，我们可以实现一些简单又实用的用法。</p>
+<h3 id="记录闪念间歇日记">记录闪念/间歇日记</h3>
+<p>效果演示：</p>
+<img src="https://i.loli.net/2021/10/16/CYiB2EAfWGqVwor.gif" width=500>
+<p>下面我们就开始吧！添加一个capture类型的快加，打开设置。</p>
+<h5 id="step1-在file-name项填写上你想要捕捉内容保存到的文件">step1: 在File Name项，填写上你想要捕捉内容保存到的文件。</h5>
+<p>比如我们现在是要记闪念日记，那么我要保存到当天的日记笔记里。文件名称支持格式语法，比如{{DATE}} ，会输出日期，和我们默认的模板日期几乎是一样的，但是有一个重要的不同，快加的DATE是大写。</p>
+<p>下图是我的快加闪念设置，可以看到我的日记保存目录，以及动态的日记笔记名，这里你可以直接复制日记插件里设置的格式，粘贴进来。</p>
+<img src="https://i.loli.net/2021/10/16/iZynxCzjql9GrFd.png" width=500>
+<p>这样我每次调用快加:闪念命令，写入的内容就会插入到当天的日记里。</p>
+<p>下面附上快加支持的format，供参考：</p>
+<img src="https://i.loli.net/2021/10/16/JKybpOWqhiU48j2.png" width=350>
+<h4 id="step2-指定插入到指定位置非必要">step2: 指定插入到指定位置（非必要）</h4>
+<p>在 <strong>Insert after</strong> 项，你可以指定把内容插入到文件的某个位置，比如我想要插入到二级标题<code>闪念</code>下面。下图是我的配置：</p>
+<img src="https://i.loli.net/2021/10/16/HEnIRr4Uq9vKoj5.png" width=500>
+<p>首先，打开  Insert after 项右边的开关，然后在下方的输入框输入 <code>## 闪念</code> 。注意，由于是二级标题，所以井号后面有空格。只有字符一模一样，快加命令才能找到指定行，并且把内容插入到对应的位置。</p>
+<p>提示： Insert after 项同样支持格式语法。</p>
+<p>上图中可以看到还有一个设置项，<strong>Insert at end of section</strong> 。section是章节、一段的意思，比如我的二级标题「闪念」，那么这一整个二级标题的范围，都作为一个块。</p>
+<p>当该选项不打开时，每次的捕捉内容会插入在二级标题「闪念」的最上方。那么我多次插入日记的内容，呈现出来其实是倒序排列的，后插入的内容显示在最上方。</p>
+<p>当打开该选项时，最后插入的内容就会在二级标题「闪念」的末尾位置。</p>
+<h4 id="step3-给闪念日记加上时间戳">step3: 给闪念日记加上时间戳</h4>
+<p>下图中，有2个设置我用红色字体标注了翻译（粗翻，不保证准确），就不再展开讲了，请按需使用。</p>
+<img src="https://i.loli.net/2021/10/16/46F8m1DqXVkeI9r.png" width=500>
+<p>这里讲一下经常被问到的，给闪念日记加上时间戳。我们在记闪念笔记的时候，往往需要带上时间戳，以便于以后查看。这时候可以使用 <strong>Capture format</strong> 设置项。</p>
+<ol>
+<li>打开 Capture format 的开关。</li>
+<li>在文本框里写格式语法。下面做一下简单的解释。
+<ol>
+<li><code>{{DATE:YYYY-MM-DD HH:mm}}</code> 就是时间的写法，DATE 语法可以从官方的日记插件设置页找到：<br>
+<img src="https://i.loli.net/2021/10/16/cEOwvkIMe4obNPK.png" width=200></li>
+<li><code>{{VALUE}}</code>就是捕捉的内容。</li>
+<li>最前面有一个<code>\n</code>，这是换行语法，在md中不会原样输出，而是会自动换一样，再插入相应的内容。</li>
+<li><code>-</code>，是列表语法，因为我喜欢使用列表输入内容而已，没有特别的含义，如果你不想要列表，去掉上图事例中的短横杠<code>-</code>就可以了。</li>
+</ol>
+</li>
+</ol>
+<p>上面只是一个例子，希望大致能让你明白怎么写capture format。总结一下，就是非格式语法会原样输出，格式语法会动态输出，你可以自己定需要插入什么时间格式，也可以自己给你的闪念加点花样，比如前面加上emoji之类的。</p>
+<h4 id="头脑风暴">头脑风暴</h4>
+<p>虽然上面介绍的是插入闪念日记，但这个例子是想介绍捕捉内容到指定位置的这个使用场景。</p>
+<p>你可以用这个方法做一系列和插入日记相关的命令，比如：</p>
+<img src="https://i.loli.net/2021/10/16/FNshl1tozj5JHcx.png" width=400>
+<p>你可以在一个标题下面，用不同的emoji区分不同的内容类型（快加设置时capture format加上emoji）。也可以将不同类型的内容插入到不同的标题下（即设置Insert after项）。</p>
+<h3 id="快速添加一个任务">快速添加一个任务</h3>
+<p>这个很简单，有两种方法：第一种是和上面的设置一样，在 capture format 里，写<code>- [ ] {{VALUE}}</code>；第二种就是在设置快加命令的时候，勾选 Task项。</p>
+<img src="https://i.loli.net/2021/10/16/q8buFlgyaYcAo7s.png" width=500>
+<h4 id="延伸使用快速添加到看板">延伸使用：快速添加到看板</h4>
+<p>这是一个和看板的联动使用。由于实际上看板里的Item（一条，但出于习惯后文均称作一列）对应的是md语法的二级标题，一个看板卡片对应的是md的任务语法<code>- [ ]</code>，所以我们可以利用这个关系来给看板快速添加卡片。</p>
+<p>例如：我有一个「灵感看板」用来收集写作灵感，这个看板里面有一个列是「Inbox」，用来作为灵感的收集箱。现在我想要快速添加一个新灵感到「灵感看板」的「Inbox」。</p>
+<p>快速添加到看板的quickadd设置是：</p>
+<ol>
+<li><strong>File Name</strong>项写上「灵感看板」的文件位置</li>
+<li>打开<strong>Task</strong>项的开关</li>
+<li>打开 <strong>Insert after</strong> 项的开关，并写上 <code>## Inbox</code></li>
+<li>如果你想要每次新添加的卡片都放在列的最下面，就打开<strong>Insert at end of section</strong> 项的开关。如果不打开，默认卡片会放在列的最上方。</li>
+</ol>
+<h3 id="玩点好玩的插入admonition的框">玩点好玩的，插入admonition的框</h3>
+<p>从一开始为了不污染markdown文件，到实在无法抵抗Admonition的高颜值，我终于还是开始使用Admonition了。但是，每次都要写那么长的代码块，真的很累啊，而且总是想不起来自己的设定（我为自己的笔记设置了一套admonition卡片，每一个都有不同的用途）。就在我为此而烦心的时候，忽然想起了quickadd，OMG，为什么我没有早点想起来？！希望我不是最后一个知道的。</p>
+<p>同样使用quickadd的捕捉，打开捕捉内容到当前文件的当前位置的选项开关，然后在 <strong>capture format</strong>里面粘贴进那一长串admonition语法。完美！</p>
+<img src="https://i.loli.net/2021/10/16/p7L5tjruNMGvDxU.png" width=500>
+<p>注意，我这是为了实现在当前文件的当前位置插入一段admonition，才使用了<code>capture to active file</code>，如果你想要添加到指定文件的指定位置，请仍然参考前文闪念日记的设置。</p>
+<h3 id="进阶用法做问答式笔记">进阶用法：做问答式笔记</h3>
+<p>仍然是<strong>capture format</strong>这个设置项，我们可以玩点花样。你可以用这节介绍的方法来做问答日记，或者用来写晨间日记，或者为自己做一些简单的心理/情绪引导。</p>
+<p>先来看一下效果：</p>
+<img src="https://i.loli.net/2021/10/16/K7ebfmXD8EIG9sJ.gif" width=600>
+<p>上面演示的capture format设置内容如下：</p>
+<pre><code>### 行为疗法{{DATE:YYYYMMDDHHmm}}
+- 你有什么感觉？
+  - {{VALUE:你有什么感觉？}}
+
+- 现在你脑海中在想什么？
+  - {{VALUE:现在你脑海中在想什么？}}
+
+- 它真实吗？
+  - {{VALUE:它真实吗？}}
+  &gt; 我在思考，不一定意味着这是事实。
+
+</code></pre>
+<p>接下来说说原理：</p>
+<ol>
+<li>当使用<code>{{VALUE:你有什么感觉？}}</code> 的时候，弹出的捕捉框会以“你有什么感觉？”作为输入提示文字。</li>
+<li>capture format支持多个{{VALUE}}，也就是你可以一次捕捉多个内容。</li>
+</ol>
+<h2 id="template-模板">📜 Template 模板</h2>
+<p>介绍：快加文件，即用指定模板新建一个文件。</p>
+<p>关于quickadd模板类型的用法，我在<a href="https://lillian-who.github.io/2021/08/18/Obsidian%E5%B7%A5%E4%BD%9C%E6%B5%81/">我的 Obsidian 工作流：模板+QuickAdd+Dataview 快速创建和自动索引</a>中有写过，而且用法也比较简单，在此就不再复述了。（工作流那篇文章中对每个设置项做了翻译，基本上看完翻译就都懂了）。</p>
+<p>简单说下重点：</p>
+<ul>
+<li>可以指定使用的模板。</li>
+<li>可以指定新文件保存的位置。</li>
+<li>模板文件中支持<strong>格式语法</strong>。</li>
+</ul>
+<p>对，又是格式语法，我们上面有演示怎么写日期时间的格式语法，现在可以把它用在你的模板文件中，就可以做到自动记录创建时间。</p>
+<p>下面是我的提案模板中yaml的写法。</p>
+<pre><code>---
+title: {{NAME}}
+UID: {{DATE:YYYYMMDDHHmmss}}
+aliases: []
+tags: []
+项目状态: 提案
+主题: {{VALUE:主题是什么？}}
+date: {{DATE:YYYY-MM-DD HH:mm:ss}}
+---
+</code></pre>
+<ul>
+<li><code>{{NAME}}</code>是文件名的写法</li>
+<li><code>{{VALUE:主题是什么？}}</code>这种写法会作为一个提示输入弹窗，让我录入。</li>
+<li><code>{{DATE:YYYY-MM-DD HH:mm:ss}}</code>在创建文件时会变成当前的年月日时分秒</li>
+</ul>
+<p>特殊格式语法：在模板中这样写，可以在新建时出现选择框。（该方法为@简睿提供）</p>
+<pre><code>来源: {{VALUE:微信读书,纸书,bilibili,网络}}
+</code></pre>
+<p><code>{{VALUE:值1,值2,值3}}</code>，在使用快加Template类型的命令新建文件时，会作为一个下拉选项让你选择。</p>
+<img src="https://i.loli.net/2021/10/17/XlzdUPJqgDyVt9W.png" width=300>
+<h2 id="multi-多菜单">📁multi 多（菜单）</h2>
+<p>介绍：将已经做好的快加命令做成组合菜单。</p>
+<p>如果把创建的一个个快加捕捉命令和快加模板命令比作是文件的话，multi就是文件夹。创建一个multi，把单个快加命令拖拽进multi，就像将文件拖拽进文件夹。</p>
+<p>这个拖拽，需要点小技巧，就是往右侧框外拖，不然拖不进去。</p>
+<img src="https://i.loli.net/2021/10/17/EpyYLTS4XHa6VlN.gif" width=500>
+<p>然后你就可以得到：</p>
+<img src="https://i.loli.net/2021/10/17/UYKebyanxwlmWDE.gif" width=500>
+<h2 id="结语">结语</h2>
+<p>本篇以几个应用场景展开，并没有很全面的介绍quickadd的每一个设置，希望这有限的信息能够在你使用quickadd的路上助你一臂之力。</p>
+<p>如果有用，欢迎留言告诉我，你的反馈，是我最大的动力。</p>
+<p>谢谢你看到这里，我们下期见！如果没有了下期，那就祝你，上午好，下午好，晚上好，再见！</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://lillian-who.github.io/tag/g5VDCYGAxnP/" class="tag">
+                    Obsidian
+                  </a>
+                
+                  <a href="https://lillian-who.github.io/tag/YeKLJkKQ2FF/" class="tag">
+                    Obsidian插件
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://lillian-who.github.io/post/用认知行为疗法改善动力不足：行为激活/">
+                  <h3 class="post-title">
+                    用认知行为疗法改善动力不足：行为激活
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
