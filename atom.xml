@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lillian-who.github.io</id>
+    <id>http://lillian-who.github.io</id>
     <title>喜于微</title>
-    <updated>2022-02-25T05:54:33.386Z</updated>
+    <updated>2022-02-25T05:57:43.781Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lillian-who.github.io"/>
-    <link rel="self" href="https://lillian-who.github.io/atom.xml"/>
+    <link rel="alternate" href="http://lillian-who.github.io"/>
+    <link rel="self" href="http://lillian-who.github.io/atom.xml"/>
     <subtitle>Enjoy it.</subtitle>
-    <logo>https://lillian-who.github.io/images/avatar.png</logo>
-    <icon>https://lillian-who.github.io/favicon.ico</icon>
+    <logo>http://lillian-who.github.io/images/avatar.png</logo>
+    <icon>http://lillian-who.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 喜于微</rights>
     <entry>
+        <title type="html"><![CDATA[博客迁移通知]]></title>
+        <id>http://lillian-who.github.io/post/博客迁移通知/</id>
+        <link href="http://lillian-who.github.io/post/博客迁移通知/">
+        </link>
+        <updated>2022-02-25T08:35:12.000Z</updated>
+        <content type="html"><![CDATA[<p>Hi 大家！</p>
+<p>很高兴的宣布，在博客上线5个月后的现在，博客要搬家了！</p>
+<ul>
+<li>
+<p>✅  有了独立域名，<strong>新的网站地址</strong>为：http://lillianwho.com</p>
+<ul>
+<li>我终于确定了自己会继续写，于是从一开始的0成本搭建博客，现在买了主机和域名。</li>
+<li>为什么想要独立域名？因为想写的更多[[写作启示录：短文、长文、newsletter]] (记得换链接)，为了上传更方便于是需要一个国内的主机，于是来了一整套主机+域名，现在是名副其实的独立博客了✌🏻。</li>
+</ul>
+</li>
+<li>
+<p>❗️ <strong>旧博客（https://lillian-who.github.io）停止更新</strong></p>
+<ul>
+<li>旧博客运行将于1个月后关闭。（旧博客不再更新）</li>
+</ul>
+</li>
+<li>
+<p>📧  由于个人网站备案的限制，需要关闭评论和留言板了。如果想要交流，可以发邮件 <a href="mailto:ciwiehenfan@sina.com">📩</a> 给我。我也在考虑弄读者通信，比如newsletter，这种可以让作者和读者直接联系的方式还挺好的，有种复古范儿，毕竟，2022年了，谁还用邮件联系呢？是吧。</p>
+</li>
+<li>
+<p>新的RSS地址为：feed://lillianwho.com/atom.xml</p>
+<ul>
+<li>👏🏻 欢迎订阅</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[世界的二分之一]]></title>
-        <id>https://lillian-who.github.io/post/世界的二分之一/</id>
-        <link href="https://lillian-who.github.io/post/世界的二分之一/">
+        <id>http://lillian-who.github.io/post/世界的二分之一/</id>
+        <link href="http://lillian-who.github.io/post/世界的二分之一/">
         </link>
         <updated>2022-02-23T08:49:13.000Z</updated>
         <summary type="html"><![CDATA[<p>改变一定会发生，不论是以激烈的方式，或是从细微处。</p>
@@ -41,8 +75,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[写作启示录：短文、长文、newsletter]]></title>
-        <id>https://lillian-who.github.io/post/写作启示录：短文、长文、newsletter/</id>
-        <link href="https://lillian-who.github.io/post/写作启示录：短文、长文、newsletter/">
+        <id>http://lillian-who.github.io/post/写作启示录：短文、长文、newsletter/</id>
+        <link href="http://lillian-who.github.io/post/写作启示录：短文、长文、newsletter/">
         </link>
         <updated>2022-02-22T08:12:00.000Z</updated>
         <summary type="html"><![CDATA[<p>博客写什么？怎么写？至今仍是我在探索的问题。</p>
@@ -115,8 +149,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[30+的好处]]></title>
-        <id>https://lillian-who.github.io/post/30+的好处/</id>
-        <link href="https://lillian-who.github.io/post/30+的好处/">
+        <id>http://lillian-who.github.io/post/30+的好处/</id>
+        <link href="http://lillian-who.github.io/post/30+的好处/">
         </link>
         <updated>2022-02-21T02:55:55.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>二十几岁的人为什么焦虑？</strong></p>
@@ -135,8 +169,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[宝藏级博客推荐]]></title>
-        <id>https://lillian-who.github.io/post/bao-cang-ji-bo-ke-tui-jian/</id>
-        <link href="https://lillian-who.github.io/post/bao-cang-ji-bo-ke-tui-jian/">
+        <id>http://lillian-who.github.io/post/bao-cang-ji-bo-ke-tui-jian/</id>
+        <link href="http://lillian-who.github.io/post/bao-cang-ji-bo-ke-tui-jian/">
         </link>
         <updated>2022-02-20T07:50:51.000Z</updated>
         <summary type="html"><![CDATA[<p>这是我一看再看的博客/信息来源 列表，他们带给我很多启发，堪称宝藏级别。</p>
@@ -175,8 +209,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[从《也许你该找个人聊聊》中看到什么？]]></title>
-        <id>https://lillian-who.github.io/post/从《也许你该找个人聊聊》中看到什么？/</id>
-        <link href="https://lillian-who.github.io/post/从《也许你该找个人聊聊》中看到什么？/">
+        <id>http://lillian-who.github.io/post/从《也许你该找个人聊聊》中看到什么？/</id>
+        <link href="http://lillian-who.github.io/post/从《也许你该找个人聊聊》中看到什么？/">
         </link>
         <updated>2022-02-10T12:48:15.000Z</updated>
         <summary type="html"><![CDATA[<p>从《也许你该找个人聊聊》中看到的3层内容。这是一本越读越丰富的书。</p>
@@ -253,8 +287,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[我的2021年度应用]]></title>
-        <id>https://lillian-who.github.io/post/我的2021年度应用/</id>
-        <link href="https://lillian-who.github.io/post/我的2021年度应用/">
+        <id>http://lillian-who.github.io/post/我的2021年度应用/</id>
+        <link href="http://lillian-who.github.io/post/我的2021年度应用/">
         </link>
         <updated>2022-02-07T10:50:21.000Z</updated>
         <summary type="html"><![CDATA[<p>2021结束了，我想感谢这些app/软件</p>
@@ -314,8 +348,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[再探ACT：不加评判的接纳]]></title>
-        <id>https://lillian-who.github.io/post/twice-meet-act/</id>
-        <link href="https://lillian-who.github.io/post/twice-meet-act/">
+        <id>http://lillian-who.github.io/post/twice-meet-act/</id>
+        <link href="http://lillian-who.github.io/post/twice-meet-act/">
         </link>
         <updated>2022-02-05T15:07:19.000Z</updated>
         <summary type="html"><![CDATA[<p>ACT，接纳承诺疗法到底是什么，我好像明白了。</p>
@@ -351,8 +385,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[2022心理学书单]]></title>
-        <id>https://lillian-who.github.io/post/2022-psychology-book-list/</id>
-        <link href="https://lillian-who.github.io/post/2022-psychology-book-list/">
+        <id>http://lillian-who.github.io/post/2022-psychology-book-list/</id>
+        <link href="http://lillian-who.github.io/post/2022-psychology-book-list/">
         </link>
         <updated>2022-01-25T09:13:10.000Z</updated>
         <summary type="html"><![CDATA[<p>心理学专业级别的入门书籍，我的选书原则是这样的......</p>
@@ -420,8 +454,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[心理学是什么]]></title>
-        <id>https://lillian-who.github.io/post/What-is-psychology/</id>
-        <link href="https://lillian-who.github.io/post/What-is-psychology/">
+        <id>http://lillian-who.github.io/post/What-is-psychology/</id>
+        <link href="http://lillian-who.github.io/post/What-is-psychology/">
         </link>
         <updated>2022-01-25T07:33:39.000Z</updated>
         <summary type="html"><![CDATA[<p>心理学是什么？它研究的对象是什么？研究哪些方面？如何识别伪心理学呢？一起来看看吧~</p>
@@ -488,53 +522,6 @@
 </ul>
 <h2 id="参考资料">参考资料</h2>
 <p>Gerrig, R., &amp; Zimbardo, P. (2016). <em>心理学与生活（第19版）</em> (王垒 &amp; 等, 译). 人民邮电出版社. <a href="https://book.douban.com/subject/26701753/">https://book.douban.com/subject/26701753/</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[博客改版]]></title>
-        <id>https://lillian-who.github.io/post/博客改版/</id>
-        <link href="https://lillian-who.github.io/post/博客改版/">
-        </link>
-        <updated>2022-01-25T02:48:51.000Z</updated>
-        <summary type="html"><![CDATA[<p>一开始建立博客，内心是想做网络日志，加上一些工具的分享，甚至发布小说。这几个月一直在探索，因为对未来的重心有了一些模糊的规划，所以博客的版块稍作一些调整。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>一开始建立博客，内心是想做网络日志，加上一些工具的分享，甚至发布小说。这几个月一直在探索，因为对未来的重心有了一些模糊的规划，所以博客的版块稍作一些调整。</p>
-<!-- more -->
-<h2 id="网站改版思路">网站改版思路</h2>
-<p>一开始建立博客，内心是想做网络日志，加上一些工具的分享，甚至发布小说。这几个月一直在探索，因为对未来的重心有了一些模糊的规划，所以博客的版块稍作一些调整。大分类上进行了调整，也是对于内容的重新规划。因为版块的调整，我思考了下，觉得博客既然做了改版，不如一起改一个更符合现在心境的名字。</p>
-<p>我知道网站一般最好不要改名啦，希望这是最后一次 ：）</p>
-<h3 id="喜于微">喜于微</h3>
-<p>网站名改为<strong>喜于微</strong>，意思是对微小的事情也感到欢喜。</p>
-<h3 id="enjoy-it">Enjoy it</h3>
-<p>签名改为：“Enjoy it.”</p>
-<p>每当我想要立一个“目的地”的时候，我就提醒自己，不要太严肃，可以拥有方向，但别太严肃，严肃会杀死有趣，而一件事只有保持轻松、好玩，自己玩的开心，它才有意义。</p>
-<h2 id="版块分类">版块/分类</h2>
-<h3 id="心理探踪">心理探踪</h3>
-<p>2022年的阅读主题是心理学专业书，所以接下来单独开一个模块发布心理学的相关内容。</p>
-<p>预计会有：书单、学习的分享、心理学相关的其他分享。</p>
-<h3 id="数码科技">数码科技</h3>
-<ul>
-<li><strong>软件</strong>：我仍然爱数字生活，喜欢好用的好看的软件，如果有好用的软件想推荐，会放到这个模块。</li>
-<li><strong>技术</strong>：技术笔记。（如果有的话 ：）</li>
-</ul>
-<h3 id="生活随笔">生活随笔</h3>
-<ul>
-<li><strong>生活记录</strong>：
-<ul>
-<li>一直都想像国外博主那样分享自己的生活，但是，如何掌握公开和隐私的度是一直以来让我却步的问题。它有趣吗？它有用吗？发出去会被评判（judge）吗？这些问题一直萦绕。但是，从一开始写公开文章，到现在写写随笔，分享一些不太能称之为文章的内容，这是一个不断探寻不断放松的过程。做到的那一天一定是我全然接纳自己的时候。我相信已经不远了。</li>
-<li>内容可能会有：喜欢的食物、喜欢的路、去了觉得很不错的店，以及虽不特别却因为身在其中特别美好的幸福时刻。</li>
-<li>哦，还有，我一直想写“奇异人类盛典”，记我遇到的那些非常奇特的人类。比如曾经在电梯里让我捏她的帽子耳朵的小姑娘、地铁上遇到的养乌龟的小姑娘。人类真的是很有意思！当然我也是人类啦，这样说好像有点自负。但是在大千世界遇见一些奇特的人，总让我感觉特别美好。</li>
-</ul>
-</li>
-<li><strong>手帐分享</strong>：哎好像也没什么要分享的。不同于大多数手帐儿，我是个只有1本，最多同时用2本笔记的人。最近的手帐内容版块写的很有感觉，也是很想分享呢，但我沉迷的事情太多了哈哈。这个内容可能年更。</li>
-</ul>
-<h3 id="行思录">行思录</h3>
-<ul>
-<li><strong>指导生活的方法</strong>：【知】比如如何制定目标、如何复盘、养成习惯之类的，这些内容都需要实践，所以一起放到行思录。</li>
-<li><strong>生活实验</strong>：【行】仍然是看到的方法实践效果分享。</li>
-<li><strong>我的思考</strong>：【思】会分享我的想法，比如放松的生活、自我接纳的部分。放在行思录里是因为它会结合我自己的经历和思考，并非严肃的内容分享。</li>
-</ul>
-<p>有知，有行，有思，就是这个版块的内容啦。</p>
 ]]></content>
     </entry>
 </feed>
