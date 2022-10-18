@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gridea on 喜于微</title>
+    <link>http://hugoblog.lillianwho.com/tags/gridea/</link>
+    <description>Recent content in Gridea on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 12 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://hugoblog.lillianwho.com/tags/gridea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Gridea</title>
+      <link>http://hugoblog.lillianwho.com/posts/hello-gridea/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/hello-gridea/</guid>
+      <description>&lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;
+✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意&amp;hellip; &amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

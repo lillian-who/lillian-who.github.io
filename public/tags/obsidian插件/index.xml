@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Obsidian插件 on 喜于微</title>
+    <link>http://hugoblog.lillianwho.com/tags/obsidian%E6%8F%92%E4%BB%B6/</link>
+    <description>Recent content in Obsidian插件 on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://hugoblog.lillianwho.com/tags/obsidian%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian最强插件：quickadd</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%9C%80%E5%BC%BA%E6%8F%92%E4%BB%B6quickadd/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%9C%80%E5%BC%BA%E6%8F%92%E4%BB%B6quickadd/</guid>
+      <description>嗨大家！ 今天介绍Obsidian（一款本地化笔记软件）最强的插件：QuickAdd。 从我开始用quickadd这个插件开始，它就越来越融入到我的日常笔记流程中，而且随着使用的越习惯、越平淡，还开发出了一开始没有想过的用法（虽然就是很简单）。如果现在让我只能留一个第三方插件，毫无疑</description>
+    </item>
+    
+    <item>
+      <title>小惊喜：用obsidian自制答案之书</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/%E5%B0%8F%E6%83%8A%E5%96%9C%E7%94%A8obsidian%E8%87%AA%E5%88%B6%E7%AD%94%E6%A1%88%E4%B9%8B%E4%B9%A6/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/%E5%B0%8F%E6%83%8A%E5%96%9C%E7%94%A8obsidian%E8%87%AA%E5%88%B6%E7%AD%94%E6%A1%88%E4%B9%8B%E4%B9%A6/</guid>
+      <description>&lt;p&gt;嗨，大家！这次是个小的idea，并非教程。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Admonition：生来多彩</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/admonition-%E7%94%9F%E6%9D%A5%E5%A4%9A%E5%BD%A9/</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/admonition-%E7%94%9F%E6%9D%A5%E5%A4%9A%E5%BD%A9/</guid>
+      <description>&lt;p&gt;靠颜值征服实用主义者。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>obsidian插件之dataview入门</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%8F%92%E4%BB%B6%E4%B9%8Bdataview%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%8F%92%E4%BB%B6%E4%B9%8Bdataview%E5%85%A5%E9%97%A8/</guid>
+      <description>写在前面 Dataview可谓是ob用户的必备的插件了，当你积累了10+篇自己的笔记，可以用它来生成目录。 在此之前，我想对造轮子说两句（因为dataview是造轮子的利器）。 写笔记也好，做什么东西也好，我认为很忌讳的一点是过度设计，废了很大的功夫想要在一切开始之前造一个完美的轮子，</description>
+    </item>
+    
+    <item>
+      <title>obsidian新手系列之你不可不知的插件</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%96%B0%E6%89%8B%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%A0%E4%B8%8D%E5%8F%AF%E4%B8%8D%E7%9F%A5%E7%9A%84%E6%8F%92%E4%BB%B6/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%96%B0%E6%89%8B%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%A0%E4%B8%8D%E5%8F%AF%E4%B8%8D%E7%9F%A5%E7%9A%84%E6%8F%92%E4%BB%B6/</guid>
+      <description>工具的道与术 对工具的使用，分为“道”与“术”。 道，是指这个工具内在的哲学，如果你觉得哲学这个词太大了，也可以叫它逻辑。一个工具的优雅之处就体现在“道”上，“道”虽然貌似虚无缥缈，它却是最容易区分同类型工具之间不同之处的东西。 术，就是技术层面，这个工具怎么操作，怎么用起来。 互联网时</description>
+    </item>
+    
+  </channel>
+</rss>

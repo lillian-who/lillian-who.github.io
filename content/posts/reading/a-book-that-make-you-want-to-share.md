@@ -17,7 +17,7 @@ isTop: false
 
 中文书名叫《人人都在晒，凭什么你出彩》，就是这本：
 
-https://book.douban.com/subject/26357206/
+<https://book.douban.com/subject/26357206/>
 
 ## 分享今天看到的一点片段
 

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>obsidian插件之dataview入门 :: 喜于微</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta charset="UTF-8"/>
+<meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<script>if ( false || (!!window.MSInputMethodContext && !!document.documentMode)) document.write('\x3Cscript id="_iealwn_js" data-outver="11" src="https://support.dmeng.net/ie-alert-warning/latest.js">\x3C/script>'); </script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="写在前面 Dataview可谓是ob用户的必备的插件了，当你积累了10&#43;篇自己的笔记，可以用它来生成目录。 在此之前，我想对造轮子说两句（因为dataview是造轮子的利器）。 写笔记也好，做什么东西也好，我认为很忌讳的一点是过度设计，废了很大的功夫想要在一切开始之前造一个完美的轮子，"/>
+<meta name="keywords" content=""/>
+<link href="/atom.xml" title="喜于微" type="application/rss+xml">
+<link rel="canonical" href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%8F%92%E4%BB%B6%E4%B9%8Bdataview%E5%85%A5%E9%97%A8/" />
+<link rel="stylesheet" href="/theme-20221006.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
+<link rel="shortcut icon" href="http://hugoblog.lillianwho.com/favicon.ico">
+
+<meta property="og:title" content="obsidian插件之dataview入门" />
+<meta property="og:description" content="写在前面 Dataview可谓是ob用户的必备的插件了，当你积累了10&#43;篇自己的笔记，可以用它来生成目录。 在此之前，我想对造轮子说两句（因为dataview是造轮子的利器）。 写笔记也好，做什么东西也好，我认为很忌讳的一点是过度设计，废了很大的功夫想要在一切开始之前造一个完美的轮子，" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%8F%92%E4%BB%B6%E4%B9%8Bdataview%E5%85%A5%E9%97%A8/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-08-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-08-09T00:00:00+00:00" />
+
+
+
+<script async defer data-website-id="ee96bbf4-60f4-48de-995b-9b990db2b4ca" src="https://u.edui.fun/umami.js"></script>
+
+    
+  <link rel="prefetch" href="http://hugoblog.lillianwho.com/posts/obsidian/admonition-%E7%94%9F%E6%9D%A5%E5%A4%9A%E5%BD%A9/">
+  <link rel="prefetch" href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%96%B0%E6%89%8B%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%A0%E4%B8%8D%E5%8F%AF%E4%B8%8D%E7%9F%A5%E7%9A%84%E6%8F%92%E4%BB%B6/">
+
+  </head>
+  <body class="dark-theme">
+    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark-theme")}else if(getTheme == 'light'){document.body.classList.remove("dark-theme")}</script>
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="http://hugoblog.lillianwho.com/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__text">喜于微</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu hidden">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/posts/obsidian/">Obsidian</a></li>
+        
+      
+        
+          <li><a href="/posts/reading/">读书</a></li>
+        
+      
+        
+          <li><a href="/archives/">归档</a></li>
+        
+      
+        
+          <li><a href="/about/">关于</a></li>
+        
+      
+    
+    <li><a href="javascript:;" onclick="randomPost()" title="随机访问一篇文章"><svg t="1660103436159" class="icon search-box-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1184" width="32" height="32"><path d="M421.376 481.28s117.248 24.576 175.104-8.704c0 0-89.6 70.144-89.6 166.4 0.512-0.512-8.192-121.344-85.504-157.696zM438.784 969.216s68.608 6.656 68.608-80.896c0 0 3.072 88.576 65.024 78.336 0 0.512-50.688 22.016-133.632 2.56zM161.28 238.08s-30.208 65.536 11.264 91.648c0 0-67.072-17.408-81.408 37.376 0 0 8.704-82.944 70.144-129.024zM857.6 227.328s49.152 50.176 1.024 81.408c0 0 58.88-18.432 66.56 36.352 0 0 5.12-69.632-67.584-117.76z" p-id="1185"></path><path d="M443.392 970.752c-5.632 0-10.752-1.024-15.36-3.072l-270.848-157.184-1.536-1.024s-1.024-1.024-4.608-2.56c-51.2-29.184-62.976-94.208-65.536-120.832V386.56c0-3.072 0.512-7.168 1.024-11.264l0.512-3.584 1.024-2.56c19.456-50.688 76.8-51.2 103.936-44.032l-1.536 5.632 4.096-6.144L476.16 486.4l18.944 37.888c20.992 36.864 29.184 77.824 32.768 99.84v258.048c-4.608 56.32-36.864 76.288-55.808 82.944-1.024 0.512-15.36 5.632-28.672 5.632z m-262.144-196.096l263.168 152.576c12.288-0.512 36.864-6.656 40.448-48.128v-250.368c-4.608-31.744-20.992-103.936-72.192-128L322.56 445.44l1.536 3.072-142.336-82.432c-2.048-0.512-40.448-9.216-52.736 15.872-0.512 2.56-0.512 4.608-0.512 6.144v294.4c1.536 16.896 9.728 67.072 43.52 86.528 3.584 2.048 6.656 4.096 9.216 5.632z" p-id="1186"></path><path d="M837.632 212.992c6.656 4.096 12.8 7.168 18.432 10.752l1.536 1.024 1.536 1.536c5.12 4.096 10.752 9.216 16.384 15.36 6.144 11.776 5.632 33.28 4.608 49.152-1.024 12.288-6.656 30.208-26.624 44.544l-1.024 0.512-247.808 156.672c-26.624 14.336-62.976 18.432-96.256 18.432-40.96 0-77.824-6.656-89.088-8.704l-3.072-0.512-245.248-142.336c-39.424-29.696-28.16-85.504-15.36-113.664l2.56-6.144 263.68-166.912c29.184-14.336 104.448-43.008 173.056-1.024 3.584 2.56 58.368 34.304 119.296 69.632M431.616 460.8c40.448 7.168 114.176 13.824 152.576-6.144l244.736-155.136c7.168-5.632 8.192-10.24 8.704-12.8 1.024-11.264-9.728-26.624-15.36-32.768-55.808-32.256-243.712-141.312-250.368-145.408-49.664-30.72-107.008-9.216-130.048 2.56L192.512 268.8c-4.096 12.288-12.288 42.496 3.584 55.808l235.52 136.192z" p-id="1187"></path><path d="M831.488 299.008c4.096-1.024 38.4-11.264 66.048 6.144 7.168 4.608 17.92 11.776 24.064 24.576 1.024 5.632 4.096 10.752 4.608 16.896v2.048l-1.024 323.072c-5.12 35.328-22.528 91.648-77.312 125.44l-5.12 3.584h-1.024l-262.144 165.888-4.608 0.512c-4.096 0.512-8.704 1.024-12.8 1.024-15.872 0-30.208-5.12-41.984-14.848-24.576-20.48-32.768-55.808-35.328-73.728l-1.024-252.928h1.536c6.144-96.768 88.576-164.864 96.768-171.008l-0.512-0.512L829.44 299.52m-301.056 567.808c0.512 10.24 5.12 41.472 19.968 53.76 3.072 2.56 7.68 5.632 16.384 5.12l264.704-167.936c56.32-38.4 53.76-115.712 53.76-116.224l-0.512-32.256 1.024-250.368h-0.512c-1.536-12.8-7.168-16.384-8.704-17.408-8.704-5.632-23.552-3.072-28.672-2.048l-235.52 148.992c-1.024 0.512-80.896 65.024-80.896 149.504h-1.536l0.512 228.864zM435.2 264.192c0 27.648 31.744 50.176 71.168 50.176s71.168-22.528 71.168-50.176-31.744-50.176-71.168-50.176S435.2 236.544 435.2 264.192z" p-id="1188"></path><path d="M663.552 782.848c0 30.72-22.528 67.072-49.664 80.384-27.648 13.824-50.176-0.512-50.176-31.232s22.528-67.072 50.176-80.384c27.136-13.824 49.664 0 49.664 31.232zM760.32 602.624c0 30.72-22.528 67.072-49.664 80.384-27.648 13.824-49.664-0.512-49.664-31.232s22.528-67.072 49.664-80.384c27.136-13.824 49.664 0.512 49.664 31.232zM867.84 428.032c0 30.72-22.528 67.072-49.664 80.384-27.648 13.824-50.176-0.512-50.176-31.232s22.528-67.072 50.176-80.384c27.136-13.824 49.664 0 49.664 31.232zM270.848 538.112c0 30.72-22.016 41.984-48.64 24.576-27.136-16.896-48.64-55.808-48.64-86.528 0-30.72 22.016-41.984 48.64-24.576 26.624 16.896 48.64 55.808 48.64 86.528zM432.128 823.296c0 30.72-22.016 41.984-48.64 24.576-26.624-17.408-48.64-55.808-48.64-86.528 0-30.72 22.016-41.984 48.64-24.576 26.624 16.896 48.64 55.808 48.64 86.528z" p-id="1189"></path></svg></a></li>
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/posts/obsidian/">Obsidian</a></li>
+      
+    
+      
+        <li><a href="/posts/reading/">读书</a></li>
+      
+    
+      
+        <li><a href="/archives/">归档</a></li>
+      
+    
+      
+        <li><a href="/about/">关于</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+
+      <div class="content">
+        
+  
+  
+  
+  
+  <div class="post obsidian">
+    <div  class="breadcrumb">
+  
+
+  
+
+  
+
+  
+
+<li>
+  <a href="http://hugoblog.lillianwho.com/">首页</a>
+</li>
+
+
+<li>
+  <a href="http://hugoblog.lillianwho.com/posts/">文章</a>
+</li>
+
+
+<li>
+  <a href="http://hugoblog.lillianwho.com/posts/obsidian/">obsidian</a>
+</li>
+
+
+<li class="active">
+  <a href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%8F%92%E4%BB%B6%E4%B9%8Bdataview%E5%85%A5%E9%97%A8/">obsidian插件之dataview入门</a>
+</li>
+
+</div>
+
+
+  
+    <h2 class="post-title"><a href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%8F%92%E4%BB%B6%E4%B9%8Bdataview%E5%85%A5%E9%97%A8/">obsidian插件之dataview入门</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">2021-08-09 00:00:00</span>
+        
+          
+        
+      
+    </div>
+    
+      
+        <img loading='lazy' src="https://cdn.sspai.com/2021/08/10/a1f1042c929b17d5da65747184662e49.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" class="post-cover" />
+      
+    
+  
+    <div class="post-content">
+      
+      <h2 id="写在前面">写在前面</h2>
+<p>Dataview可谓是ob用户的必备的插件了，当你积累了10+篇自己的笔记，可以用它来生成目录。</p>
+<p>在此之前，我想对造轮子说两句（因为dataview是造轮子的利器）。</p>
+<p>写笔记也好，做什么东西也好，我认为很忌讳的一点是过度设计，废了很大的功夫想要在一切开始之前造一个完美的轮子，结果造完之后极大可能你的记笔记热情已经没有了。</p>
+<p>所以我不建议你等待，等待任何笔记流程的设计。不是有了完美工作流之后你才能开始工作，而是做着做着就根据自己的场景和需要慢慢铺就了适合你的工作流。</p>
+<p>这也是渐进式笔记的概念。ob当时带着双链和关系图谱出现，本意就是让使用者渐进式的搭建自己的知识库。</p>
+<p>渐进式的观点还能很好的改善完美主义。（刚看完《如何成为不完美主义》的一点小启发。）</p>
+<p>这也就是我为什么说等你积累到10篇以上，会需要这篇文章。如果你才开始记笔记，请先放下一切问题，先记起来。</p>
+<p>言归正传，来看看dataview的使用场景。</p>
+<h2 id="使用场景">使用场景</h2>
+<p>假设你现在积累了一众笔记，这些笔记之间除了双链还有一些关联，现在你想要一个目录，可以一目了然的聚合这些笔记。</p>
+<p>以下是一些场景：</p>
+<ul>
+<li>生成<strong>包含同样关键字的笔记</strong>的目录</li>
+<li>生成<strong>同一个标签的笔记</strong>的目录</li>
+<li>生成<strong>同一个作者的书目</strong>的目录</li>
+</ul>
+<p>这时候，dataview就派上用场了。</p>
+<p>dataview可以生成MOC，或者你也可以跟我一样，不去管MOC是什么，就把它当作一个目录。</p>
+<p>我们知道，目录是一篇文章的概览。dataview其实生成了你的多篇文章目录。</p>
+<p>如果你有这种需要的话，就接着看下去吧。</p>
+<h2 id="安装插件">安装插件</h2>
+<p>众所周知（如果你不知道，现在可以知道了），ob插件有两种安装方式：</p>
+<ol>
+<li>直接在<code>第三方插件-&gt;社区插件</code>搜索安装</li>
+<li>下载到插件文件，一般是一个插件文件夹，然后放在库目录下的<code>.obsidian/plugins</code>目录下。（至于从哪里下载，可以从github或者有些群会下载下来共享）</li>
+</ol>
+<p><strong>设置</strong>：该插件不需要修改任何设置即可使用。</p>
+<p>接下来就开始生成目录吧！</p>
+<h2 id="使用">使用</h2>
+<p>方法千千万，我只写三种生成目录的方式：</p>
+<ul>
+<li>从名字</li>
+<li>从作者</li>
+<li>从标签。</li>
+</ul>
+<p>如果有更多的需求，说明你是个高阶使用者，请去查看更高阶的文章，或者去看插件作者的官网。</p>
+<h3 id="从文件名">从文件名</h3>
+<p>场景：假设，现在你有多篇关于【习惯】的笔记，并且这些笔记的<strong>名称中都有“习惯”两个字</strong>。记录了好几个习惯养成的方法，今天你忽然意识到，关于习惯的方法论已经看了好几个了，想把它们列出来放到一起看看能不能产生什么化学效果。</p>
+<p>老规矩，先贴一个语法和效果图：
+<img loading='lazy' src="https://i.loli.net/2021/08/08/qFhjgzCyNfoUcOV.png" alt=""  /></p>
+<p>下面讲讲规则，别害怕看“代码”，总共就5行，大部分还是不用改的，比如我上面的代码，其实你只用替换双引号里面的内容哟，是不是简单多了？</p>
+<p>首先，dv语法要写到代码块里，如果有了解过markdown的小伙伴，应该对代码块不陌生。上下三个上撇，就是一个代码块。</p>
+<p>在首行写上<code>dataview</code>，插件就可以识别这部分代码了。</p>
+<table>
+<thead>
+<tr>
+<th>设置字段</th>
+<th>释义</th>
+<th>必要与否</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>list</td>
+<td>展现形式。创建列表，还有table、task可以选择</td>
+<td>必要</td>
+</tr>
+<tr>
+<td>from</td>
+<td>检索范围。从哪个文件夹（写在双引号里面），或者标签（写在#后面）</td>
+<td>非必要</td>
+</tr>
+<tr>
+<td>where</td>
+<td>检索条件。contains(file.name,&ldquo;Dataview&rdquo;)就是匹配文件名为“Dataview”的文件</td>
+<td>非必要</td>
+</tr>
+<tr>
+<td>sort</td>
+<td>排序，根据什么做排序。 <code>sort file.ctime</code>就是根据文件的创建时间正序</td>
+<td>非必要</td>
+</tr>
+</tbody>
+</table>
+<p>以上解释希望你看懂了。下面我举一个例子，还以开头的假设场景为例，你要怎么写呢？</p>
+<pre tabindex="0"><code>```dataview
+list 
+from &#34;&#34;
+where contains(file.name,&#34;习惯&#34;)
+```
+</code></pre><p>这样就可以了。</p>
+<ul>
+<li>list：你创建了一个列表/清单。</li>
+<li>from留空就是不筛选文件夹和标签，从所有笔记文件去找。</li>
+<li>where条件：匹配（contains）了文件名（file.name）中包含“习惯”两个字的笔记</li>
+</ul>
+<p>如果你需要排序，就写sort，不需要，留空就可以。</p>
+<p>你应该发现了<code>file.name</code>和<code>file.ctime</code>的写法，没错，这是dataview内置的。下面是dataview官网中描述的支持的元数据，都可以供搜索和排序语法使用。在后面将要说到的创建table，还可以作为列显示。</p>
+<p><img loading='lazy' src="https://i.loli.net/2021/08/08/7JDtQ6MczTY3nxl.png" alt=""  /></p>
+<p>上面的从文件名创建列表你看懂了的话，用从标签创建列表练习一下吧～其实上面有包含哦，但我们还是练习以下，以防有人没看懂。</p>
+<h3 id="从标签">从标签</h3>
+<p>场景：假设，你有几篇笔记，打了同一个标签，比如<code>#时间管理</code>。现在你想要把时间管理标签下的笔记形成一个目录。</p>
+<p>你该怎么写dataview语句呢？</p>
+<p>还记得上面的4个关键设置字段吗？<code>from</code>是检索范围，既可以从文件夹，又可以从标签。</p>
+<pre tabindex="0"><code>```dataview
+list
+from #时间管理 
+```
+</code></pre><p>不需要排序的话，代码就是这么简单。</p>
+<p>你学会了吗？</p>
+<p>如果学会了，下面我们可以加点好玩的东西。</p>
+<h3 id="从作者">从作者</h3>
+<p>场景：假设，你最近读了同一个作者的几部作品（论文、书籍、视频、电影都是一样的），形成了几篇笔记。笔记多了以后，你就想弄一个该作者的专题。这时候，有什么办法能做到呢？</p>
+<p>哎，dataview的支持元数据里可没有作者这个属性啊，怎么办呢？</p>
+<p>我们自己加属性！</p>
+<p>这时候，yaml就派上用场了。</p>
+<h4 id="用yaml给笔记加点元素">用yaml给笔记加点元素</h4>
+<p>简单的说yaml是一种标记语言。顺便说一下markdown也是一种标记语言。朴素的理解就是以某种规则写的一种文本。</p>
+<p>各位，用工具的时候，我们可以不求甚解，拿过来学会怎么用就可以了，甚至，你只用知道怎么在自己的需求中用就可以了。</p>
+<p>所以不需要特别去了解yaml。我们来看看yaml怎么为我们所用吧。</p>
+<p>yaml语法大概长这样：</p>
+<pre tabindex="0"><code>---
+title: 
+作者: 
+tags: []
+---
+</code></pre><p><strong>yaml的规则</strong>
+1、只要写在6个横杠符号之间，yaml就可以被识别。够简单吧？</p>
+<p>2、必须写在文件最上方</p>
+<p>里面的<code>title</code>、<code>作者</code>我们叫它key，也就是你给这个字段起的名字，所有的key都是自己定义，没有必要的规则，就像你给表格起列名一样。yaml的key也支持中文名哦。例如这样：</p>
+<pre tabindex="0"><code>---
+作者: 鲁迅
+---
+</code></pre><p>我就给笔记加了“作者”这个属性。</p>
+<p>然后我们就可以使用“作者”作为条件建立目录了。</p>
+<h4 id="dataview使用yaml的元素">dataview使用yaml的元素</h4>
+<p>where和sort就可以直接使用你在yaml中设置的key了。看看下面的写法：</p>
+<pre tabindex="0"><code>```dataview
+list 
+from &#34;&#34;
+where contains(作者,&#34;鲁迅&#34;)
+```
+</code></pre><p>看下效果：
+<img loading='lazy' src="https://cdn.sspai.com/2021/08/09/675d393d3b83df3765bbc942088c2a85.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="937.png"  /></p>
+<p>上面依次是：包含作者为“鲁迅”的原笔记、聚合作者为“鲁迅”的目录编辑模式、聚合作者为“鲁迅”的目录预览模式。</p>
+<p>嗯哼，鲁迅合集就做好了。</p>
+<h2 id="扩展创建一个书目列表吧">扩展：创建一个书目列表吧！</h2>
+<p>上面你已经学会了限制检索范围、模糊搜索文件名来创建列表，学会了从标签创建列表，还学会了用yaml定义的key当作字段做条件，基本的检索语法你已经学会啦。</p>
+<p>现在我们想在展示形式上有所改变，比如书目列表。我不想只展示作品的名字，我还想展示作者、阅读日期、标签。</p>
+<p>还记得上面列表中的展示形式吗？</p>
+<p>对，就是dataview语法的第一行那个<code>list</code>，现在我们来变一下，写个<code>table</code>吧。</p>
+<p>不过我们的语法有一点小小的改动。既然是table，那么列名就必不可少。</p>
+<p>先贴一下代码看看吧:</p>
+<p><img loading='lazy' src="https://i.loli.net/2021/08/08/Xm4DFryzwWnsA61.png" alt=""  /></p>
+<p>上面唯一的变化就是table这一行：
+<code>table 作者,from,tags</code> 。table后面这三个字段就是我为表格设计的列。而作者是我为笔记中的作者元素，from是书籍来源，tags是标签。这三个元素都写在来yaml，如今被dataview识别，就可以展现我想要的列表。</p>
+<p>where条件里，我写的匹配字段是<code>type</code>，这也是我yaml里面的元素，表示输入内容，自定义了三个值：book、page、video。</p>
+<p>sort这句，用作者字段排序，后面跟了一个<code>desc</code>，表示倒叙。</p>
+<hr>
+<p>以上，dataview常用的内容就讲完啦。task就暂时不讲了，笔者本人使用的不多。</p>
+<p>如果你有什么不明白的，欢迎留言告诉我。</p>
+<p>谢谢你看到这里，下期再见！</p>
+
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="http://hugoblog.lillianwho.com/tags/obsidian/">Obsidian</a>&nbsp;
+        
+          #<a href="http://hugoblog.lillianwho.com/tags/obsidian%E6%8F%92%E4%BB%B6/">Obsidian插件</a>&nbsp;
+        
+      </span>
+    
+  
+    <div class="clear"></div>
+    
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            
+              <span class="pagination__title-h">阅读更多</span>
+            
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="http://hugoblog.lillianwho.com/posts/obsidian/admonition-%E7%94%9F%E6%9D%A5%E5%A4%9A%E5%BD%A9/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Admonition：生来多彩</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%96%B0%E6%89%8B%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%A0%E4%B8%8D%E5%8F%AF%E4%B8%8D%E7%9F%A5%E7%9A%84%E6%8F%92%E4%BB%B6/">
+                  <span class="button__text">obsidian新手系列之你不可不知的插件</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+        
+    
+
+    </div>
+
+      </div>
+
+      
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="copyright copyright-font">
+      <span>共 174904 字 <br/> 写完一本 马克·吐温 的</br>《汤姆·索亚历险记》了！</span>
+    </div>
+    <a class="dark-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/wormhole_1.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
+    <a class="light-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank" > <img src="/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
+    
+      <div class="copyright">
+        <span>© 2022 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> Theme by <a href="https://twitter.com/panr" target="_blank" rel="noopener">Panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script type="text/javascript" src="/theme-main-1.js"></script>
+<script type="text/javascript" src="/lately.min.js"></script>
+<script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/view-image.js"></script>
+<script type="text/javascript" src="/theme-lmm-20221005.js"></script>
+<script type="text/javascript" src="/pangu.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    pangu.autoSpacingPage();
+  });
+</script>
+
+
+      
+    </div>
+  </body>
+</html>

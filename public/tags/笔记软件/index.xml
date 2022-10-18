@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记软件 on 喜于微</title>
+    <link>http://hugoblog.lillianwho.com/tags/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/</link>
+    <description>Recent content in 笔记软件 on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://hugoblog.lillianwho.com/tags/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我承认，我错待了flomo</title>
+      <link>http://hugoblog.lillianwho.com/posts/wo-cheng-ren-wo-cuo-dai-liao-flomo/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/wo-cheng-ren-wo-cuo-dai-liao-flomo/</guid>
+      <description>&lt;p&gt;我之前对flomo的观点是：根本没办法用它记笔记，像发说说一样，怎么做知识/信息管理？&lt;/p&gt;
+&lt;p&gt;最近我才找到了适用它的场景，然后，我要承认，我错待了flomo. 找到了使用它的逻辑以后，这个软件简直太好用了！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Obsidian是什么以及它能用来做什么</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E4%BB%8B%E7%BB%8D/</guid>
+      <description>&lt;p&gt;很多人都是从卡片笔记知道的Obsidian，今天我们不谈卡片笔记，只说说Obsidian是什么，以及它能做什么。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

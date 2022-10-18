@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>折腾 on 喜于微</title>
+    <link>http://hugoblog.lillianwho.com/tags/%E6%8A%98%E8%85%BE/</link>
+    <description>Recent content in 折腾 on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://hugoblog.lillianwho.com/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Hugo</title>
+      <link>http://hugoblog.lillianwho.com/posts/hello-hugo/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/hello-hugo/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#39;lazy&#39; src=&#34;https://s2.loli.net/2022/10/18/zIW2G7T4FldPCy8.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;为什么换hugo&#34;&gt;为什么换hugo？&lt;/h2&gt;
+&lt;p&gt;纯粹是喜欢 &lt;a href=&#34;https://immmmm.com/&#34;&gt;木木的博客&lt;/a&gt;，想要像他一样&lt;strong&gt;在文章列表里面显示丰富的文章内容&lt;/strong&gt;。在gridea里没有找到心仪的主题，干脆折腾一下，搞个hugo 的 demo 看一下。&lt;/p&gt;
+&lt;p&gt;地址：http://hugoblog.lillianwho.com/&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>解决了Breek主题Valine数据统计的问题</title>
+      <link>http://hugoblog.lillianwho.com/posts/jie-jue-liao-breek-zhu-ti-valine-shu-ju-tong-ji-de-wen-ti/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/jie-jue-liao-breek-zhu-ti-valine-shu-ju-tong-ji-de-wen-ti/</guid>
+      <description>&lt;p&gt;Breek 主题自带了 Valine 系统，并且可以开启阅读统计，开启后会在首页以及文章页面显示单个文章的评论数和阅读数。&lt;/p&gt;
+&lt;p&gt;但是，我使用过程中发现这两个数字都是0，不会被更新。一直以为是 LeanCloud 函数的问题，今天查看请求的时候，发现了问题所在。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lili-Docs搬砖中</title>
+      <link>http://hugoblog.lillianwho.com/posts/lili-docs-ban-zhuan-zhong/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/lili-docs-ban-zhuan-zhong/</guid>
+      <description>&lt;p&gt;昨天发布 docsify 做的文档站点 &lt;a href=&#34;http://docs.lillianwho.com/#/&#34;&gt;Lili-Docs&lt;/a&gt; 之后，还有一些未完成的事项在记挂着。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用docsify生成文档网站</title>
+      <link>http://hugoblog.lillianwho.com/posts/hi-docsify/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/hi-docsify/</guid>
+      <description>&lt;p&gt;docsify 是一个文档网站生成器。把你的 markdown 文件扔进去，它会生成文档型的网站。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>宝藏Gridea主题：Break</title>
+      <link>http://hugoblog.lillianwho.com/posts/bao-cang-gridea-zhu-ti-break/</link>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/bao-cang-gridea-zhu-ti-break/</guid>
+      <description>事情始于我给博客找可用的评论系统。 之前我是用hexo建站的，使用了Twikoo 当评论系统，体验非常好。在此也感谢从那时起就给我博客评论和留言的人，真的给我的写博客之路很大的支持，让我不是在单机写作。 自从给网站备案以后，评论就因为备案原因关闭了。看了下日期，那是2022-02-25</description>
+    </item>
+    
+  </channel>
+</rss>

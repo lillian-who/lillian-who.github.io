@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://hugoblog.lillianwho.com/'
 languageCode = 'zh-CN'
 title = '喜于微'
 
@@ -67,4 +67,4 @@ rssLimit = 5
   baseName = "atom"
 
 [params.twikoo]
-	enable = true
+	enable = false

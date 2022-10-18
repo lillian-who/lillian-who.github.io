@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>obsidian on 喜于微</title>
+    <link>http://hugoblog.lillianwho.com/posts/obsidian/</link>
+    <description>Recent content in obsidian on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://hugoblog.lillianwho.com/posts/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian最强插件：quickadd</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%9C%80%E5%BC%BA%E6%8F%92%E4%BB%B6quickadd/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%9C%80%E5%BC%BA%E6%8F%92%E4%BB%B6quickadd/</guid>
+      <description>嗨大家！ 今天介绍Obsidian（一款本地化笔记软件）最强的插件：QuickAdd。 从我开始用quickadd这个插件开始，它就越来越融入到我的日常笔记流程中，而且随着使用的越习惯、越平淡，还开发出了一开始没有想过的用法（虽然就是很简单）。如果现在让我只能留一个第三方插件，毫无疑</description>
+    </item>
+    
+    <item>
+      <title>小惊喜：用obsidian自制答案之书</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/%E5%B0%8F%E6%83%8A%E5%96%9C%E7%94%A8obsidian%E8%87%AA%E5%88%B6%E7%AD%94%E6%A1%88%E4%B9%8B%E4%B9%A6/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/%E5%B0%8F%E6%83%8A%E5%96%9C%E7%94%A8obsidian%E8%87%AA%E5%88%B6%E7%AD%94%E6%A1%88%E4%B9%8B%E4%B9%A6/</guid>
+      <description>&lt;p&gt;嗨，大家！这次是个小的idea，并非教程。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Obsidian优质内容合集</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E4%BC%98%E8%B4%A8%E5%86%85%E5%AE%B9%E5%90%88%E9%9B%86/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E4%BC%98%E8%B4%A8%E5%86%85%E5%AE%B9%E5%90%88%E9%9B%86/</guid>
+      <description>官方自带帮助文档 在obsidian界面左下角，❓图标，可以方便的打开官方帮助文档。并且如果你的语言设置是中文，这个文档也是中文的，非常的友好。 点击这个图标打开： 既有Obsidian基本信息的介绍，能让你快速上手obsidian。 又有markdown语法的演示，清晰又全面。想不起某</description>
+    </item>
+    
+    <item>
+      <title>我的 Obsidian 工作流：模板&#43;QuickAdd&#43;Dataview 快速创建和自动索引</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
+      <description>你可以想象到的最优雅的输入方式 嗨，大家！ 不知不觉，使用Obsidian已经一年了，从一开始无从下手，到在日记（Obsidian的核心插件）中写一元笔记，从写写流水帐，到它几乎承包了我所有的笔记场景。而我也从一个笔记爱好者成为了一名写作者。 我的笔记场景经过一轮更新重组，变为了以下这</description>
+    </item>
+    
+    <item>
+      <title>Admonition：生来多彩</title>
+      <link>http://hugoblog.lillianwho.com/posts/obsidian/admonition-%E7%94%9F%E6%9D%A5%E5%A4%9A%E5%BD%A9/</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/obsidian/admonition-%E7%94%9F%E6%9D%A5%E5%A4%9A%E5%BD%A9/</guid>
+      <description>&lt;p&gt;靠颜值征服实用主义者。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

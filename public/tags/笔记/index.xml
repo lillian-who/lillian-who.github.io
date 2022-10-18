@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记 on 喜于微</title>
+    <link>http://hugoblog.lillianwho.com/tags/%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 笔记 on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 20 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://hugoblog.lillianwho.com/tags/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不记笔记的后果是重复学那些已经学到的东西</title>
+      <link>http://hugoblog.lillianwho.com/posts/bu-ji-bi-ji-de-hou-guo-shi-chong-fu-xue-na-xie-yi-jing-xue-dao-de-dong-xi/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/posts/bu-ji-bi-ji-de-hou-guo-shi-chong-fu-xue-na-xie-yi-jing-xue-dao-de-dong-xi/</guid>
+      <description>“我记得我学过，可是我已经完全忘记内容了。” 今天列了一个专注APP开发计划，简单写出需求后，我开始列做成这件事我需要的资源。 首先是UI，概念图可以在Obsidian 里面用Excalidraw 插件简单画一下。 设计稿暂且可以用最简单的，也就是先不考虑设计美观。 前端计划安卓、ios、w</description>
+    </item>
+    
+  </channel>
+</rss>

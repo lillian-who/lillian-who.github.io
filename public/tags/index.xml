@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>标签 on 喜于微</title>
+    <link>http://hugoblog.lillianwho.com/tags/</link>
+    <description>Recent content in 标签 on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://hugoblog.lillianwho.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>折腾</title>
+      <link>http://hugoblog.lillianwho.com/tags/%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/tags/%E6%8A%98%E8%85%BE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flomo</title>
+      <link>http://hugoblog.lillianwho.com/tags/flomo/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/tags/flomo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>哲学</title>
+      <link>http://hugoblog.lillianwho.com/tags/%E5%93%B2%E5%AD%A6/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/tags/%E5%93%B2%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>软件</title>
+      <link>http://hugoblog.lillianwho.com/tags/%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/tags/%E8%BD%AF%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日常</title>
+      <link>http://hugoblog.lillianwho.com/tags/%E6%97%A5%E5%B8%B8/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://hugoblog.lillianwho.com/tags/%E6%97%A5%E5%B8%B8/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>obsidian新手系列之你不可不知的插件 :: 喜于微</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta charset="UTF-8"/>
+<meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<script>if ( false || (!!window.MSInputMethodContext && !!document.documentMode)) document.write('\x3Cscript id="_iealwn_js" data-outver="11" src="https://support.dmeng.net/ie-alert-warning/latest.js">\x3C/script>'); </script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="工具的道与术 对工具的使用，分为“道”与“术”。 道，是指这个工具内在的哲学，如果你觉得哲学这个词太大了，也可以叫它逻辑。一个工具的优雅之处就体现在“道”上，“道”虽然貌似虚无缥缈，它却是最容易区分同类型工具之间不同之处的东西。 术，就是技术层面，这个工具怎么操作，怎么用起来。 互联网时"/>
+<meta name="keywords" content=""/>
+<link href="/atom.xml" title="喜于微" type="application/rss+xml">
+<link rel="canonical" href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%96%B0%E6%89%8B%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%A0%E4%B8%8D%E5%8F%AF%E4%B8%8D%E7%9F%A5%E7%9A%84%E6%8F%92%E4%BB%B6/" />
+<link rel="stylesheet" href="/theme-20221006.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
+<link rel="shortcut icon" href="http://hugoblog.lillianwho.com/favicon.ico">
+
+<meta property="og:title" content="obsidian新手系列之你不可不知的插件" />
+<meta property="og:description" content="工具的道与术 对工具的使用，分为“道”与“术”。 道，是指这个工具内在的哲学，如果你觉得哲学这个词太大了，也可以叫它逻辑。一个工具的优雅之处就体现在“道”上，“道”虽然貌似虚无缥缈，它却是最容易区分同类型工具之间不同之处的东西。 术，就是技术层面，这个工具怎么操作，怎么用起来。 互联网时" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%96%B0%E6%89%8B%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%A0%E4%B8%8D%E5%8F%AF%E4%B8%8D%E7%9F%A5%E7%9A%84%E6%8F%92%E4%BB%B6/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-07-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-07-09T00:00:00+00:00" />
+
+
+
+<script async defer data-website-id="ee96bbf4-60f4-48de-995b-9b990db2b4ca" src="https://u.edui.fun/umami.js"></script>
+
+    
+  <link rel="prefetch" href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%8F%92%E4%BB%B6%E4%B9%8Bdataview%E5%85%A5%E9%97%A8/">
+  <link rel="prefetch" href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E5%85%A5%E9%97%A8/">
+
+  </head>
+  <body class="dark-theme">
+    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark-theme")}else if(getTheme == 'light'){document.body.classList.remove("dark-theme")}</script>
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="http://hugoblog.lillianwho.com/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__text">喜于微</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu hidden">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/posts/obsidian/">Obsidian</a></li>
+        
+      
+        
+          <li><a href="/posts/reading/">读书</a></li>
+        
+      
+        
+          <li><a href="/archives/">归档</a></li>
+        
+      
+        
+          <li><a href="/about/">关于</a></li>
+        
+      
+    
+    <li><a href="javascript:;" onclick="randomPost()" title="随机访问一篇文章"><svg t="1660103436159" class="icon search-box-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1184" width="32" height="32"><path d="M421.376 481.28s117.248 24.576 175.104-8.704c0 0-89.6 70.144-89.6 166.4 0.512-0.512-8.192-121.344-85.504-157.696zM438.784 969.216s68.608 6.656 68.608-80.896c0 0 3.072 88.576 65.024 78.336 0 0.512-50.688 22.016-133.632 2.56zM161.28 238.08s-30.208 65.536 11.264 91.648c0 0-67.072-17.408-81.408 37.376 0 0 8.704-82.944 70.144-129.024zM857.6 227.328s49.152 50.176 1.024 81.408c0 0 58.88-18.432 66.56 36.352 0 0 5.12-69.632-67.584-117.76z" p-id="1185"></path><path d="M443.392 970.752c-5.632 0-10.752-1.024-15.36-3.072l-270.848-157.184-1.536-1.024s-1.024-1.024-4.608-2.56c-51.2-29.184-62.976-94.208-65.536-120.832V386.56c0-3.072 0.512-7.168 1.024-11.264l0.512-3.584 1.024-2.56c19.456-50.688 76.8-51.2 103.936-44.032l-1.536 5.632 4.096-6.144L476.16 486.4l18.944 37.888c20.992 36.864 29.184 77.824 32.768 99.84v258.048c-4.608 56.32-36.864 76.288-55.808 82.944-1.024 0.512-15.36 5.632-28.672 5.632z m-262.144-196.096l263.168 152.576c12.288-0.512 36.864-6.656 40.448-48.128v-250.368c-4.608-31.744-20.992-103.936-72.192-128L322.56 445.44l1.536 3.072-142.336-82.432c-2.048-0.512-40.448-9.216-52.736 15.872-0.512 2.56-0.512 4.608-0.512 6.144v294.4c1.536 16.896 9.728 67.072 43.52 86.528 3.584 2.048 6.656 4.096 9.216 5.632z" p-id="1186"></path><path d="M837.632 212.992c6.656 4.096 12.8 7.168 18.432 10.752l1.536 1.024 1.536 1.536c5.12 4.096 10.752 9.216 16.384 15.36 6.144 11.776 5.632 33.28 4.608 49.152-1.024 12.288-6.656 30.208-26.624 44.544l-1.024 0.512-247.808 156.672c-26.624 14.336-62.976 18.432-96.256 18.432-40.96 0-77.824-6.656-89.088-8.704l-3.072-0.512-245.248-142.336c-39.424-29.696-28.16-85.504-15.36-113.664l2.56-6.144 263.68-166.912c29.184-14.336 104.448-43.008 173.056-1.024 3.584 2.56 58.368 34.304 119.296 69.632M431.616 460.8c40.448 7.168 114.176 13.824 152.576-6.144l244.736-155.136c7.168-5.632 8.192-10.24 8.704-12.8 1.024-11.264-9.728-26.624-15.36-32.768-55.808-32.256-243.712-141.312-250.368-145.408-49.664-30.72-107.008-9.216-130.048 2.56L192.512 268.8c-4.096 12.288-12.288 42.496 3.584 55.808l235.52 136.192z" p-id="1187"></path><path d="M831.488 299.008c4.096-1.024 38.4-11.264 66.048 6.144 7.168 4.608 17.92 11.776 24.064 24.576 1.024 5.632 4.096 10.752 4.608 16.896v2.048l-1.024 323.072c-5.12 35.328-22.528 91.648-77.312 125.44l-5.12 3.584h-1.024l-262.144 165.888-4.608 0.512c-4.096 0.512-8.704 1.024-12.8 1.024-15.872 0-30.208-5.12-41.984-14.848-24.576-20.48-32.768-55.808-35.328-73.728l-1.024-252.928h1.536c6.144-96.768 88.576-164.864 96.768-171.008l-0.512-0.512L829.44 299.52m-301.056 567.808c0.512 10.24 5.12 41.472 19.968 53.76 3.072 2.56 7.68 5.632 16.384 5.12l264.704-167.936c56.32-38.4 53.76-115.712 53.76-116.224l-0.512-32.256 1.024-250.368h-0.512c-1.536-12.8-7.168-16.384-8.704-17.408-8.704-5.632-23.552-3.072-28.672-2.048l-235.52 148.992c-1.024 0.512-80.896 65.024-80.896 149.504h-1.536l0.512 228.864zM435.2 264.192c0 27.648 31.744 50.176 71.168 50.176s71.168-22.528 71.168-50.176-31.744-50.176-71.168-50.176S435.2 236.544 435.2 264.192z" p-id="1188"></path><path d="M663.552 782.848c0 30.72-22.528 67.072-49.664 80.384-27.648 13.824-50.176-0.512-50.176-31.232s22.528-67.072 50.176-80.384c27.136-13.824 49.664 0 49.664 31.232zM760.32 602.624c0 30.72-22.528 67.072-49.664 80.384-27.648 13.824-49.664-0.512-49.664-31.232s22.528-67.072 49.664-80.384c27.136-13.824 49.664 0.512 49.664 31.232zM867.84 428.032c0 30.72-22.528 67.072-49.664 80.384-27.648 13.824-50.176-0.512-50.176-31.232s22.528-67.072 50.176-80.384c27.136-13.824 49.664 0 49.664 31.232zM270.848 538.112c0 30.72-22.016 41.984-48.64 24.576-27.136-16.896-48.64-55.808-48.64-86.528 0-30.72 22.016-41.984 48.64-24.576 26.624 16.896 48.64 55.808 48.64 86.528zM432.128 823.296c0 30.72-22.016 41.984-48.64 24.576-26.624-17.408-48.64-55.808-48.64-86.528 0-30.72 22.016-41.984 48.64-24.576 26.624 16.896 48.64 55.808 48.64 86.528z" p-id="1189"></path></svg></a></li>
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/posts/obsidian/">Obsidian</a></li>
+      
+    
+      
+        <li><a href="/posts/reading/">读书</a></li>
+      
+    
+      
+        <li><a href="/archives/">归档</a></li>
+      
+    
+      
+        <li><a href="/about/">关于</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+
+      <div class="content">
+        
+  
+  
+  
+  
+  <div class="post obsidian">
+    <div  class="breadcrumb">
+  
+
+  
+
+  
+
+  
+
+<li>
+  <a href="http://hugoblog.lillianwho.com/">首页</a>
+</li>
+
+
+<li>
+  <a href="http://hugoblog.lillianwho.com/posts/">文章</a>
+</li>
+
+
+<li>
+  <a href="http://hugoblog.lillianwho.com/posts/obsidian/">obsidian</a>
+</li>
+
+
+<li class="active">
+  <a href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%96%B0%E6%89%8B%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%A0%E4%B8%8D%E5%8F%AF%E4%B8%8D%E7%9F%A5%E7%9A%84%E6%8F%92%E4%BB%B6/">obsidian新手系列之你不可不知的插件</a>
+</li>
+
+</div>
+
+
+  
+    <h2 class="post-title"><a href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%96%B0%E6%89%8B%E7%B3%BB%E5%88%97%E4%B9%8B%E4%BD%A0%E4%B8%8D%E5%8F%AF%E4%B8%8D%E7%9F%A5%E7%9A%84%E6%8F%92%E4%BB%B6/">obsidian新手系列之你不可不知的插件</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">2021-07-09 00:00:00</span>
+        
+          
+        
+      
+    </div>
+    
+      
+        <img loading='lazy' src="https://cdn.sspai.com/2021/07/10/4924403d889cd827d6637a5efb6c5ce2.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" class="post-cover" />
+      
+    
+  
+    <div class="post-content">
+      
+      <h2 id="工具的道与术">工具的道与术</h2>
+<p>对工具的使用，分为“道”与“术”。</p>
+<p>道，是指这个工具内在的哲学，如果你觉得哲学这个词太大了，也可以叫它逻辑。一个工具的优雅之处就体现在“道”上，“道”虽然貌似虚无缥缈，它却是最容易区分同类型工具之间不同之处的东西。</p>
+<p>术，就是技术层面，这个工具怎么操作，怎么用起来。</p>
+<p>互联网时代，大家对各种软件工具已经不那么陌生了，有些人也已经培养出了此类产品的“手感”，那么就会很容易上手各种新软件工具。</p>
+<p>在“内行”中间，“道”大受欢迎，因为工具其实只是一个手段，为“道”服务的手段。软件的魅力，也在于道。</p>
+<p>但是，我总是能听到另一种声音。</p>
+<p>我看到一些obsidian相关的文章，我的内心想说对，这个软件特别好用，我用了以后想要推荐给有相似使用场景需求的人。但是，我看到有人说，那些和我一样喜欢某种笔记概念的人，和我一样使用某个软件的人，说：搞不懂xx功能怎么用，xx概念很吸引他，但是使用起来总感觉自己用的不对，然后放弃了。</p>
+<p>我希望分享我的使用场景，某个功能某个概念，我提供一种我的使用方式，一种可能性，希望可以启发到一些读者，“哦，原来这个功能可以这么玩”，随后产生适合自己日常使用场景的Idea。</p>
+<p>有时候我们需要的就是一步一步先用起来，然后才能领会“道”层面上的东西。</p>
+<p>所以才有了这一系列很“新手”的文章，在写我的Obsidian使用心得、技巧、工作流之前，先以一个小白的角度，记录下模板、插件怎么安装、怎么配置、怎么使用起来。</p>
+<h2 id="导读">导读</h2>
+<p>对我来说这其中的一个挑战是，我自己在探索这个软件的过程中，大多数时候是没有觉察的。觉察，是去共情读者受众想要知道的点，然后把控哪些内容可以详细写，哪些又可以简略。</p>
+<p>所以这篇文章和上一篇隔了很久，没什么写的欲望。</p>
+<p>直到今天，又有读者留言，我又有了接收到读者需求的感觉。对一个程序员来说，需求是一切的开始。</p>
+<p>这篇文章依然贯彻<a href="http://www.lillianwho.com/post/obsidian%E5%85%A5%E9%97%A8">Obsidian入门：从第一个文件开始</a>的写作原则，侧重点在把模板和插件应用起来上。Obsidian的优雅使用之道，以后有心情再写。</p>
+<p>如果你对这个主题感兴趣的话，就继续看下去吧～</p>
+<p>在这篇文章中，将会介绍如何使用模板，以及作者个人很喜欢的插件，手把手教你安装、配置、用起来。注意：这不是一篇详细介绍如何配置某插件的文章，我们的目的是把某个插件最低限度的用起来。</p>
+<h3 id="大纲">大纲</h3>
+<ul>
+<li>模板怎么用？ 创建和插入模板（目标：普通人看得懂，不用快捷键，只使用界面按钮）</li>
+<li>基础必备插件之：日记插件</li>
+<li>与日记结合使用的Calender</li>
+<li>效率狂人必备：Day Planner（日清单的神还原）</li>
+<li>Mind Map：写结构笔记必备！用markdown都能做出思维导图，读书笔记一下子就清晰了</li>
+<li>Kanban 看板：从100件想做的小事，周计划，到开发进度</li>
+</ul>
+<hr>
+<h2 id="核心插件之模板">核心插件之：模板</h2>
+<p>激动，终于讲到有一点技术含量的东西了。</p>
+<h3 id="1打开模板功能">1、打开模板功能</h3>
+<p>在“设置&gt;核心插件”里，打开“模板”右侧的开关按钮。
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/219e9ed3bbf54dca531c157c190dbf47.png" alt="m1"  /></p>
+<p>现在，回到主界面，你会发现左侧边出现了一个新按钮：插入模板按钮。
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/5603eff5da30cb4d265930842154f90a.png" alt="m2|300"  /></p>
+<h3 id="2模板插件的设置">2、模板插件的设置</h3>
+<p>再次打开设置，在左侧下方的“插件选项”下，可以看到多出一个tab:模板，选择后，右侧会出现“模板”插件的设置项。
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/62bf097f33d5b2111da5737fb7c60a55.png" alt="m3"  /></p>
+<p>模板文件夹位置，是指你的模板文件都存放在哪里。</p>
+<p>设置模板文件夹位置，首先在你的库文件夹根目录，新建一个文件夹，命名为“Templates”（或其他任何名字，都ok），然后在“设置模板文件夹位置”后面的输入框里，输入这个文件夹的名字。</p>
+<p>其余设置全都不用修改。</p>
+<p>修改完之后，点击弹窗外的灰色区域，关闭设置面板。设置里面的内容都会自动实时保存，所以不用担心一不小心设置丢失的情况。</p>
+<h3 id="3模板的使用">3、模板的使用</h3>
+<p>模板的使用顺序为：创建一个模板文件，然后在你正在编辑的文档中插入模板。</p>
+<p>下面举个例子：</p>
+<p><strong>第一步：创建模板</strong></p>
+<p>在“Templates”文件夹下，新建一个文件，命名：视频笔记模板。</p>
+<p>编辑内容如下图：
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/cd7a6ccdefa1bba395bc4cadda710331.png" alt="m4|300"  /></p>
+<p><strong>第二步：插入模板</strong></p>
+<p>现在，在你的读书笔记文件夹，或者库里的任何地方，新建一个文件，例如，我在我的“知识宝箱”文件夹，新建了一个文件：“xx读书笔记”。现在，它是一个空白文档。</p>
+<p>接下来，点击左侧边栏的“插入模板”按钮，在弹出的模板选择框中，选择刚刚建好的模板。
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/8ee06ef431a62c5ee84973806cd78829.png" alt="m5"  /></p>
+<p>现在，我们就能看到，刚刚编辑的模板就被一模一样复制插入进“xx读书笔记”了。
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/e2969b83d5b446fce832f679f2cc49b0.png" alt="m6"  /></p>
+<p>同时我们可以看到“阅读日期：”后面的<code>{{date:YYYY-MM-DD}}</code> 变成了今天的日期 <code>2021-07-08</code>，这是因为我们使用了插件模板设置中的日期语法。</p>
+<p>同样，你可以参考模板设置里面的时间语法，在每次插入模板的时候，自动插入当前时间。</p>
+<p>如果你想知道更多的时间语法，点击模板设置中的“时间格式参考”链接。</p>
+<p>看一个我在周复盘模板中的日期语法使用例子：</p>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/9e57f22f03c5b9a6a4e08332590dee3d.png" alt="m7"  /></p>
+<h3 id="4总结">4、总结</h3>
+<p>模板，其实就是复制模板文件中的内容到当前文件，允许你使用日期和时间的语法格式，动态写入当前时间或日期。</p>
+<p>你可以使用模板做很多事情，用过有道云笔记、大象笔记的用户，应该都有使用过模板，Obsidian的模板功能也类似，用这个功能，你可以打造自己的复盘模板、读书模板、观影模板，甚至晨间日记。</p>
+<p>模板，是将你总结的经验和工作流，变为一个标准SOP(流程)。</p>
+<h2 id="核心插件之日记">核心插件之：日记</h2>
+<h3 id="1打开日记插件">1、打开日记插件</h3>
+<p>和上一章模板插件的打开方式一样。点击设置按钮，在设置面板中，点击“核心插件”，在右侧的核心插件列表中找到“日记”，并打开右侧的开关。</p>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/7c3ed1d1f29da3d54caaa30d70e16c95.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="r1"  /></p>
+<h3 id="2日记插件的设置">2、日记插件的设置</h3>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/5a4f9a425ab46842e7038e5be33b6f96.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="r2"  /></p>
+<p>所有插件的设置都在一个地方，打开设置，在左侧下方的“插件选项”下找到你需要设置的插件。后文不再赘述。</p>
+<p>接下来一个个讲这几个设置：</p>
+<ul>
+<li><strong>日期格式</strong>：日记会用日期当做文件名，所以你指定的日期格式就是你的日记文件名格式。
+<ul>
+<li>比如我的使用的日期语法：<code>YYYY-MM-DD_dddd</code>，显示的格式就是：<code>2021-07-10_星期六</code>。</li>
+<li>更多的语法可以点击<code>事件格式参考</code>几个字，会跳转链接到文档。</li>
+</ul>
+</li>
+<li><strong>新建日记的存放位置</strong>：所有新建的日记会自动存放在这里指定的文件夹。
+<ul>
+<li>当然你这个文件夹路径必须是真实存在的。</li>
+<li>如果现在你还没有日记文件夹，就在库里新建一个，然后把存放位置指定到新建的文件夹吧。</li>
+</ul>
+</li>
+<li><strong>日记模板位置</strong>：模板我们上面已经讲到了，如果你有固定的日记格式，比如每天想问自己几句话，或者像晨间日记一样给自己的日记分了不同的区块，那么在模板文件夹新建一个作为日记的模板吧，然后回到这个设置，将日记模板位置指定为你的日记模板文件，之后你每次新建的日记，将会自动应用你的日记模板。
+<ul>
+<li>如果你不想要用模板，那么在日记模板文件中什么都不写就好。</li>
+<li>给你看看我的日记模板吧：</li>
+<li>![<a href="https://cdn.sspai.com/2021/07/10/9978d987ffe42654af89f8c44dbe26cc.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1">r3|300</a></li>
+</ul>
+</li>
+<li><strong>启动时打开日记</strong>：这是个开关选项，如果是打开的状态，那么每次当你打开Obsidian的时候，会自动帮你打开当天的日记。很像纸质本子的那根书签绳，每次打开都定位到今天。</li>
+</ul>
+<h3 id="3模板的使用-1">3、模板的使用</h3>
+<p>回到主面板，左侧的快捷按钮栏，可以看到多了一个日记的按钮。</p>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/1cf64bdf6013c73ae33fca2b22e1ab88.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="r4"  /></p>
+<p>点击按钮，会自动打开今天的日记，如果今天的日记文件还不存在，则就新建今天的日记。</p>
+<h3 id="4总结-1">4、总结</h3>
+<p>如果你不知道从哪里开始用Obsidian，不妨从日记入手吧。所谓日记，不一定是很私密的心情日记，它还可以是你的生活记录工具。今天的待办、今天的感恩、今天的好运、今天的思考、今天看的书、今天看的电影，简单的记下来。</p>
+<p>然后，或许你想要记录更多，比如今天看的书，里面有几句话你觉得很好，那么把<code>今天看了《被讨厌的勇气》</code>，变为<code>今天看了[[《被讨厌的勇气》]]</code>，这个书名就变成了双链，在预览模式下点击双链，可以新建这个文件，你可以在这里记录你认为非常好的句子。再然后，你或许想要记下当时的想法、评论，碎碎念也好。这样，你在不知不觉中，就有了读书笔记。</p>
+<p>记录，本应该是这么自然而然的事情，随心所欲，又一点点延展。任何你想记录的东西，Obsidian帮你保存，然后有一天你会发现，原本觉得无用的东西，长出了自己都没想过的枝丫。</p>
+<h2 id="安装第三方插件">安装第三方插件</h2>
+<p>下面都是第三方插件啦，现在第三方插件库已经非常的丰富，那么怎么安装第三方插件呢？</p>
+<p>点开设置，找到第三方插件选项，跟着我一步一步操作，你就能拥有。</p>
+<h3 id="第一步关闭安全模式">第一步：关闭安全模式</h3>
+<p>![<a href="https://cdn.sspai.com/2021/07/10/d426d910df4de021aa2a0dd21be86657.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1">th1</a></p>
+<h3 id="第二步浏览插件">第二步：浏览插件</h3>
+<p>点击“社区插件”后面的【浏览】按钮。查找或者直接搜索你想要的插件。</p>
+<h3 id="第三步安装插件">第三步：安装插件</h3>
+<p>点击喜欢的插件，在右侧的详情面板，点击安装：
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/fc3fac11af4fda6f7ec2387a7c39c68f.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="th2"  /></p>
+<h3 id="第四步启用插件">第四步：启用插件</h3>
+<p>安装完成之后，会出现两个按钮：【启用】和【卸载】。</p>
+<p>点击【启用】。
+![<a href="https://cdn.sspai.com/2021/07/10/55856c9e9eec7abdaa35fd3b1e9af168.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1">th3</a></p>
+<h2 id="日历calender">日历：Calender</h2>
+<h3 id="插件效果">插件效果</h3>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/03c490c88d04b580c5239584664890db.gif" alt="日历-日记.gif"  /></p>
+<p>该插件的官方介绍是这样的：</p>
+<blockquote>
+<p>这个插件为Obsidian创建一个简单的日历视图，可视化和导航之间的日常笔记。</p>
+</blockquote>
+<p>日历插件的<strong>基础功能</strong>就是在日历视图可以快速打开日常笔记（即日记），日期下面有小圆点的，代表这一天有日记，点击就可以打开那一天的日记文件。如果没有日记，会问询你是否新创建。</p>
+<p>还有一个升级版玩法，是weekly，可以用它做周记，还可以用来做周复盘，这个很有意思，我展开来写。</p>
+<h3 id="安装和启用calender">安装和启用Calender</h3>
+<p>先按照安装第三方插件的方法安装和启用Calender插件。</p>
+<p>点击主面板右侧的“&lt;”(展开按钮)，有个小日历图标，点击，就能看到和我上面截图一样的日历啦。</p>
+<p>其实到这一步，就已经是正常使用的效果了，你可以点击当天的日期，看一下打开当天日记的效果。</p>
+<h3 id="扩展weekly-note周记">扩展：Weekly Note(周记)</h3>
+<p>想要写周记的同学，再看这一节，如果不需要，完全可以略过。</p>
+<h4 id="周记设置">周记设置</h4>
+<p>打开设置，找到插件选项下的Calendar，在右侧的设置面板中，打开显示周的开关，如下图：
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/2785d49ee847fd575d11ef0d9c4b9c61.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="d1"  /></p>
+<ul>
+<li><strong>Weekly note format</strong>
+<ul>
+<li>周记文件名的格式。在右侧的输入框，输入你的周记文件名，在新建周记时，会自动以此来命名。</li>
+<li>年月周这些时间的语法同样遵循系统的语法，<code>YYYY</code>就是格林威治格式的年，<code>WW</code>是两位数的周，即在10以内的周数自动补0。我原本的复盘系统刚好全都有统一的命名，发现Calendar的这个功能以后，立刻淘汰调了以前新建文件再插入模板的方式。</li>
+</ul>
+</li>
+<li><strong>Weekly note template</strong>
+<ul>
+<li>即周记使用的模板。在后侧的输入框，输入你的周记模板路径，比如我的周记模板在<code>templates/复盘/Review周-周复盘模板.md</code>，那么我这里填<code>templates/复盘/Review周-周复盘模板</code>。</li>
+<li>在第二章讲模板插件的时候，有展示我的周复盘模板内容，这里就不贴图了。</li>
+</ul>
+</li>
+<li><strong>Weekly note folder</strong>
+<ul>
+<li>即周记文件保存在哪个文件夹中。我的是保存在当前库的【复盘】文件下，所以这里填“复盘”</li>
+</ul>
+</li>
+</ul>
+<h4 id="周记使用效果">周记使用效果</h4>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/13e93d9cfecc5a7cba5b3161413125c1.gif" alt="weekly演示.gif"  /></p>
+<ul>
+<li>日历最左侧出现了显示周数的列；</li>
+<li>点击周数，如果已有该周周记，会自动打开该周周记，如果文件不存在，会问询你是否要新建，点击【create】新建；</li>
+<li>会看到自动新建了名字为<code>周-2021年第27周复盘</code>的文件（文件名就是我指定的<code>周-YYYY年第WW周复盘</code>格式）；</li>
+<li>同时保存在了我指定的“复盘”文件；</li>
+<li>并且使用了<code>Review周-周复盘模板</code>作为模板填充了内容。</li>
+</ul>
+<h2 id="效率狂人必备day-planner">效率狂人必备：Day Planner</h2>
+<h3 id="使用效果">使用效果</h3>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/0318a1ebe816b7ff5cc5f6f05d682a39.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="plan1"  /></p>
+<p>P.S. 默认的时间轴颜色太丑了，为了好看我更换了个主题。</p>
+<h3 id="你为什么使用day-planner">你为什么使用Day Planner</h3>
+<p>我是从《精力与时间管理双重研习手册》（作者：崔莉莎）这本书了解到的<strong>日清单</strong>，下面贴一下书中对日清单的描述：</p>
+<blockquote>
+<p>“日清单”是“日程表”和“待办事项清单”两者优势的结合。</p>
+<p>日清单的基本做法:
+（1）对一天的清醒时间进行安排和分配。
+（2）日清单中每个任务都有具体的开始时间。原则上，下一个任务的开始时间，就是上一个任务的结束时间。</p>
+</blockquote>
+<p>日清单比to do list（待办清单）多了对任务的开始时间，这个方法使用过你就会体会到它的强大。</p>
+<p>书中也介绍了作者推荐的手机APP，但是界面我觉得很古早（不好看）。在Obsidian插件市场遇见这个插件的时候，我惊呆了，没有比这个更棒的还原了，我愿称之为“日清单的最佳实践”。</p>
+<p>如果你也是个效率狂人，如果你用时间安排控制自己的任务，一定要尝试一下这款插件。（不像我，我只是为了它的颜值。）</p>
+<p>时间线的中间有一条红线，是当前时间，你可以清晰的看到现在处于哪个任务节点内，你应该做什么，一目了然，并且那条线还会一点点下移，给人紧迫感。比如我看着那条线，拿起手机的时候就会想：“快到deadline了，文章还差很多没写完，你想越线吗？”，我不想，所以手机拜拜。</p>
+<h3 id="安装和设置">安装和设置</h3>
+<p>在第三方插件市场，安装Day Planner插件。然后打开插件选项里的【Day Planner】
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/bdb7dac3889cbe2d650e26c64e9e3b52.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="plan2"  /></p>
+<p>这里面的设置，重要的不多，就一个【Mode】模式最重要，下面其他的都是是否显示饼图（任务时间还剩百分之多少）、是否显示任务进度条，开不开无所谓。下面只讲两个设置：</p>
+<ul>
+<li>Day Planner Mode 模式
+<ul>
+<li>File mode 文件模式：使用该模式，会在你的库中新建Day Planners文件夹，并且新建今天的日计划文件。</li>
+<li>Command mode 命令行模式：使用该模式，允许你在当前的文件中，通过命令行插入日计划。</li>
+</ul>
+</li>
+</ul>
+<h3 id="编写日计划">编写日计划</h3>
+<p><code>## Day Planner</code>这个标题是必需的，有了这个标题插件才能识别你的内容。</p>
+<p>然后下面以todo的语法写待办<code>- [ ]</code>，后面跟24小时制的时间再加上任务名字，如：<code>- [ ] 06:00 起床</code>。</p>
+<p>除了固定的标题和固定的计划语法外，其他的你可以自行书写。插件只会识别带时间的任务去显示。下图是个示例：
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/d92201608eea8f9af3462e780b6d3682.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="plan3|300"  /></p>
+<h3 id="最重要的一步打开时间轴视图">最重要的一步：打开时间轴视图</h3>
+<p>官方的操作文档如下：</p>
+<blockquote>
+<h3 id="timeline-view">Timeline View</h3>
+<p>The <code>Show the Day Planner Timeline</code> command can be used to add a vertical timeline view display the tasks for today&rsquo;s Day Planner with a line showing the current time.</p>
+</blockquote>
+<p><code>Show the Day Planner Timeline</code> 命令可以打开时间线视图。</p>
+<p>现在我们要进入新的世界，写操作文档至今，我没有写过的一个的功能，那就是——命令行。恭喜你更进一步。</p>
+<p>我这个二流程序员看到“命令行”都要关掉文档了，嗨呀，结果还是要用。但是别怕，这里是新手文档，相信我新手司机的水平好吗？接着往下看，你可以的。</p>
+<h4 id="打开命令面板插件">打开命令面板插件</h4>
+<p>找到核心插件中的【命令面板】，打开这个插件的开关。
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/e4223a85be018547e68656b729d755d4.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="plan4"  /></p>
+<h4 id="唤出命令面板">唤出命令面板</h4>
+<p>有两种方式可以打开命令面板：</p>
+<ol>
+<li>
+<p>点击左侧边栏的快捷导航
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/feedce3a9227ef20894000260050d4a0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="plan5|300"  /></p>
+</li>
+<li>
+<p>快捷键打开命令面板
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/e74e1ca64cefd10ea184289424daaace.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="plan6"  /></p>
+</li>
+</ol>
+<p>Windows 系统下：<code>Ctrl + P</code></p>
+<p>Mac 系统下：<code>Command + P</code></p>
+<h4 id="用命令行打开时间轴视图">用命令行打开时间轴视图</h4>
+<p>输入命令 <code>Show the Day Planner Timeline</code>。一般来说，你输入<code>planner</code>就会实时搜索出相关的命令，点击相应的命令就好（可以少打字，还算友好吧？）。
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/ce3e56dc4dd98b1c49c0239e99f0fd82.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="plan7"  /></p>
+<p>现在，就可以看到效果啦：
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/ca49362ef7ac53be2016b08ac3605b04.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="plan8"  /></p>
+<h2 id="思维导图mind-map">思维导图：Mind Map</h2>
+<h3 id="思维导图效果">思维导图效果</h3>
+<p>保持队形，先放效果：</p>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/56f354aa7b11b267ceb26d670d9669c8.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="mind1"  /></p>
+<p>思维导图我在第一篇介绍Obsidian的文章里面介绍过。</p>
+<p>思维导图时的优势是结构化很强，迫使我们用结构化的思考方式，让你你思维清晰。用思维导图看读书笔记时，也能让重点一目了然。还能纠正你的书写习惯，比如规范大小标题的使用。</p>
+<p>比如我这篇文章的思维导图视图如下：
+<img loading='lazy' src="https://cdn.sspai.com/2021/07/10/3b07289286918edf64805b70d9d58e51.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="mind2"  /></p>
+<p>每个节点都可以展开和收起。</p>
+<h3 id="安装插件">安装插件</h3>
+<p>依然同上，用第三方插件的安装方法，安装Mind Map，并启用。</p>
+<p>设置无需修改。如有需要，再去看那些设置。</p>
+<h3 id="打开思维导图界面">打开思维导图界面</h3>
+<p>唤出命令面板，输入<code>mind</code>，选择如下图的命令：</p>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/1a22fc21e90c01b3024e9587291b0e8f.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="mind3"  /></p>
+<p><strong>操作示例</strong>：</p>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/2ecb45567008b4cac6715c04b1832ec0.gif" alt="思维导图演示.gif"  /></p>
+<h2 id="看板kanban">看板：Kanban</h2>
+<h3 id="使用场景">使用场景</h3>
+<p>你可以用来做简单的开发的进度管理。</p>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/31816c67e19058031432e68cd873f808.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="kanban1"  /></p>
+<p>注意，是简单的。如果你想要展示模块之类的更多信息，还请移步到Notion.</p>
+<p>在这里插播一句我当前的笔记观点，现在我最舒适的用法是打开Obsidian写东西，但是已经不再追求All in one了。</p>
+<p>Notion是旧爱，然后因为写的文章粘贴发布到别的地方没有找到完美的解决方案，一度弃用。而且我更喜欢能快速打开我想要的文件，这就需要文件夹式的操作，Notion在不同页面之间的切换让我觉得太麻烦了。</p>
+<p>然而现在，我找到了更舒适的使用方法。就是不完全在上面使用，也不完全不用它。当需要到它的时候，我就打开。我把它当做我的工具箱内的一个工具。仓库不能代替抽屉，抽屉也不能代替仓库，各司其职，他们都为我服务。</p>
+<p>你可以做年度100个目标、年度100本书。甚至可以多建几个列，用来做周计划。</p>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/f4da45281a9dbaf03e299862ef2630bb.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="kanban2"  /></p>
+<h3 id="安装插件-1">安装插件</h3>
+<p>在第三方插件市场，安装Kanban插件，并启用。</p>
+<h3 id="设置">设置</h3>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/a709914135af5a733aadefa9be2668b4.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="kanban3"  /></p>
+<p>设置几乎不用动，而且是中文的，大家操作一下就知道用法了，最下面的日期指令不好意思，我也没搞懂是做什么的。</p>
+<p>如果不想每次创建新的看板都放在系统默认的新文件的存放路径，建议你像我一样指定一个笔记存放位置。你可以单独一个文件夹用来管理所有的看板。</p>
+<h3 id="新建看板">新建看板</h3>
+<p>用命令面板，输入<code>Kanban</code>，会看到<code>新建看板</code>命令，点击即可创建新面板。</p>
+<p><img loading='lazy' src="https://cdn.sspai.com/2021/07/10/b8db487d1f71cdc63d16a346b1506cd0.gif" alt="看板.gif"  /></p>
+<p>Tips:</p>
+<ul>
+<li>任务可以在看板间拖动。</li>
+<li>如果你在设置里打开了复选框，那么每个任务前面会出现任务打钩框，当你打钩标记这个任务完成时，该任务会自动跑到你标记的完成列哦！</li>
+</ul>
+<hr>
+<h2 id="结语">结语</h2>
+<p>以上就是这期的全部内容啦！</p>
+<p>原本想先写Obsidian的云同步方案，结果动笔的时候没有那种呼之欲出非写不可的欲望。于是先有了这篇。</p>
+<p>昨天被安利了一个很厉害的模板插件：Templater，不止功能效果厉害，使用难度更是厉害，没有中文文档让探索之路变得更加艰难。但是，我玩儿转了！</p>
+<p>在这里放个预告，没有意外的话，下一篇就是写Templater了。这个插件非常好玩儿，非常有意思，敬请期待！</p>
+<p>大家还有什么好玩儿的插件想看教程的，可以留言告诉我。</p>
+<p>另外，想看云同步方案的同学，也请在下面留言，让我知道。如果没人在同步方面有疑惑，我就不写了。</p>
+<p>就酱，谢谢大家看到这里！</p>
+<p>下期见！</p>
+
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="http://hugoblog.lillianwho.com/tags/obsidian/">Obsidian</a>&nbsp;
+        
+          #<a href="http://hugoblog.lillianwho.com/tags/obsidian%E6%8F%92%E4%BB%B6/">Obsidian插件</a>&nbsp;
+        
+      </span>
+    
+  
+    <div class="clear"></div>
+    
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            
+              <span class="pagination__title-h">阅读更多</span>
+            
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E6%8F%92%E4%BB%B6%E4%B9%8Bdataview%E5%85%A5%E9%97%A8/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">obsidian插件之dataview入门</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian%E5%85%A5%E9%97%A8/">
+                  <span class="button__text">Obsidian入门：从第一个文件开始</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+        
+    
+
+    </div>
+
+      </div>
+
+      
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="copyright copyright-font">
+      <span>共 174904 字 <br/> 写完一本 马克·吐温 的</br>《汤姆·索亚历险记》了！</span>
+    </div>
+    <a class="dark-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/wormhole_1.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
+    <a class="light-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank" > <img src="/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
+    
+      <div class="copyright">
+        <span>© 2022 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> Theme by <a href="https://twitter.com/panr" target="_blank" rel="noopener">Panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script type="text/javascript" src="/theme-main-1.js"></script>
+<script type="text/javascript" src="/lately.min.js"></script>
+<script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/view-image.js"></script>
+<script type="text/javascript" src="/theme-lmm-20221005.js"></script>
+<script type="text/javascript" src="/pangu.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    pangu.autoSpacingPage();
+  });
+</script>
+
+
+      
+    </div>
+  </body>
+</html>
