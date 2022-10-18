@@ -1,0 +1,147 @@
+{
+  "main": {
+    "id": "0215227b1ed36a4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7060b5e79a2f6ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a21e9120b756579",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a571d3a95743cc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2e64297d74abca6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9c1f07a607064e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "4c9ea387be01a110",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6c9e47fb3fc07ecb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "be8b1685947f708c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e910c14bad5a708",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15c861b7798e29bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0ca3c0870f34e8de",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3ed5802493414f86",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2055c25906aa4887",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "3a21e9120b756579",
+  "lastOpenFiles": [
+    "posts/reading/《心之道：致焦虑的年代》读后记.md",
+    "posts/reading/a-book-that-make-you-want-to-share.md",
+    "posts/reading/shui-shi-jin-zhi-ying.md",
+    "posts/bao-cang-gridea-zhu-ti-break.md",
+    "posts/bu-ji-bi-ji-de-hou-guo-shi-chong-fu-xue-na-xie-yi-jing-xue-dao-de-dong-xi.md",
+    "posts/tomato-todo-vs-focus-list.md",
+    "posts/reading/show-shi-me.md",
+    "posts/newletter002.md",
+    "posts/hello-hugo.md",
+    "posts/reading/du-shu-bi-ji-lesslessshu-chu-shi-yue-du-fa-ba-xue-dao-de-zhi-shi-yong-qi-lai-greatergreater.md"
+  ]
+}

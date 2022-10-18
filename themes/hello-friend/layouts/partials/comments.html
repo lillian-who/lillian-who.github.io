@@ -1,0 +1,10 @@
+<!-- twikoo -->
+{{- if .Site.Params.twikoo.enable -}}
+<div class="pagination__title">
+  <span class="pagination__title-h">欢迎评论</span>
+  <hr />
+</div>
+  <div id="tcomment"></div>
+  <script src="/twikoo167.js"></script>
+  <script>twikoo.init({ envId: 'https://tk.edui.fun/', el: '#tcomment' })</script>
+{{- end }}

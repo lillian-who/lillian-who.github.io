@@ -1,0 +1,92 @@
+{{$scratch := newScratch}}
+{{ range (where .Site.Pages "Kind" "page" )}}
+    {{$scratch.Add "total" .WordCount}}
+{{ end }}
+
+{{$totalWord := $scratch.Get "total" }}
+
+{{ $wowWord := div $totalWord 10000}}
+{{ $wowBook := "还在努力更新中..</br>加油！加油啦！"}}
+{{ if ge $wowWord 40 }}{{$wowBook = "写完一本我国著名的</br>四大名著了！"}}
+{{ else if ge $wowWord 35 }}{{$wowBook = "写完一本 东野圭吾 的</br>《白夜行》了！"}}
+{{ else if ge $wowWord 34 }}{{$wowBook = "写完一本 雨果 的</br>《巴黎圣母院》了！"}}
+{{ else if ge $wowWord 32 }}{{$wowBook = "写完一本 艾米莉·勃朗特 的</br>《呼啸山庄》了！"}}
+{{ else if ge $wowWord 31 }}{{$wowBook = "写完一本 阿来 的</br>《尘埃落定》了！"}}
+{{ else if ge $wowWord 30 }}{{$wowBook = "写完一本 茅盾 的</br>《子夜》了！"}}
+{{ else if ge $wowWord 28 }}{{$wowBook = "写完一本 张炜 的</br>《古船》了！"}}
+{{ else if ge $wowWord 25 }}{{$wowBook = "写完一本 钱钟书 的</br>《围城》了！"}}
+{{ else if ge $wowWord 23 }}{{$wowBook = "写完一本 简·奥斯汀 的</br>《傲慢与偏见》了！"}}
+{{ else if ge $wowWord 22 }}{{$wowBook = "写完一本 莫泊桑 的</br>《一生》了！"}}
+{{ else if ge $wowWord 21 }}{{$wowBook = "写完一本 东野圭吾 的</br>《解忧杂货店》了！"}}
+{{ else if ge $wowWord 20 }}{{$wowBook = "写完一本 巴金 的</br>《寒夜》了！"}}
+{{ else if ge $wowWord 19 }}{{$wowBook = "写完一本 亚米契斯 的</br>《爱的教育》了！"}}
+{{ else if ge $wowWord 18 }}{{$wowBook = "写完一本 沈从文 的</br>《边城》了！"}}
+{{ else if ge $wowWord 17 }}{{$wowBook = "写完一本 马克·吐温 的</br>《汤姆·索亚历险记》了！"}}
+{{ else if ge $wowWord 16 }}{{$wowBook = "写完一本 曹禺 的</br>《日出》了！"}}
+{{ else if ge $wowWord 15 }}{{$wowBook = "写完一本 伯内特 的</br>《秘密花园》了！"}}
+{{ else if ge $wowWord 14 }}{{$wowBook = "写完一本 史铁生 的</br>《宿命的写作》了！"}}
+{{ else if ge $wowWord 13 }}{{$wowBook = "写完一本 曹禺 的</br>《雷雨》了！"}}
+{{ else if ge $wowWord 12 }}{{$wowBook = "写完一本 余华 的</br>《活着》了！"}}
+{{ else if ge $wowWord 11 }}{{$wowBook = "写完一本 鲁迅 的</br>《彷徨》了！"}}
+{{ else if ge $wowWord 10 }}{{$wowBook = "写完一本 马克·吐温 的</br>《王子与乞丐》了！"}}
+{{ else if ge $wowWord 9 }}{{$wowBook = "写完一本 林海音 的</br>《城南旧事》了！"}}
+{{ else if ge $wowWord 7 }}{{$wowBook = "写完一本 鲁迅 的</br>《呐喊》了！"}}
+{{ else if ge $wowWord 5 }}{{$wowBook = "写完一本 埃克苏佩里 的</br>《小王子》了！"}}
+{{ end }}
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="copyright copyright-font">
+      <span>共 {{$totalWord }} 字 <br/> {{$wowBook | safeHTML }}</span>
+    </div>
+    <a class="dark-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/wormhole_1.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
+    <a class="light-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank" > <img src="/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
+    {{ if $.Site.Copyright }}
+      <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
+    {{else}}
+      <div class="copyright">
+        <span>© {{ now.Year }} Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> Theme by <a href="https://twitter.com/panr" target="_blank" rel="noopener">Panr</a></span>
+      </div>
+    {{end}}
+  </div>
+</footer>
+
+<script type="text/javascript" src="/theme-main-1.js"></script>
+<script type="text/javascript" src="/lately.min.js"></script>
+<script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/view-image.js"></script>
+<script type="text/javascript" src="/theme-lmm-20221005.js"></script>
+<script type="text/javascript" src="/pangu.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    pangu.autoSpacingPage();
+  });
+</script>
+
+{{ if .IsHome }}
+  <script>
+  var bbUrl = "https://me.edui.fun/api/memo?creatorId=101&rowStatus=NORMAL&limit=10"
+  fetch(bbUrl).then(res => res.json()).then( resdata =>{
+      var result = '',resultAll="",data = resdata.data
+      for(var i=0;i < data.length;i++){
+          var bbTime = new Date(data[i].createdTs * 1000).toLocaleString()
+          var bbCont = data[i].content
+          var newbbCont = bbCont.replace(/(https?:[^:<>"]*\/)([^:<>"]*)(\.((png!thumbnail)|(png)|(jpg)|(webp)|(jpeg)|(gif))(!blogimg)?)/g,' 🌅 ').replace(/\bhttps?:\/\/(?!\S+(?:jpe?g|png|bmp|gif|webp|jfif|gif))\S+/g,' 🔗 ')
+          result += `<li class="item"><span class="datetime">${bbTime}</span>： <a href="/bb/">${newbbCont}</a></li>`;
+      }
+      var bbDom = document.querySelector('#bber-talk');
+      var bbBefore = `<span class="index-talk-icon"><svg viewBox="0 0 1024 1024" width="21" height="21"><path d="M184.32 891.667692c-12.603077 0-25.206154-2.363077-37.809231-7.876923-37.021538-14.966154-59.864615-49.624615-59.864615-89.009231v-275.692307c0-212.676923 173.292308-385.969231 385.969231-385.969231h78.76923c212.676923 0 385.969231 173.292308 385.969231 385.969231 0 169.353846-137.846154 307.2-307.2 307.2H289.083077l-37.021539 37.021538c-18.904615 18.116923-43.323077 28.356923-67.741538 28.356923zM472.615385 195.347692c-178.018462 0-322.953846 144.935385-322.953847 322.953846v275.692308c0 21.267692 15.753846 29.144615 20.48 31.507692 4.726154 2.363077 22.055385 7.876923 37.021539-7.08923l46.473846-46.473846c6.301538-6.301538 14.178462-9.452308 22.055385-9.452308h354.461538c134.695385 0 244.184615-109.489231 244.184616-244.184616 0-178.018462-144.935385-322.953846-322.953847-322.953846H472.615385z"></path><path d="M321.378462 512m-59.076924 0a59.076923 59.076923 0 1 0 118.153847 0 59.076923 59.076923 0 1 0-118.153847 0Z"></path><path d="M518.301538 512m-59.076923 0a59.076923 59.076923 0 1 0 118.153847 0 59.076923 59.076923 0 1 0-118.153847 0Z"></path><path d="M715.224615 512m-59.076923 0a59.076923 59.076923 0 1 0 118.153846 0 59.076923 59.076923 0 1 0-118.153846 0Z"></path></svg></span><div class="talk-wrap"><ul class="talk-list">`
+      var bbAfter = `</ul></div>`
+      resultAll = bbBefore + result + bbAfter
+      bbDom.innerHTML = resultAll;
+      //相对时间
+      window.Lately && Lately.init({ target: '.datetime' });
+  });
+  setInterval(function() {
+      for (var s, n = document.querySelector(".talk-list"), e = n.querySelectorAll(".item"), t = 0; t < e.length; t++)
+      setTimeout(function() {
+        n.appendChild(e[0])
+      },1000)
+  },1000)
+  </script>
+{{ end }}
