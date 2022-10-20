@@ -3,9 +3,6 @@ title: Obsidian优质内容合集
 published: true
 date: 2021-08-22
 tags: [Obsidian]
-categories:
-    - [数字科技,Obsidian]
-thumbnail: https://cdn.sspai.com/article/17c91241-3463-8797-9b63-d9d955678dac.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1
 feature: https://cdn.sspai.com/article/17c91241-3463-8797-9b63-d9d955678dac.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1
 ---
 

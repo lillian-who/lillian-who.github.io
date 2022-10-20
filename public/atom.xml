@@ -7,12 +7,90 @@
             <link href="http://hugoblog.lillianwho.com/atom.xml" rel="self" type="application/rss+xml" title="atom" />
             <link href="http://hugoblog.lillianwho.com/" rel="alternate" type="text/html" title="HTML" />
             <link href="http://hugoblog.lillianwho.com/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2022-10-18T23:00:57+08:00</updated>
+    <updated>2022-10-20T17:39:42+08:00</updated>
     
     
     
     
         <id>http://hugoblog.lillianwho.com/atom.xml</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[obsidian复习插件-flashcards]]></title>
+            <link href="http://hugoblog.lillianwho.com/posts/obsidian/obsidian-flashcards/" rel="alternate" type="text/html" />
+            
+                <id>http://hugoblog.lillianwho.com/posts/obsidian/obsidian-flashcards/</id>
+            
+            
+            <published>2022-10-20T00:00:00+00:00</published>
+            <updated>2022-10-20T00:00:00+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>最近要考试，整理的笔记有点多，背的时候觉得不管是对着电脑背还是打印出来背，效果都差强人意，忽然想到借助一点工具。 既然我题都整理好了，如果能利用 Obsidian 的复习插件进行背诵，岂不是更好？</p>
+<p>奈何之前的间隔复习插件（obsidian-spaced-repetition）只识别一个标签，对整个笔记进行复习，不太友好。闪卡模式要单独整理笔记&hellip;&hellip; 总之在 Obsidian 里面复习效果一般。</p>
+<p>于是找到了新的插件，flashcards，运用 Obsidian 写笔记的便利，批量生产卡片到 Anki 中。在Ob里写卡片，在 Anki 里进行复习，各自完成专业的事，完美！</p>
+<h2 id="插件介绍">插件介绍</h2>
+<h3 id="插件作用">插件作用</h3>
+<p>连接 anki ，在 Obsidian 里面编辑内容，通过命令创建卡片，自动同步到Anki里。</p>
+<h3 id="安装">安装</h3>
+<p>从插件市场安装。</p>
+<p>详细信息请访问 github 主页： <a href="https://github.com/reuseman/flashcards-obsidian">reuseman/flashcards-obsidian</a></p>
+<p>使用教程： <a href="https://github.com/reuseman/flashcards-obsidian/wiki">https://github.com/reuseman/flashcards-obsidian/wiki</a></p>
+<h2 id="使用方法">使用方法</h2>
+<h3 id="1安装插件并连接anki">1、安装插件并连接anki</h3>
+<ol>
+<li>在 Obsidian 里安装 flashcards 插件，并启用</li>
+<li>安装 Anki，并打开
+<ul>
+<li>工具 &gt; 附加组件 -&gt; 获取附加组件&hellip;</li>
+<li>粘贴代码 <strong>2055492159</strong> &gt; OK</li>
+</ul>
+</li>
+<li>返回 Obsidian ，打开 flashcards 插件的设置项， 点击 <code>give permission</code> 后面的按钮，获取 Anki 权限</li>
+<li>点击 <code>test anki</code> 测试连接，检查权限，提示 <code>anki work</code> 表示连接成功</li>
+</ol>
+<p><img loading='lazy' src="https://s2.loli.net/2022/10/20/yXR93ZizmsHIpdF.png" alt=""  /></p>
+<h3 id="2写抽认卡">2、写抽认卡</h3>
+<h4 id="cards-标签"><code>cards</code> 标签</h4>
+<p>只要给小标题加上 <code>#cards</code> 标签，即可，该标签可以在设置项里指定。只有被指定的标签才会被 flashcards 插件识别为抽认卡</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span><span style="color:#75715e">## 这是一个问题 #cards 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>这是一个答案
+</span></span></code></pre></div><p>在设置项里，可以修改识别的标签。</p>
+<p><img loading='lazy' src="https://s2.loli.net/2022/10/20/AVTeEa1xwGqRpJO.png" alt=""  /></p>
+<h4 id="内联样式">内联样式</h4>
+<p>语法是两个英文冒号</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>这是第二个问题:: 这是第二问题的答案
+</span></span></code></pre></div><h4 id="指定牌组">指定牌组</h4>
+<p>牌组是 Anki 中的概念。</p>
+<p>要指定牌组，可以设置一个默认牌组，或者在每一个笔记里指定一个牌组。</p>
+<p><img loading='lazy' src="https://s2.loli.net/2022/10/20/hzAUmaeRxnZXcB5.png" alt=""  /></p>
+<p>笔记里指定牌组名称，使用 yaml 语法：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>cards-deck: 管理数量方法
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><h3 id="3生成卡片到-anki-中">3、生成卡片到 Anki 中</h3>
+<p>在 Obsidian 中 <code>ctrl/command + P</code> 打开命令面板，运行命令 <code>Flashcards: Generate for the current file</code> 。该命令的作用是从当前文件生成卡片到 Anki 中</p>
+<p><img loading='lazy' src="https://s2.loli.net/2022/10/20/SjlqtJmTRZ9vye5.png" alt=""  /></p>
+<h4 id="复习">复习</h4>
+<p>打开 Anki ，在 Anki 中复习相应牌组即可。</p>]]></content>
+            
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="http://hugoblog.lillianwho.com/tags/obsidian" term="obsidian" label="Obsidian" />
+                             
+                                <category scheme="http://hugoblog.lillianwho.com/tags/obsidian%E6%8F%92%E4%BB%B6" term="obsidian%E6%8F%92%E4%BB%B6" label="Obsidian插件" />
+                            
+                        
+                    
+                
+            
+        </entry>
     
         
         <entry>
@@ -330,47 +408,6 @@
                             
                              
                                 <category scheme="http://hugoblog.lillianwho.com/tags/%E6%97%A5%E5%B8%B8" term="%E6%97%A5%E5%B8%B8" label="日常" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        
-        <entry>
-            <title type="html"><![CDATA[番茄todo VS 专注清单]]></title>
-            <link href="http://hugoblog.lillianwho.com/posts/tomato-todo-vs-focus-list/" rel="alternate" type="text/html" />
-            
-                <id>http://hugoblog.lillianwho.com/posts/tomato-todo-vs-focus-list/</id>
-            
-            
-            <published>2022-10-07T00:00:00+00:00</published>
-            <updated>2022-10-07T00:00:00+00:00</updated>
-            
-            
-            <content type="html"><![CDATA[<p>这两个 App 都是番茄钟类型的 App ，也都有待办清单。</p>
-<p>番茄todo 的产品逻辑是计划每天待办时长。A任务B任务C任务各执行多少个番茄钟。所以它的计划对象实际上是番茄钟，你今天计划完成几个番茄钟，完成了计划的个数就算完成了任务。而不管你是否真的完成了这个待办事项。这样看来其实有点奇怪，这也是我用这个app比较别扭的地方。它是定量计划。</p>
-<p>而专注清单的计划对象是待办，任何时候待办完成了，就可以打钩。而番茄钟是执行任务时的计时，用于辅助进入专注状态。</p>
-<p>两个App ，一个计划对象是时间（番茄钟），一个计划对象是待办。核心逻辑可以粗略看为，番茄todo 关注我投入了多少时间，而专注清单则关注我完成了多少待办。</p>
-<p>两个App 其他的功能对比：</p>
-<ul>
-<li>专注清单的优势是在移动端有日程规划功能，可以计划任务的执行时段。番茄todo相比之下就没有什么日程的概念了。</li>
-<li>番茄Todo 的优势在于它的统计功能非常强大。专注清单在统计方面就相对比较弱了，甚至一个待办的执行时间线都无法看到。番茄todo 不止能看单独一个待办的执行时间线，能在日程时间表里看到待办的专注情况，还有待办间的统计表、单个待办集的统计表、待办集之间的统计表。而且每个统计维度都是有的放矢，对于复盘非常有效。</li>
-</ul>
-<p>我其实更喜欢专注清单的产品逻辑，但考虑到专业版定价和产品完成度方面，还是有些倾向于番茄todo。</p>
-<p>番茄todo 的专业版价格很便宜（9.9三个月，59.99三年，不需要同步数据的话，核心功能完全可以免费使用），而且产品界面很美观，操作也很舒服，统计非常强大。</p>
-<p>专注清单的操作倒不是「难」，而是「复杂度」高，简而言之就是要点击的次数有点多，要找到相应的待办也需要切换列表寻找。定价是￥87 永久，￥25 三个月（同步数据、详细统计功能都需要专业版，免费版功能不太够用）。</p>]]></content>
-            
-                 
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="http://hugoblog.lillianwho.com/tags/%E8%BD%AF%E4%BB%B6" term="%E8%BD%AF%E4%BB%B6" label="软件" />
                             
                         
                     

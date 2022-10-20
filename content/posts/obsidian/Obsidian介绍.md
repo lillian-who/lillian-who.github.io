@@ -8,14 +8,12 @@ feature: https://i.loli.net/2021/09/28/vodFs3j6pMeD1J4.png
 isTop: false
 ---
 
-很多人都是从卡片笔记知道的Obsidian，今天我们不谈卡片笔记，只说说Obsidian是什么，以及它能做什么。
-
-
-<!--more-->
 
 很多人都是从卡片笔记知道的Obsidian，今天我们不谈卡片笔记，只说说Obsidian是什么，以及它能做什么。
 
 离开需求和使用场景谈效率工具都是耍流氓，一个工具、一个系统再强大，也要看看是否满足你的使用场景。
+
+<!--more-->
 
 **写作目标：**
 - 初步了解这是个markdown编辑器

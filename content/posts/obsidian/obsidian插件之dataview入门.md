@@ -3,7 +3,6 @@ title: obsidian插件之dataview入门
 published: true
 date: 2021-08-09
 tags: [Obsidian,Obsidian插件]
-thumbnail: https://cdn.sspai.com/2021/08/10/a1f1042c929b17d5da65747184662e49.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1
 feature: https://cdn.sspai.com/2021/08/10/a1f1042c929b17d5da65747184662e49.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1
 ---
 
@@ -12,6 +11,8 @@ feature: https://cdn.sspai.com/2021/08/10/a1f1042c929b17d5da65747184662e49.jpg?i
 ## 写在前面
 
 Dataview可谓是ob用户的必备的插件了，当你积累了10+篇自己的笔记，可以用它来生成目录。
+
+<!--more-->
 
 在此之前，我想对造轮子说两句（因为dataview是造轮子的利器）。
 
