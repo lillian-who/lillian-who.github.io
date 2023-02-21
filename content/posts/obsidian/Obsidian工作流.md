@@ -107,7 +107,10 @@ isTop: false
 
 ### 第三步：Dataview 建立索引
 
-**Dataview是什么？** 一句话解释就是：用于生成文件目录。Dataview入门级教程见这篇：[obsidian插件之dataview入门](http://lillianwho.com/post/obsidian插件之dataview入门/)
+**Dataview是什么？** 一句话解释就是：用于生成文件目录。Dataview入门级教程见这篇：
+
+
+{{<link "obsidian插件之dataview入门">}}
 
 创建一个新文件，命一个你容易识别的名字，比如我新建一个索引文件夹，专门放各类索引。把这个新文件命名为“阅读列表”。
 
@@ -166,10 +169,13 @@ quickAdd 可以直接理解为快速添加。它可以添加两种类型：
 1. 捕捉输入，插入到指定文件的指定位置
 2. 使用已有模板快速添加一个文件，可以指定文件位置
 
-我这里说的比较简单，它还可以做到一些比较复杂的指令，但是本文只介绍简单的用法，让它能够快速为你所用。本文没有什么门槛，请放心食用。(更丰富的quickadd用法见：[Obsidian最强插件quickadd](http://lillianwho.com/post/Obsidian%E6%9C%80%E5%BC%BA%E6%8F%92%E4%BB%B6quickadd/))
+我这里说的比较简单，它还可以做到一些比较复杂的指令，但是本文只介绍简单的用法，让它能够快速为你所用。本文没有什么门槛，请放心食用。
+
+(更丰富的quickadd用法见：
+{{<link "Obsidian最强插件quickadd">}}
 
 #### 设置一个快加命令
-请先安装quickAdd插件，如何安装插件见这里：[安装插件的方法](http://www.lillianwho.com/post/obsidian插件之dataview入门/#安装插件)。
+请先安装quickAdd插件。
 
 ##### 1、新建一个快加指令
 

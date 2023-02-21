@@ -28,7 +28,8 @@ VSCode是一款代码编辑软件，因为我 Python 开发也是用 VSCode，�
 
 ## 先搭建python环境
 
-见上一篇： [在VSCode中搭建python环境](http://lillianwho.com/post/python-build-vscode/)
+见上一篇： 
+{{<link "python-build-vscode">}}
 
 ## 安装flask
 

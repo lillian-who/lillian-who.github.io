@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/obsidian/obsidian-flashcards.md",
+                "file": "posts/什么样的心态才是写文章的好心态.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "{{<link",
+                "query": "lillianwho.com",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/obsidian/obsidian-flashcards.md",
+                "file": "posts/什么样的心态才是写文章的好心态.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/obsidian/obsidian-flashcards.md",
+                "file": "posts/什么样的心态才是写文章的好心态.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/obsidian/obsidian-flashcards.md"
+                "file": "posts/什么样的心态才是写文章的好心态.md"
               }
             }
           }
@@ -154,15 +154,15 @@
   },
   "active": "19778804c3a14883",
   "lastOpenFiles": [
-    "posts/obsidian/obsidian新手系列之你不可不知的插件.md",
+    "posts/hello-hugo.md",
     "posts/obsidian/obsidian-flashcards.md",
-    "posts/obsidian/obsidian插件之dataview入门.md",
-    "posts/obsidian/obsidian入门.md",
-    "posts/obsidian/admonition-生来多彩.md",
-    "posts/obsidian/Obsidian优质内容合集.md",
-    "posts/obsidian/Obsidian介绍.md",
-    "posts/obsidian/小惊喜：用obsidian自制答案之书.md",
-    "posts/obsidian/Obsidian工作流.md",
-    "posts/obsidian/Obsidian最强插件quickadd.md"
+    "posts/falsk-build-vscode.md",
+    "posts/bao-cang-gridea-zhu-ti-break.md",
+    "posts/阅读的胃口和口味.md",
+    "posts/信：潮汐般的创作欲.md",
+    "posts/我的笔记系统和制卡流程演示.md",
+    "posts/什么样的心态才是写文章的好心态.md",
+    "posts/博客迁移通知.md",
+    "posts/reading/《纳瓦尔宝典》财富篇：自己产品化.md"
   ]
 }

@@ -84,8 +84,10 @@ def askUrl(url):
 
 ### 3.解析内容
 
-- python BeautifulSoup 模块  ：解析html内容
-- [python Re模块](http://lillianwho.com/post/python-re-moudle/) ：正则提取
+python BeautifulSoup 模块  ：解析html内容
+
+Re 库，正则提取
+{{<link "python-re-moudle">}}
 
 #### 提取豆瓣电影数据的正则
 ```python
@@ -143,7 +145,9 @@ print(datalist)
 
 ### 4.保存数据
 
-- 保存到Excel：[python Xwlt库](http://lillianwho.com/post/python-xlwt-moudle/)
+保存到Excel：
+
+{{<link "python-xlwt-moudle">}}
 
 ## 实例完整代码
 
