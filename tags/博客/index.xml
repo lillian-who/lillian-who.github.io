@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客 on 喜于微</title>
+    <link>http://www.lillianwho.com/tags/%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 博客 on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://www.lillianwho.com/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客迁移通知</title>
+      <link>http://www.lillianwho.com/posts/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E9%80%9A%E7%9F%A5/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.lillianwho.com/posts/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E9%80%9A%E7%9F%A5/</guid>
+      <description>&lt;p&gt;❗️提要：发布新地址；当前博客不再更新。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>博客改版</title>
+      <link>http://www.lillianwho.com/posts/%E5%8D%9A%E5%AE%A2%E6%94%B9%E7%89%88/</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.lillianwho.com/posts/%E5%8D%9A%E5%AE%A2%E6%94%B9%E7%89%88/</guid>
+      <description>&lt;p&gt;一开始建立博客，内心是想做网络日志，加上一些工具的分享，甚至发布小说。这几个月一直在探索，因为对未来的重心有了一些模糊的规划，所以博客的版块稍作一些调整。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我的博客上线啦</title>
+      <link>http://www.lillianwho.com/posts/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%B8%8A%E7%BA%BF%E5%95%A6/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.lillianwho.com/posts/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E4%B8%8A%E7%BA%BF%E5%95%A6/</guid>
+      <description>&lt;p&gt;我用hexo建了个博客&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

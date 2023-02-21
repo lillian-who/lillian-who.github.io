@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Hello Hugo :: 喜于微</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta charset="UTF-8"/>
+<meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<script>if ( false || (!!window.MSInputMethodContext && !!document.documentMode)) document.write('\x3Cscript id="_iealwn_js" data-outver="11" src="https://support.dmeng.net/ie-alert-warning/latest.js">\x3C/script>'); </script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="
+为什么换hugo？ 纯粹是喜欢 木木的博客，想要像他一样在文章列表里面显示丰富的文章内容。在gridea里没有找到心仪的主题，干脆折腾一下，搞个hugo 的 demo 看一下。
+地址：http://hugoblog.lillianwho.com/
+"/>
+<meta name="keywords" content=""/>
+<link href="/atom.xml" title="喜于微" type="application/rss+xml">
+<link rel="canonical" href="http://www.lillianwho.com/posts/hello-hugo/" />
+<link rel="stylesheet" href="/theme-20221006.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
+<link rel="shortcut icon" href="http://www.lillianwho.com/favicon.ico">
+
+<meta property="og:title" content="Hello Hugo" />
+<meta property="og:description" content="
+为什么换hugo？
+纯粹是喜欢 木木的博客，想要像他一样在文章列表里面显示丰富的文章内容。在gridea里没有找到心仪的主题，干脆折腾一下，搞个hugo 的 demo 看一下。
+地址：http://hugoblog.lillianwho.com/" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.lillianwho.com/posts/hello-hugo/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-18T00:00:00+00:00" />
+
+
+
+<script async defer data-website-id="ee96bbf4-60f4-48de-995b-9b990db2b4ca" src="https://u.edui.fun/umami.js"></script>
+
+    
+  <link rel="prefetch" href="http://www.lillianwho.com/posts/obsidian/obsidian-flashcards/">
+  <link rel="prefetch" href="http://www.lillianwho.com/posts/reading/%E5%BF%83%E4%B9%8B%E9%81%93%E8%87%B4%E7%84%A6%E8%99%91%E7%9A%84%E5%B9%B4%E4%BB%A3%E8%AF%BB%E5%90%8E%E8%AE%B0/">
+
+  </head>
+  <body class="">
+    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark-theme")}else if(getTheme == 'light'){document.body.classList.remove("dark-theme")}</script>
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="http://www.lillianwho.com/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__text">喜于微</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu hidden">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/posts/obsidian/">Obsidian</a></li>
+        
+      
+        
+          <li><a href="/posts/reading/">读书</a></li>
+        
+      
+        
+          <li><a href="/archives/">归档</a></li>
+        
+      
+        
+          <li><a href="/about/">关于</a></li>
+        
+      
+    
+    <li><a href="javascript:;" onclick="randomPost()" title="随机访问一篇文章"><svg t="1660103436159" class="icon search-box-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1184" width="32" height="32"><path d="M421.376 481.28s117.248 24.576 175.104-8.704c0 0-89.6 70.144-89.6 166.4 0.512-0.512-8.192-121.344-85.504-157.696zM438.784 969.216s68.608 6.656 68.608-80.896c0 0 3.072 88.576 65.024 78.336 0 0.512-50.688 22.016-133.632 2.56zM161.28 238.08s-30.208 65.536 11.264 91.648c0 0-67.072-17.408-81.408 37.376 0 0 8.704-82.944 70.144-129.024zM857.6 227.328s49.152 50.176 1.024 81.408c0 0 58.88-18.432 66.56 36.352 0 0 5.12-69.632-67.584-117.76z" p-id="1185"></path><path d="M443.392 970.752c-5.632 0-10.752-1.024-15.36-3.072l-270.848-157.184-1.536-1.024s-1.024-1.024-4.608-2.56c-51.2-29.184-62.976-94.208-65.536-120.832V386.56c0-3.072 0.512-7.168 1.024-11.264l0.512-3.584 1.024-2.56c19.456-50.688 76.8-51.2 103.936-44.032l-1.536 5.632 4.096-6.144L476.16 486.4l18.944 37.888c20.992 36.864 29.184 77.824 32.768 99.84v258.048c-4.608 56.32-36.864 76.288-55.808 82.944-1.024 0.512-15.36 5.632-28.672 5.632z m-262.144-196.096l263.168 152.576c12.288-0.512 36.864-6.656 40.448-48.128v-250.368c-4.608-31.744-20.992-103.936-72.192-128L322.56 445.44l1.536 3.072-142.336-82.432c-2.048-0.512-40.448-9.216-52.736 15.872-0.512 2.56-0.512 4.608-0.512 6.144v294.4c1.536 16.896 9.728 67.072 43.52 86.528 3.584 2.048 6.656 4.096 9.216 5.632z" p-id="1186"></path><path d="M837.632 212.992c6.656 4.096 12.8 7.168 18.432 10.752l1.536 1.024 1.536 1.536c5.12 4.096 10.752 9.216 16.384 15.36 6.144 11.776 5.632 33.28 4.608 49.152-1.024 12.288-6.656 30.208-26.624 44.544l-1.024 0.512-247.808 156.672c-26.624 14.336-62.976 18.432-96.256 18.432-40.96 0-77.824-6.656-89.088-8.704l-3.072-0.512-245.248-142.336c-39.424-29.696-28.16-85.504-15.36-113.664l2.56-6.144 263.68-166.912c29.184-14.336 104.448-43.008 173.056-1.024 3.584 2.56 58.368 34.304 119.296 69.632M431.616 460.8c40.448 7.168 114.176 13.824 152.576-6.144l244.736-155.136c7.168-5.632 8.192-10.24 8.704-12.8 1.024-11.264-9.728-26.624-15.36-32.768-55.808-32.256-243.712-141.312-250.368-145.408-49.664-30.72-107.008-9.216-130.048 2.56L192.512 268.8c-4.096 12.288-12.288 42.496 3.584 55.808l235.52 136.192z" p-id="1187"></path><path d="M831.488 299.008c4.096-1.024 38.4-11.264 66.048 6.144 7.168 4.608 17.92 11.776 24.064 24.576 1.024 5.632 4.096 10.752 4.608 16.896v2.048l-1.024 323.072c-5.12 35.328-22.528 91.648-77.312 125.44l-5.12 3.584h-1.024l-262.144 165.888-4.608 0.512c-4.096 0.512-8.704 1.024-12.8 1.024-15.872 0-30.208-5.12-41.984-14.848-24.576-20.48-32.768-55.808-35.328-73.728l-1.024-252.928h1.536c6.144-96.768 88.576-164.864 96.768-171.008l-0.512-0.512L829.44 299.52m-301.056 567.808c0.512 10.24 5.12 41.472 19.968 53.76 3.072 2.56 7.68 5.632 16.384 5.12l264.704-167.936c56.32-38.4 53.76-115.712 53.76-116.224l-0.512-32.256 1.024-250.368h-0.512c-1.536-12.8-7.168-16.384-8.704-17.408-8.704-5.632-23.552-3.072-28.672-2.048l-235.52 148.992c-1.024 0.512-80.896 65.024-80.896 149.504h-1.536l0.512 228.864zM435.2 264.192c0 27.648 31.744 50.176 71.168 50.176s71.168-22.528 71.168-50.176-31.744-50.176-71.168-50.176S435.2 236.544 435.2 264.192z" p-id="1188"></path><path d="M663.552 782.848c0 30.72-22.528 67.072-49.664 80.384-27.648 13.824-50.176-0.512-50.176-31.232s22.528-67.072 50.176-80.384c27.136-13.824 49.664 0 49.664 31.232zM760.32 602.624c0 30.72-22.528 67.072-49.664 80.384-27.648 13.824-49.664-0.512-49.664-31.232s22.528-67.072 49.664-80.384c27.136-13.824 49.664 0.512 49.664 31.232zM867.84 428.032c0 30.72-22.528 67.072-49.664 80.384-27.648 13.824-50.176-0.512-50.176-31.232s22.528-67.072 50.176-80.384c27.136-13.824 49.664 0 49.664 31.232zM270.848 538.112c0 30.72-22.016 41.984-48.64 24.576-27.136-16.896-48.64-55.808-48.64-86.528 0-30.72 22.016-41.984 48.64-24.576 26.624 16.896 48.64 55.808 48.64 86.528zM432.128 823.296c0 30.72-22.016 41.984-48.64 24.576-26.624-17.408-48.64-55.808-48.64-86.528 0-30.72 22.016-41.984 48.64-24.576 26.624 16.896 48.64 55.808 48.64 86.528z" p-id="1189"></path></svg></a></li>
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/posts/obsidian/">Obsidian</a></li>
+      
+    
+      
+        <li><a href="/posts/reading/">读书</a></li>
+      
+    
+      
+        <li><a href="/archives/">归档</a></li>
+      
+    
+      
+        <li><a href="/about/">关于</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+
+      <div class="content">
+        
+  
+  
+  
+  
+  <div class="post posts/hello-hugo.md">
+    <div  class="breadcrumb">
+  
+
+  
+
+  
+
+<li>
+  <a href="http://www.lillianwho.com/">首页</a>
+</li>
+
+
+<li>
+  <a href="http://www.lillianwho.com/posts/">文章</a>
+</li>
+
+
+<li class="active">
+  <a href="http://www.lillianwho.com/posts/hello-hugo/">Hello Hugo</a>
+</li>
+
+</div>
+
+
+  
+    <h2 class="post-title"><a href="http://www.lillianwho.com/posts/hello-hugo/">Hello Hugo</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">2022-10-18 00:00:00</span>
+        
+          
+        
+      
+    </div>
+    
+  
+    <div class="post-content">
+      
+      <p><img loading='lazy' src="https://s2.loli.net/2022/10/18/zIW2G7T4FldPCy8.png" alt=""  /></p>
+<h2 id="为什么换hugo">为什么换hugo？</h2>
+<p>纯粹是喜欢 <a href="https://immmmm.com/">木木的博客</a>，想要像他一样<strong>在文章列表里面显示丰富的文章内容</strong>。在gridea里没有找到心仪的主题，干脆折腾一下，搞个hugo 的 demo 看一下。</p>
+<p>地址：http://hugoblog.lillianwho.com/</p>
+<h2 id="一些特殊语法">一些特殊语法</h2>
+<h3 id="站内链接美化">站内链接美化</h3>
+<pre tabindex="0"><code>{\{&lt;link &#34;文章文件名&#34;&gt;}\}
+</code></pre><p><em>去掉反斜杠</em></p>
+<p>效果：</p>
+<p><img loading='lazy' src="https://s2.loli.net/2022/10/18/fMReN1xkUgE7jSW.png" alt=""  /></p>
+<h3 id="文章内豆瓣读书卡片">文章内豆瓣读书卡片</h3>
+<p>直接放豆瓣的链接</p>
+<pre tabindex="0"><code>&lt;https://book.douban.com/subject/26315455/&gt;
+</code></pre><p>效果：</p>
+<p><img loading='lazy' src="https://s2.loli.net/2022/10/18/syV9YzfHSZgk852.png" alt=""  /></p>
+<h2 id="踩坑">踩坑</h2>
+<ul>
+<li>正如木木所说，yaml 里面的date 只能统一格式，要么是带时区的格式，要么就<code>年-月-日</code>，文章比较多，改日期花了点时间</li>
+<li>Twikoo，我用的是木木折腾好的主题，Twikoo 评论已经内置了，然而，一通操作下来终于重新部署好了，忽然发现 vercel 国内访问直接死掉。。。呵呵，我也死了。所以最后忍痛关掉了评论。</li>
+</ul>
+<h2 id="大家可能关心的问题">大家可能关心的问题</h2>
+<h3 id="rss">RSS</h3>
+<p>地址是  域名/atom.xml</p>
+<h3 id="多出来的博客怎么办">多出来的博客怎么办</h3>
+<p>hugo站当前（2022-10-18这一天）只作为 demo 尝个鲜。我自己是很心动的，觉得阅读体验比较好，后期考虑把这个站点解析到主域名，不会让大家再保存一个域名的。</p>
+<p>hugo 比 Gridea 所欠缺的是，没法（也不是没办法，只是比较麻烦）一键部署到私有服务器。如果后续直接发布到 github page，那就没啥问题了，不然每次手动更新文章，要累死了。Gridea 配置过后，不管是发布到 github page 还是私有服务器，都非常方便。写作也有独立的客户端界面，发布按钮也是可视化的，相对来说更人性化，更省心。</p>
+<p>这次更新最主要是为了首页的文章列表的显示。文章内的内容所见即所得的显示在列表上，看起来就非常舒服，是 Gridea 里的主题显示摘要所达不到的效果。</p>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="http://www.lillianwho.com/tags/%E6%8A%98%E8%85%BE/">折腾</a>&nbsp;
+        
+      </span>
+    
+  
+    <div class="clear"></div>
+    
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            
+              <span class="pagination__title-h">阅读更多</span>
+            
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="http://www.lillianwho.com/posts/obsidian/obsidian-flashcards/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">obsidian复习插件-flashcards</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="http://www.lillianwho.com/posts/reading/%E5%BF%83%E4%B9%8B%E9%81%93%E8%87%B4%E7%84%A6%E8%99%91%E7%9A%84%E5%B9%B4%E4%BB%A3%E8%AF%BB%E5%90%8E%E8%AE%B0/">
+                  <span class="button__text">《心之道：致焦虑的年代》读后记</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+        
+    
+
+    </div>
+
+      </div>
+
+      
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="copyright copyright-font">
+      <span>共 176886 字 <br/> 写完一本 马克·吐温 的</br>《汤姆·索亚历险记》了！</span>
+    </div>
+    <a class="dark-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/wormhole_1.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
+    <a class="light-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank" > <img src="/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
+    
+      <div class="copyright">
+        <span>© 2022 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> Theme by <a href="https://twitter.com/panr" target="_blank" rel="noopener">Panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script type="text/javascript" src="/theme-main-1.js"></script>
+<script type="text/javascript" src="/lately.min.js"></script>
+<script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/view-image.js"></script>
+<script type="text/javascript" src="/theme-lmm-20221005.js"></script>
+<script type="text/javascript" src="/pangu.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    pangu.autoSpacingPage();
+  });
+</script>
+
+
+      
+    </div>
+  </body>
+</html>

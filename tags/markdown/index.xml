@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on 喜于微</title>
+    <link>http://www.lillianwho.com/tags/markdown/</link>
+    <description>Recent content in markdown on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 30 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://www.lillianwho.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最好的markdown教程</title>
+      <link>http://www.lillianwho.com/posts/zui-hao-de-markdown-jiao-cheng/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.lillianwho.com/posts/zui-hao-de-markdown-jiao-cheng/</guid>
+      <description>看到网上有很多 Markdown 教程，越写越复杂，感觉给初学 Markdown 的人带来了很大的信息负担。其实 Markdown 的语法非常少，基础语法10个，扩展语法7个。一般常用的不超过5个，比如我的大多数文章包含的语法只有：标题、无序列表、图片、引用块。 介绍2个快速上手 Markdown 的方法。 一个 Markdown 语法速查网站，是 Markdown 的官方教程：Markd</description>
+    </item>
+    
+    <item>
+      <title>markdown格式转换工具推荐</title>
+      <link>http://www.lillianwho.com/posts/markdown%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.lillianwho.com/posts/markdown%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7/</guid>
+      <description>大家好，我是莉莉安。 想必很多人都是因为obsidian认识我的，那么大家对markdown应该不陌生了。我不止使用obsidian 记知识笔记，而且写作也是在obsidian 中完成的，日常写作全部使用的都是markdown 。熟悉markdown 写作以后「写作」这件事真的变得超级简单</description>
+    </item>
+    
+  </channel>
+</rss>

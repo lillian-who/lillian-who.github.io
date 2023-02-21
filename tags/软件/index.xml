@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>软件 on 喜于微</title>
+    <link>http://www.lillianwho.com/tags/%E8%BD%AF%E4%BB%B6/</link>
+    <description>Recent content in 软件 on 喜于微</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://www.lillianwho.com/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用途大于工具，再谈flomo</title>
+      <link>http://www.lillianwho.com/posts/my-memo-use/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.lillianwho.com/posts/my-memo-use/</guid>
+      <description>&lt;p&gt;flomo不是我的笔记软件，它是我完全隐私的日记+备忘录。&lt;/p&gt;
+&lt;p&gt;总是有人问我，为什么非得是flomo？其实不是，我曾经非常看不上flomo，它的作用被夸大了，做知识管理这个用途反正被我pass掉了，通过对比自己对知识管理的需求，发现flomo不满足我的需要。我觉得它像当初发说说（QQ空间的动态），我说发说说能有什么用呢？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>番茄todo VS 专注清单</title>
+      <link>http://www.lillianwho.com/posts/tomato-todo-vs-focus-list/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.lillianwho.com/posts/tomato-todo-vs-focus-list/</guid>
+      <description>&lt;p&gt;这两个 App 都是番茄钟类型的 App ，也都有待办清单。&lt;/p&gt;
+&lt;p&gt;番茄todo 的产品逻辑是计划每天待办时长。A任务B任务C任务各执行多少个番茄钟。所以它的计划对象实际上是番茄钟，你今天计划完成几个番茄钟，完成了计划的个数就算完成了任务。而不管你是否真的完成了这个待办事项。这样看来其实有点奇怪，这也是我用这个app比较别扭的地方。它是定量计划。&lt;/p&gt;
+&lt;p&gt;而专注清单的计划对象是待办，任何时候待办完成了，就可以打钩。而番茄钟是执行任务时的计时，用于辅助进入专注状态。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>专注类APP测评</title>
+      <link>http://www.lillianwho.com/posts/focus-app-eva/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.lillianwho.com/posts/focus-app-eva/</guid>
+      <description>&lt;p&gt;最近同时进行好几个项目（有子任务的任务），强烈需要一款专注 App，在自己动手做之前，我想再尝试找一下现有的工具是否可以满足我的需求。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>记一次picgo上传失败的处理-SM.MS图床</title>
+      <link>http://www.lillianwho.com/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang/</link>
+      <pubDate>Sun, 18 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.lillianwho.com/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang/</guid>
+      <description>&lt;p&gt;自从去年在obsidian中用了自动上传插件，配合picgo+SM.MS图床，解决了自动上传图片之后，很长一段时间这都是我的ob标配。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
