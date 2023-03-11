@@ -2,6 +2,7 @@
 title: obsidian插件之dataview入门
 published: true
 date: 2021-08-09
+toc: true
 tags: [Obsidian,Obsidian插件]
 feature: https://cdn.sspai.com/2021/08/10/a1f1042c929b17d5da65747184662e49.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1
 ---

@@ -1,18 +1,20 @@
 ---
-title: chatGPT，帮我写个小说吧
-UID: 20230211162403
-tags: [app]
-项目状态: 已发布
-date: 2023-02-11 16:24:03
+title: 'ChatGPT，帮我写个小说吧'
+tags: [AI]
+date: 2023-02-11
 feature: 
+published: true
+hideInList: false
+isTop: false
+toc: true
 ---
 
 
-## 前言
 
 最近 ChatGPT 的信息简直可以用铺天盖地来形容，我关注的各个公众号，甭管是不是科技领域的，都在说 ChatGPT。
 
 今天朋友刚好问我一个 ChatGPT 无法打开注册界面的问题，我顺便就注册体验了一下。
+<!--more-->
 
 在此也提示一下想要注册的小伙伴，如果遇到「OpenAI'S Services are not avaliable in your country」，或者官网能打开而注册页面报失败的情况，这是你IP所在的地区暂不支持服务，和全局代理没关系。解决办法是修改代理地址，别选香港（网上看来的，或者多换几个线路试一下）。
 

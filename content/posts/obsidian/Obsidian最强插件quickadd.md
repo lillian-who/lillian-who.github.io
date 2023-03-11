@@ -5,6 +5,7 @@ tags: [Obsidian,Obsidian插件]
 feature: https://i.loli.net/2021/10/17/DegLYXIzp3uQl4x.png
 published: true
 date: 2021-10-17
+toc: true
 ---
 
 

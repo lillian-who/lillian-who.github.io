@@ -2,7 +2,10 @@
 title: obsidian复习插件-flashcards
 date: 2022-10-20
 tags: [Obsidian,Obsidian插件]
-dtype: 概念
+toc: true
+published: true
+hideInList: false
+isTop: false
 ---
 
 最近要考试，整理的笔记有点多，背的时候觉得不管是对着电脑背还是打印出来背，效果都差强人意，忽然想到借助一点工具。 既然我题都整理好了，如果能利用 Obsidian 的复习插件进行背诵，岂不是更好？

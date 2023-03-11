@@ -6,6 +6,7 @@ published: true
 hideInList: false
 feature: https://cdn.sspai.com/2021/06/29/c491327477539e789fc67a9b2bc10055.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1
 isTop: false
+toc: true
 ---
 
 写一个普通人也能看得懂的，照着操作就可以完成一篇笔记的使用指引。

@@ -4,30 +4,29 @@
     
     
     
-            <link href="http://www.lillianwho.com/atom.xml" rel="self" type="application/rss+xml" title="atom" />
-            <link href="http://www.lillianwho.com/" rel="alternate" type="text/html" title="HTML" />
-            <link href="http://www.lillianwho.com/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2023-02-21T20:59:16+08:00</updated>
+            <link href="https://lillianwho.com/atom.xml" rel="self" type="application/rss+xml" title="atom" />
+            <link href="https://lillianwho.com/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://lillianwho.com/index.json" rel="alternate" type="application/json" title="JSON" />
+    <updated>2023-02-21T22:21:13+08:00</updated>
     
     
     
     
-        <id>http://www.lillianwho.com/atom.xml</id>
+        <id>https://lillianwho.com/atom.xml</id>
     
         
         <entry>
-            <title type="html"><![CDATA[chatGPT，帮我写个小说吧]]></title>
-            <link href="http://www.lillianwho.com/posts/chatgpt%E5%B8%AE%E6%88%91%E5%86%99%E4%B8%AA%E5%B0%8F%E8%AF%B4%E5%90%A7/" rel="alternate" type="text/html" />
+            <title type="html"><![CDATA[ChatGPT，帮我写个小说吧]]></title>
+            <link href="https://lillianwho.com/posts/chatgpt%E5%B8%AE%E6%88%91%E5%86%99%E4%B8%AA%E5%B0%8F%E8%AF%B4%E5%90%A7/" rel="alternate" type="text/html" />
             
-                <id>http://www.lillianwho.com/posts/chatgpt%E5%B8%AE%E6%88%91%E5%86%99%E4%B8%AA%E5%B0%8F%E8%AF%B4%E5%90%A7/</id>
-            
-            
-            <published>2023-02-11T16:24:03+00:00</published>
-            <updated>2023-02-11T16:24:03+00:00</updated>
+                <id>https://lillianwho.com/posts/chatgpt%E5%B8%AE%E6%88%91%E5%86%99%E4%B8%AA%E5%B0%8F%E8%AF%B4%E5%90%A7/</id>
             
             
-            <content type="html"><![CDATA[<h2 id="前言">前言</h2>
-<p>最近 ChatGPT 的信息简直可以用铺天盖地来形容，我关注的各个公众号，甭管是不是科技领域的，都在说 ChatGPT。</p>
+            <published>2023-02-11T00:00:00+00:00</published>
+            <updated>2023-02-11T00:00:00+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>最近 ChatGPT 的信息简直可以用铺天盖地来形容，我关注的各个公众号，甭管是不是科技领域的，都在说 ChatGPT。</p>
 <p>今天朋友刚好问我一个 ChatGPT 无法打开注册界面的问题，我顺便就注册体验了一下。</p>
 <p>在此也提示一下想要注册的小伙伴，如果遇到「OpenAI&rsquo;S Services are not avaliable in your country」，或者官网能打开而注册页面报失败的情况，这是你IP所在的地区暂不支持服务，和全局代理没关系。解决办法是修改代理地址，别选香港（网上看来的，或者多换几个线路试一下）。</p>
 <p>关于ChatGPT 的介绍，我就偷个懒吧，让它自己说。</p>
@@ -59,8 +58,7 @@
 <li>但需要你提出明确的需求。就像搜索引擎再强大也需要你提出正确的问题一样，想让chatGPT为你所用也需要你能清晰表达自己的问题。</li>
 <li>写小说，离谱但合理</li>
 </ul>
-<p>最后，本篇文章版权归ChatGPT所有。谢谢阅读。</p>
-]]></content>
+<p>最后，本篇文章版权归ChatGPT所有。谢谢阅读。</p>]]></content>
             
                  
                     
@@ -70,7 +68,7 @@
                         
                             
                              
-                                <category scheme="http://www.lillianwho.com/tags/app" term="app" label="app" />
+                                <category scheme="https://lillianwho.com/tags/ai" term="ai" label="AI" />
                             
                         
                     
@@ -81,9 +79,9 @@
         
         <entry>
             <title type="html"><![CDATA[书店的变迁]]></title>
-            <link href="http://www.lillianwho.com/posts/%E4%B9%A6%E5%BA%97%E4%B9%A6%E5%BA%97/" rel="alternate" type="text/html" />
+            <link href="https://lillianwho.com/posts/%E4%B9%A6%E5%BA%97%E4%B9%A6%E5%BA%97/" rel="alternate" type="text/html" />
             
-                <id>http://www.lillianwho.com/posts/%E4%B9%A6%E5%BA%97%E4%B9%A6%E5%BA%97/</id>
+                <id>https://lillianwho.com/posts/%E4%B9%A6%E5%BA%97%E4%B9%A6%E5%BA%97/</id>
             
             
             <published>2023-02-10T00:00:00+00:00</published>
@@ -118,8 +116,7 @@
 <p>去书店是那种偶遇书的感觉，店里有什么你就只能选什么，然后要书店的选书好，你选到想看的书的可能性才会大。在家看书呢，电子资源就比较丰富了，一般是对什么书感兴趣，就找来看，很少有找不到的情况。至少是现在，我用微信读书的会员卡，想看的书基本上都上架了。偶尔遇到想看但未上架的书，但没有到特别想看的那种地步，如果实在不能等，那就在网上订。去书店已经不是第一和第二个选项了，因为很可能的情况是，书店更没有。</p>
 <p>我很怀念以前在书店看书的感觉，但是更珍惜现在在家看电子书的便捷，以及更加丰富的书目。</p>
 <p>好像再也找不到那种，不知道做什么就到书店去消遣一下午的感觉了。不如在家找一本书来看。可选项多，书桌也更加舒服自在，做笔记也方便得多。</p>
-<p>虽然如此，我仍然怀念书店。</p>
-]]></content>
+<p>虽然如此，我仍然怀念书店。</p>]]></content>
             
                  
                     
@@ -129,7 +126,7 @@
                         
                             
                              
-                                <category scheme="http://www.lillianwho.com/tags/%E4%B9%A6%E5%BA%97" term="%E4%B9%A6%E5%BA%97" label="书店" />
+                                <category scheme="https://lillianwho.com/tags/%E4%B9%A6%E5%BA%97" term="%E4%B9%A6%E5%BA%97" label="书店" />
                             
                         
                     
@@ -140,9 +137,9 @@
         
         <entry>
             <title type="html"><![CDATA[具体的快乐]]></title>
-            <link href="http://www.lillianwho.com/posts/%E5%85%B7%E4%BD%93%E7%9A%84%E5%BF%AB%E4%B9%90/" rel="alternate" type="text/html" />
+            <link href="https://lillianwho.com/posts/%E5%85%B7%E4%BD%93%E7%9A%84%E5%BF%AB%E4%B9%90/" rel="alternate" type="text/html" />
             
-                <id>http://www.lillianwho.com/posts/%E5%85%B7%E4%BD%93%E7%9A%84%E5%BF%AB%E4%B9%90/</id>
+                <id>https://lillianwho.com/posts/%E5%85%B7%E4%BD%93%E7%9A%84%E5%BF%AB%E4%B9%90/</id>
             
             
             <published>2023-02-02T00:00:00+00:00</published>
@@ -171,8 +168,7 @@
 虚拟世界或许很精彩，而且那种精彩触手可及。可是，有没有可能，是一切都太快了，多巴胺获取的速度太快了难度太低了，让我们冲上高峰，也让我们再次获得快乐变得越发困难。</p>
 <p>在这个什么都很快的时代，增加快乐的获得难度、延长体验时间，降低快乐的浓度，或许才是快乐之道。
 %%</p>
-<p>让我们在物理世界见面吧。</p>
-]]></content>
+<p>让我们在物理世界见面吧。</p>]]></content>
             
                  
                     
@@ -182,7 +178,7 @@
                         
                             
                              
-                                <category scheme="http://www.lillianwho.com/tags/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://lillianwho.com/tags/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -193,9 +189,9 @@
         
         <entry>
             <title type="html"><![CDATA[在急于求成的年代里，种一颗种子]]></title>
-            <link href="http://www.lillianwho.com/posts/%E7%A7%8D%E4%B8%80%E9%A2%97%E7%A7%8D%E5%AD%90/" rel="alternate" type="text/html" />
+            <link href="https://lillianwho.com/posts/%E7%A7%8D%E4%B8%80%E9%A2%97%E7%A7%8D%E5%AD%90/" rel="alternate" type="text/html" />
             
-                <id>http://www.lillianwho.com/posts/%E7%A7%8D%E4%B8%80%E9%A2%97%E7%A7%8D%E5%AD%90/</id>
+                <id>https://lillianwho.com/posts/%E7%A7%8D%E4%B8%80%E9%A2%97%E7%A7%8D%E5%AD%90/</id>
             
             
             <published>2023-02-02T00:00:00+00:00</published>
@@ -217,8 +213,7 @@
 <p>社交媒体倾向于展示快速成功。事情一做就成，第一部小说就大卖，新手写小说半年就收益几十万，做小红书一年就收入翻10倍，素人做直播赚到几百上千万，一夜成名&hellip;&hellip;</p>
 <p>事情刚开始做就期望能有结果。决定写小说就认为应该要立刻写出来，至于中间的努力，以为只是敲键盘而已。忽略了从「写」到「写出作品」之间巨大的鸿沟。更别说从「写出来」到「写得还不错」之间需要多少的过程了。</p>
 <p>走一步看一步。一步一步来。这个一步步，到现在我好像才明白，一步是多大。想要登顶，就要一步一步地爬上，走了几千步，离终点也还有很长的距离。而我以前却是，希望一步走到半山腰，再一步就登了顶。</p>
-<p>接受了凡事要获得结果都需要走过中间很多的过程，就没那么容易感到失败和容易放弃了。一件事情要想有结果，必须从种下种子开始，慢慢浇水，<strong>一定有一个付出和长期看不到回报的过程</strong>。最后开花结果是水到渠成的事。要成为愿意种下种子的人，而不是急着摘花的人。不能只盯着结果，要愿意种下种子，勤浇水，然后等待。</p>
-]]></content>
+<p>接受了凡事要获得结果都需要走过中间很多的过程，就没那么容易感到失败和容易放弃了。一件事情要想有结果，必须从种下种子开始，慢慢浇水，<strong>一定有一个付出和长期看不到回报的过程</strong>。最后开花结果是水到渠成的事。要成为愿意种下种子的人，而不是急着摘花的人。不能只盯着结果，要愿意种下种子，勤浇水，然后等待。</p>]]></content>
             
                  
                     
@@ -228,7 +223,7 @@
                         
                             
                              
-                                <category scheme="http://www.lillianwho.com/tags/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://lillianwho.com/tags/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -239,9 +234,9 @@
         
         <entry>
             <title type="html"><![CDATA[回乡之旅和疗愈]]></title>
-            <link href="http://www.lillianwho.com/posts/%E5%9B%9E%E4%B9%A1%E4%B9%8B%E6%97%85%E5%92%8C%E7%96%97%E6%84%88%E4%B9%8B%E9%81%93/" rel="alternate" type="text/html" />
+            <link href="https://lillianwho.com/posts/%E5%9B%9E%E4%B9%A1%E4%B9%8B%E6%97%85%E5%92%8C%E7%96%97%E6%84%88%E4%B9%8B%E9%81%93/" rel="alternate" type="text/html" />
             
-                <id>http://www.lillianwho.com/posts/%E5%9B%9E%E4%B9%A1%E4%B9%8B%E6%97%85%E5%92%8C%E7%96%97%E6%84%88%E4%B9%8B%E9%81%93/</id>
+                <id>https://lillianwho.com/posts/%E5%9B%9E%E4%B9%A1%E4%B9%8B%E6%97%85%E5%92%8C%E7%96%97%E6%84%88%E4%B9%8B%E9%81%93/</id>
             
             
             <published>2023-01-15T00:00:00+00:00</published>
@@ -274,8 +269,7 @@
 <p>我觉得这真的对我是个很大的启发。</p>
 <hr>
 <p>这期的内容就到这里，写得有些仓促，但我还是想和你分享这周的体验。如果对你有任何启发和触动（touch），我将很高兴。</p>
-<p>谢谢你的倾听和陪伴，我们下期见。</p>
-]]></content>
+<p>谢谢你的倾听和陪伴，我们下期见。</p>]]></content>
             
                  
                     
@@ -285,7 +279,7 @@
                         
                             
                              
-                                <category scheme="http://www.lillianwho.com/tags/%E7%96%97%E6%84%88" term="%E7%96%97%E6%84%88" label="疗愈" />
+                                <category scheme="https://lillianwho.com/tags/%E7%96%97%E6%84%88" term="%E7%96%97%E6%84%88" label="疗愈" />
                             
                         
                     
