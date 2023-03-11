@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
+                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
+                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md"
+                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md"
               }
             }
           },
@@ -205,10 +204,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9657fd29967b96fd",
+  "active": "5d9df66eed30a7bf",
   "lastOpenFiles": [
-    "content/posts/reading/a-book-that-make-you-want-to-share.md",
     "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
+    "content/posts/reading/a-book-that-make-you-want-to-share.md",
     "content/posts/obsidian/obsidian-hugo-cloudflare.md",
     "_Templates/hugo博客模板.md",
     "content/posts/obsidian/obsidian-flashcards.md",

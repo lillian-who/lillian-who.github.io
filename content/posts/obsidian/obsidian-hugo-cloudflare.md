@@ -22,11 +22,15 @@ feature:
 3. 然后执行 hugo -D 命令，生成静态文件
 4. 再到public 文件夹下使用 git 将已生成的静态文件上传到 github。github page 作为博客展示。
 
-现在我要发布一篇新博客时，只要在 obsidian 中打开 hugo博客的这个库，然后使用 quickadd 新建一篇博客，写上内容，然后把yaml 中的 `published`  字段值改为 `true` 即可。
+现在我要发布一篇新博客时，只要在 obsidian 中打开 hugo博客的这个库，然后使用 quickadd 新建一篇博客，写上内容，然后把yaml 中的 `published`  字段值改为 `true` 即可（从草稿改为发布）。等待3分钟后 obsidian-git 插件自动同步到 github，博客就自动更新发布好了。
 
 ### 使用到的 obsidian 插件
 
-####  quickadd
+#### image auto upload plugin
+
+用于自动上传图片到图床。需要配合 picgo 使用。
+
+#### quickadd
 
 用于快速创建一篇新博客。
 
@@ -49,9 +53,7 @@ feature:
 插件设置修改如下：
 ![image.png](https://s2.loli.net/2023/03/11/cxTJiutPEfkHFW8.png)
 
-#### image auto upload plugin
 
-用于自动上传图片到图床。需要配合 picgo 使用。
 
 ### 参考
 
