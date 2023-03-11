@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5d9df66eed30a7bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d783dd55a0af8599",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/obsidian/obsidian-flashcards.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9657fd29967b96fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a8f197f0372e32a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Templates/hugo博客模板.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67ba3e7d313937bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/obsidian/obsidian-flashcards.md",
+                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 271.5
   },
   "right": {
     "id": "f8d48b64cb9a8c94",
@@ -202,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 243.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,13 +166,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d9df66eed30a7bf",
+  "active": "a8f197f0372e32a4",
   "lastOpenFiles": [
-    "content/posts/obsidian/obsidian-flashcards.md",
+    "_Templates/hugo博客模板.md",
     "content/posts/obsidian/obsidian-hugo-cloudflare.md",
+    "content/posts/obsidian/obsidian-flashcards.md",
     "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
     "content/posts/reading/a-book-that-make-you-want-to-share.md",
-    "_Templates/hugo博客模板.md",
     "发布目录.md",
     "未命名.md",
     "content/posts/20211212-daily.md",
