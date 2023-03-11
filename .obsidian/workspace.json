@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "9657fd29967b96fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a8f197f0372e32a4",
             "type": "leaf",
             "state": {
@@ -55,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "picgo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -121,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md",
+                "file": "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md",
+                "file": "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md"
+                "file": "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md"
               }
             }
           },
@@ -178,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,16 +205,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d9df66eed30a7bf",
+  "active": "9657fd29967b96fd",
   "lastOpenFiles": [
-    "_Templates/hugo博客模板.md",
+    "content/posts/reading/a-book-that-make-you-want-to-share.md",
+    "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
     "content/posts/obsidian/obsidian-hugo-cloudflare.md",
+    "_Templates/hugo博客模板.md",
     "content/posts/obsidian/obsidian-flashcards.md",
     "发布目录.md",
     "未命名.md",
     "content/posts/20211212-daily.md",
     "content/posts/圆桌精神.md",
-    "content/posts/wo-xi-huan-neng-pei-wo-hen-jiu-de-dong-xi.md",
-    "content/posts/3个系统，制定2023年生活体系.md"
+    "content/posts/wo-xi-huan-neng-pei-wo-hen-jiu-de-dong-xi.md"
   ]
 }

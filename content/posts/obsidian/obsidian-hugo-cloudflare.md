@@ -40,7 +40,18 @@ feature:
 ![image.png](https://s2.loli.net/2023/03/11/wrHtPay62Dn8xGV.png)
 
 4. 设置quickadd 命令：
+![image.png](https://s2.loli.net/2023/03/11/Z9BDtVHJr2uaIyq.png)
 
+#### obsidian-git
+
+用于自动备份文件到 github。
+
+插件设置修改如下：
+![image.png](https://s2.loli.net/2023/03/11/cxTJiutPEfkHFW8.png)
+
+#### image auto upload plugin
+
+用于自动上传图片到图床。需要配合 picgo 使用。
 
 ### 参考
 
