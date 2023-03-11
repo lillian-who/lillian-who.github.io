@@ -1,7 +1,7 @@
 ---
 title: obsidian+hugo+cloudflare自动发布博客
 tags: [折腾,博客]
-date: 2023-03-11 17:20:56
+date: 2023-03-11
 published: true
 hideInList: false
 isTop: false
