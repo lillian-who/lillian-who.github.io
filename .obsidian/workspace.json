@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "f259953d4ac87918",
+    "type": "split",
+    "children": [
+      {
+        "id": "1410ad0ef1b29d42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d9df66eed30a7bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/obsidian/obsidian+hugo+cloudflare自动发布博客.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "861e7cf3edeec61d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "发布目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "faa286b26e35edfc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d60a0b95a438a5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c53801237a1388a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c3fd96f8e5148946",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9e19246bc8309e58",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f8d48b64cb9a8c94",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5dcc6a90edba77f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fba4bec0b9bcb30b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/obsidian/obsidian+hugo+cloudflare自动发布博客.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f98be7cd179d837b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/posts/obsidian/obsidian+hugo+cloudflare自动发布博客.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e68fa6ea830aa60c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "20bceb6c9069b6f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/obsidian/obsidian+hugo+cloudflare自动发布博客.md"
+              }
+            }
+          },
+          {
+            "id": "9bae619a0eb1b681",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "9bae619a0eb1b681",
+  "lastOpenFiles": [
+    "发布目录.md",
+    "content/posts/obsidian/obsidian+hugo+cloudflare自动发布博客.md",
+    "未命名.md",
+    "_Templates/hugo博客模板.md",
+    "content/posts/20211212-daily.md",
+    "content/posts/圆桌精神.md",
+    "content/posts/wo-xi-huan-neng-pei-wo-hen-jiu-de-dong-xi.md",
+    "content/posts/3个系统，制定2023年生活体系.md"
+  ]
+}
