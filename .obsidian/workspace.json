@@ -32,6 +32,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "a2e0eaa5359e5650",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18f8dd9a835b67c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/新的博客方案.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md",
+                "file": "content/posts/新的博客方案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md",
+                "file": "content/posts/新的博客方案.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md"
+                "file": "content/posts/新的博客方案.md"
               }
             }
           },
@@ -166,17 +184,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a8f197f0372e32a4",
+  "active": "18f8dd9a835b67c4",
   "lastOpenFiles": [
-    "_Templates/hugo博客模板.md",
+    "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
+    "content/posts/reading/《纳瓦尔宝典》财富篇：自己产品化.md",
+    "content/posts/新的博客方案.md",
     "content/posts/obsidian/obsidian-hugo-cloudflare.md",
+    "_Templates/hugo博客模板.md",
     "content/posts/obsidian/obsidian-flashcards.md",
     "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
     "content/posts/reading/a-book-that-make-you-want-to-share.md",
     "发布目录.md",
-    "未命名.md",
-    "content/posts/20211212-daily.md",
-    "content/posts/圆桌精神.md",
-    "content/posts/wo-xi-huan-neng-pei-wo-hen-jiu-de-dong-xi.md"
+    "未命名.md"
   ]
 }
