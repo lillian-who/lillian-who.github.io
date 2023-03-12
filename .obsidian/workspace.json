@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "douban",
+                "query": "{{< douban",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,15 +170,15 @@
   },
   "active": "4947ca24ef59a436",
   "lastOpenFiles": [
-    "content/posts/imm20221010.md",
-    "content/posts/hello-hugo.md",
     "content/posts/reading/a-book-that-make-you-want-to-share.md",
     "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
+    "content/posts/reading/shui-shi-jin-zhi-ying.md",
+    "content/posts/imm20221010.md",
+    "content/posts/hello-hugo.md",
     "content/posts/2022-psychology-book-list.md",
     "content/posts/reading/《自信的陷阱》：你可以有拖延症，并同时把事做完.md",
     "content/posts/reading/从《也许你该找个人聊聊》中看到什么？.md",
     "content/posts/reading/我读：《福格行为模型》.md",
-    "content/posts/reading/用认知行为疗法改善动力不足：行为激活.md",
-    "content/posts/new-blog-sys.md"
+    "content/posts/reading/用认知行为疗法改善动力不足：行为激活.md"
   ]
 }
