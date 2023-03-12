@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "{{< douban",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,7 +167,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4947ca24ef59a436",
+  "active": "7c53801237a1388a",
   "lastOpenFiles": [
     "content/posts/reading/a-book-that-make-you-want-to-share.md",
     "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
