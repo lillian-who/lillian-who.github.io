@@ -10,13 +10,23 @@
 <meta name="keywords" content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"/>
 <link href="/atom.xml" title="{{ $.Site.Title }}" type="application/rss+xml">
 <link rel="canonical" href="{{ .Permalink }}" />
+<link rel="stylesheet" href="//cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="/theme-20230215.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
 <link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}">
+
+<link rel="apple-touch-icon" href="{{ "favicon.ico" | absURL }}">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="{{ $.Site.Title }}">
+<link rel="bookmark" href="{{ "favicon.ico" | absURL }}">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ "favicon.ico" | absURL }}" >
+
 <!-- OG data -->
 {{ template "_internal/opengraph.html" . }}
 <!-- RSS | JSON -->
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 {{ end -}}
-<script async defer data-website-id="ee96bbf4-60f4-48de-995b-9b990db2b4ca" src="https://u.edui.fun/umami.js"></script>
+{{- if not .Site.IsServer }}
+<script async defer data-website-id="c27bd84b-02a3-4c3f-a168-0d7fadec9c74" src="https://u.edui.fun/lmmtj.js"></script>
+{{ end -}}
