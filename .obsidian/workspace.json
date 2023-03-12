@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/new-blog-sys.md",
+                "file": "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "f8d48b64cb9a8c94",
@@ -116,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/new-blog-sys.md",
+                "file": "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/new-blog-sys.md",
+                "file": "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/new-blog-sys.md"
+                "file": "content/posts/reading/《心之道：致焦虑的年代》读后记.md"
               }
             }
           },
@@ -187,9 +186,9 @@
   },
   "active": "18f8dd9a835b67c4",
   "lastOpenFiles": [
+    "content/posts/new-blog-sys.md",
     "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
     "content/posts/reading/《纳瓦尔宝典》财富篇：自己产品化.md",
-    "content/posts/new-blog-sys.md",
     "content/posts/obsidian/obsidian-hugo-cloudflare.md",
     "_Templates/hugo博客模板.md",
     "content/posts/obsidian/obsidian-flashcards.md",
