@@ -6,7 +6,16 @@
     <description>Recent content in 文章 on 喜于微</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lillianwho.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lillianwho.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新的免费博客方案</title>
+      <link>https://lillianwho.com/posts/new-blog-sys/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lillianwho.com/posts/new-blog-sys/</guid>
+      <description>&lt;p&gt;之前有博客的读者找过来，我很惭愧，因为年后很长一段时间都没有更新博客了。我曾经有一段时间更新博客比更新公众号更勤，因为博客想发什么就发什么，可以不那么注重文章形式。如今为什么又懒得更新博客了呢？这就要从近期博客的改变说起了。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>ChatGPT，帮我写个小说吧</title>
       <link>https://lillianwho.com/posts/chatgpt%E5%B8%AE%E6%88%91%E5%86%99%E4%B8%AA%E5%B0%8F%E8%AF%B4%E5%90%A7/</link>
@@ -46,16 +55,6 @@
       <guid>https://lillianwho.com/posts/%E7%A7%8D%E4%B8%80%E9%A2%97%E7%A7%8D%E5%AD%90/</guid>
       <description>&lt;p&gt;你有没有这样的时刻？忽然间有所顿悟，但是这个顿悟用可以找到的语言描述出来后，却是早就耳熟能详的道理。只是这一次，道理不再是道理，你忽然发现自己曾经对它的解读是那么片面浅显，几乎只有字面意思。&lt;/p&gt;
 &lt;p&gt;今天我想要和你分享的，就是这样的时刻。猛然间的顿悟。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>回乡之旅和疗愈</title>
-      <link>https://lillianwho.com/posts/%E5%9B%9E%E4%B9%A1%E4%B9%8B%E6%97%85%E5%92%8C%E7%96%97%E6%84%88%E4%B9%8B%E9%81%93/</link>
-      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://lillianwho.com/posts/%E5%9B%9E%E4%B9%A1%E4%B9%8B%E6%97%85%E5%92%8C%E7%96%97%E6%84%88%E4%B9%8B%E9%81%93/</guid>
-      <description>&lt;p&gt;这周因为一场婚礼，回到了阔别10年的家乡。&lt;/p&gt;
-&lt;p&gt;一开始是把它当做不得不回去的一趟旅程，因为我对回到家乡没有什么期待，就像游戏里的副本，我在那里没有遗留的线索和任务，也就没有回去的必要。这次因为亲人的婚礼，不得不回，我是当做一个差事去做的，顺便苦中作乐：就当出门旅游了。&lt;/p&gt;</description>
     </item>
     
   </channel>

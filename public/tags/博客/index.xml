@@ -6,7 +6,23 @@
     <description>Recent content in 博客 on 喜于微</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lillianwho.com/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lillianwho.com/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>obsidian&#43;hugo&#43;cloudflare自动发布博客</title>
+      <link>https://lillianwho.com/posts/obsidian/obsidian-hugo-cloudflare/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lillianwho.com/posts/obsidian/obsidian-hugo-cloudflare/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#39;lazy&#39; src=&#34;https://s2.loli.net/2023/03/11/Syh5zjeiBVRP76E.png&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;自从我更换博客系统到 hugo 之后，我越来越少发博客了。原因除了最近写得少之外，就是发布起来不如之前使用 Gridea 那么方便了。&lt;/p&gt;
+&lt;p&gt;参考了几篇文章，现在的发布流程为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;obsidian 创建文章并写作。&lt;/li&gt;
+&lt;li&gt;利用 obsidian-git 插件将文件自动同步到 github&lt;/li&gt;
+&lt;li&gt;cloudflare 自动拉取 github 仓库，并自动构建为hugo 项目，相当于省略了本地执行 &lt;code&gt;hugo -D&lt;/code&gt; 的过程。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
     <item>
       <title>博客迁移通知</title>
       <link>https://lillianwho.com/posts/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E9%80%9A%E7%9F%A5/</link>

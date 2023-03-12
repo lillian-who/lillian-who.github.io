@@ -1,5 +1,5 @@
 /*
-Last Modified time : 20221009 23:32 by https://immmmm.com
+Last Modified time : 20221120 21:32 by https://immmmm.com
 */
 var bbMemo = {
     memos: 'https://demo.usememos.com/',
@@ -14,14 +14,28 @@ if(typeof(bbMemos) !=="undefined"){
       }
     }
 }
+function loadCssCode(code){
+  var style = document.createElement('style');
+  style.type = 'text/css';
+  style.rel = 'stylesheet';
+  //for Chrome Firefox Opera Safari
+  style.appendChild(document.createTextNode(code));
+  //for IE
+  //style.styleSheet.cssText = code;
+  var head = document.getElementsByTagName('head')[0];
+  head.appendChild(style);
+}
+var allCSS = "#bber{margin-top:2em;width:auto !important;}.bb-timeline pre{color:#aaa;}.bb-timeline ul{margin:0;padding:0;}.bb-timeline ul li{list-style-type:none;margin-bottom:3rem;}.bb-timeline ul li .bb-div{padding:.6rem 1rem;border:1px solid #666;}.bb-load button{font-size:.8rem;font-style:italic;background:none;border-radius:0;border:1px solid #666;padding:10px 30px;width:100%;letter-spacing:0.8rem;}.bb-timeline ul li .datatime{display:flex;width:16px;line-height:18px;font-size:14px;text-align:center;border-right:1px solid rgba(0,0,0,0.35);padding:0 22px 8px 0;float:left;margin-right:1rem;overflow:hidden;max-height:80px;}.bb-timeline ul li .datacont{margin:0 0 0 2.6rem;min-height:88px;}.bb-timeline ul li .datacont img[src*='emotion']{display:inline-block;width:auto;}.bb-timeline ul li .datafrom{color:#aaa;font-size:0.75em !important;font-style:italic;}.bb-timeline ul li p{margin:0;font-size:16px;letter-spacing:1px;color:#3b3d42;line-height:28px;min-height:18px;margin:0;}.bb-timeline pre p{display:inline-block;}.bb-timeline pre p:empty{display:none;}.dark-theme .bb-timeline ul li .datatime{border-color:#666;}.dark-theme .bb-timeline ul li .bb-div p,.dark-theme .bb-timeline .bb-load button{color:#fafafa;}.dark-theme .bb-timeline ul li .bb-div p svg{fill:#fafafa;}.dark-theme .bb-timeline ul li .datafrom{color:#aaa;}.datacont p{min-height:24px;}.datacont blockquote{font-family: KaiTi,STKaiti,STFangsong;margin:0 0 0 1rem;padding:.25rem 2rem;position: relative;border-left:0 none;}.datacont blockquote::before{line-height: 2rem;content: '“';font-family: Georgia, serif;font-size: 28px;font-weight: bold;position: absolute;left: 10px;top:5px;}.datacont .tag-span{color:#42b983;}.datasource a{color:#fafafa;background:#3b3d42;padding:2px 8px;margin:0 6px 0 0;border-radius:5px;font-size:.9rem;font-weight:400;}.datacont .img{cursor:pointer;border-radius:4px;}.datacont .img.square{height:180px;width:180px;object-fit:cover;}.resimg.grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:auto;gap:4px;width:calc(100%* 2 / 3);box-sizing:border-box;margin:4px 0 0;}.resimg.grid-2{grid-template-columns:repeat(2,1fr);width:80%;}.resimg.grid-4{grid-template-columns:repeat(2,1fr);width:calc(80% * 2 / 3);}.resimg.grid figure.gallery-thumbnail{position:relative;width:100%;height:0;padding-top:100%;cursor:zoom-in;}.resimg figure{text-align:left;max-height:50%;}.resimg figure img{max-height:50vh;}.resimg.grid figure,figcaption{margin:0 !important;}.resimg.grid figure.gallery-thumbnail > img.thumbnail-image{position:absolute;left:0;top:0;display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%;}#bb-footer{letter-spacing:8px;margin:5rem auto 1rem;text-align:center;}.bb-timeline ul li::before{content:none;}"
+loadCssCode(allCSS);
+
 var limit = bbMemo.limit
 var memos = bbMemo.memos
 var page = 1,offset = 0,nextLength = 0,nextDom='';
 var bbDom = document.querySelector(bbMemo.domId);
-var load = '<div class="load"><button class="load-btn button-load">加载中……</button></div>'
+var load = '<div class="bb-load"><button class="load-btn button-load">加载中……</button></div>'
 if(bbDom){
-  bbDom.insertAdjacentHTML('afterend', load);
   getFirstList() //首次加载数据
+  meNums() //加载总数
   var btn = document.querySelector("button.button-load");
   btn.addEventListener("click", function () {
     btn.textContent= '加载中……';
@@ -34,6 +48,7 @@ if(bbDom){
   });
 }
 function getFirstList(){
+  bbDom.insertAdjacentHTML('afterend', load);
   var bbUrl = memos+"api/memo?creatorId="+bbMemo.creatorId+"&rowStatus=NORMAL&limit="+limit;
   fetch(bbUrl).then(res => res.json()).then( resdata =>{
     updateHTMl(resdata.data)
@@ -61,6 +76,18 @@ function getNextList(){
     }
   })
 }
+//加载总 Memos 数
+function meNums(){
+  var bbLoad = document.querySelector('.bb-load')
+  var bbUrl = memos+"api/memo/stats?creatorId="+bbMemo.creatorId
+  fetch(bbUrl).then(res => res.json()).then( resdata =>{
+    if(resdata.data){
+      var allnums = '<div id="bb-footer"><p class="bb-allnums">共 '+resdata.data.length+' 条</p><p class="bb-allpub"><a href="https://immmmm.com/bbs/" target="_blank">Memos Public</a></p></div>'
+      bbLoad.insertAdjacentHTML('afterend', allnums);
+    }
+  })
+}
+
 // 插入 html 
 function updateHTMl(data){
   var result="",resultAll="";
@@ -81,7 +108,7 @@ function updateHTMl(data){
   const INLINE_CODE_REG = /`([\S ]+?)`/g;
   const PLAIN_TEXT_REG = /([\S ]+)/g;
 
-  const QUOTE_REG = /> ([\S ]+)/mg;
+  const QUOTE_REG = /^>\s+(.+)(\n?)/mg;
   const MARK_IMG_REG = /^(.*)(\n\!\[)/;
 
   for(var i=0;i < data.length;i++){
@@ -132,9 +159,9 @@ function updateHTMl(data){
           bbContREG += '<p class="datasource">'+resUrl+'</p>'
         }
       }
-      result += "<li class='item'><div class='itemdiv'><p class='datatime'>"+new Date(data[i].createdTs * 1000).toLocaleString()+"</p><div class='datacont'>"+bbContREG+"</div></div></li>"
+      result += "<li class='bb-list-li'><div class='bb-div'><div class='datatime'>"+new Date(data[i].createdTs * 1000).toLocaleString()+"</div><div class='datacont'>"+bbContREG+"</div></div></li>"
   }// end for
-  var bbBefore = "<section class='timeline'><ul class='list'>"
+  var bbBefore = "<section class='bb-timeline'><ul class='bb-list-ul'>"
   var bbAfter = "</ul></section>"
   resultAll = bbBefore + result + bbAfter
   bbDom.insertAdjacentHTML('beforeend', resultAll);

@@ -6,7 +6,32 @@
     <description>Recent content in 折腾 on 喜于微</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lillianwho.com/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lillianwho.com/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新的免费博客方案</title>
+      <link>https://lillianwho.com/posts/new-blog-sys/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lillianwho.com/posts/new-blog-sys/</guid>
+      <description>&lt;p&gt;之前有博客的读者找过来，我很惭愧，因为年后很长一段时间都没有更新博客了。我曾经有一段时间更新博客比更新公众号更勤，因为博客想发什么就发什么，可以不那么注重文章形式。如今为什么又懒得更新博客了呢？这就要从近期博客的改变说起了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>obsidian&#43;hugo&#43;cloudflare自动发布博客</title>
+      <link>https://lillianwho.com/posts/obsidian/obsidian-hugo-cloudflare/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lillianwho.com/posts/obsidian/obsidian-hugo-cloudflare/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#39;lazy&#39; src=&#34;https://s2.loli.net/2023/03/11/Syh5zjeiBVRP76E.png&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;自从我更换博客系统到 hugo 之后，我越来越少发博客了。原因除了最近写得少之外，就是发布起来不如之前使用 Gridea 那么方便了。&lt;/p&gt;
+&lt;p&gt;参考了几篇文章，现在的发布流程为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;obsidian 创建文章并写作。&lt;/li&gt;
+&lt;li&gt;利用 obsidian-git 插件将文件自动同步到 github&lt;/li&gt;
+&lt;li&gt;cloudflare 自动拉取 github 仓库，并自动构建为hugo 项目，相当于省略了本地执行 &lt;code&gt;hugo -D&lt;/code&gt; 的过程。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
     <item>
       <title>Hello Hugo</title>
       <link>https://lillianwho.com/posts/hello-hugo/</link>
@@ -36,24 +61,6 @@
       
       <guid>https://lillianwho.com/posts/lili-docs-ban-zhuan-zhong/</guid>
       <description>&lt;p&gt;昨天发布 docsify 做的文档站点 &lt;a href=&#34;http://docs.lillianwho.com/#/&#34;&gt;Lili-Docs&lt;/a&gt; 之后，还有一些未完成的事项在记挂着。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>用docsify生成文档网站</title>
-      <link>https://lillianwho.com/posts/hi-docsify/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://lillianwho.com/posts/hi-docsify/</guid>
-      <description>&lt;p&gt;docsify 是一个文档网站生成器。把你的 markdown 文件扔进去，它会生成文档型的网站。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>宝藏Gridea主题：Break</title>
-      <link>https://lillianwho.com/posts/bao-cang-gridea-zhu-ti-break/</link>
-      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://lillianwho.com/posts/bao-cang-gridea-zhu-ti-break/</guid>
-      <description>事情始于我给博客找可用的评论系统。 之前我是用hexo建站的，使用了Twikoo 当评论系统，体验非常好。在此也感谢从那时起就给我博客评论和留言的人，真的给我的写博客之路很大的支持，让我不是在单机写作。 自从给网站备案以后，评论就因为备案原因关闭了。看了下日期，那是2022-02-25</description>
     </item>
     
   </channel>

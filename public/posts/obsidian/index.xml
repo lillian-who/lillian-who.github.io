@@ -6,7 +6,23 @@
     <description>Recent content in obsidian on 喜于微</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://lillianwho.com/posts/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lillianwho.com/posts/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>obsidian&#43;hugo&#43;cloudflare自动发布博客</title>
+      <link>https://lillianwho.com/posts/obsidian/obsidian-hugo-cloudflare/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lillianwho.com/posts/obsidian/obsidian-hugo-cloudflare/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#39;lazy&#39; src=&#34;https://s2.loli.net/2023/03/11/Syh5zjeiBVRP76E.png&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;自从我更换博客系统到 hugo 之后，我越来越少发博客了。原因除了最近写得少之外，就是发布起来不如之前使用 Gridea 那么方便了。&lt;/p&gt;
+&lt;p&gt;参考了几篇文章，现在的发布流程为：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;obsidian 创建文章并写作。&lt;/li&gt;
+&lt;li&gt;利用 obsidian-git 插件将文件自动同步到 github&lt;/li&gt;
+&lt;li&gt;cloudflare 自动拉取 github 仓库，并自动构建为hugo 项目，相当于省略了本地执行 &lt;code&gt;hugo -D&lt;/code&gt; 的过程。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
     <item>
       <title>obsidian复习插件-flashcards</title>
       <link>https://lillianwho.com/posts/obsidian/obsidian-flashcards/</link>
@@ -48,17 +64,6 @@
       
       <guid>https://lillianwho.com/posts/obsidian/obsidian%E4%BC%98%E8%B4%A8%E5%86%85%E5%AE%B9%E5%90%88%E9%9B%86/</guid>
       <description>官方自带帮助文档 在obsidian界面左下角，❓图标，可以方便的打开官方帮助文档。并且如果你的语言设置是中文，这个文档也是中文的，非常的友好。 点击这个图标打开： 既有Obsidian基本信息的介绍，能让你快速上手obsidian。 又有markdown语法的演示，清晰又全面。想不起某</description>
-    </item>
-    
-    <item>
-      <title>我的 Obsidian 工作流：模板&#43;QuickAdd&#43;Dataview 快速创建和自动索引</title>
-      <link>https://lillianwho.com/posts/obsidian/obsidian%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
-      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lillianwho.com/posts/obsidian/obsidian%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
-      <description>&lt;h2 id=&#34;你可以想象到的最优雅的输入方式&#34;&gt;你可以想象到的最优雅的输入方式&lt;/h2&gt;
-&lt;p&gt;嗨，大家！&lt;/p&gt;
-&lt;p&gt;不知不觉，使用Obsidian已经一年了，从一开始无从下手，到在日记（Obsidian的核心插件）中写一元笔记，从写写流水帐，到它几乎承包了我所有的笔记场景。而我也从一个笔记爱好者成为了一名写作者。&lt;/p&gt;</description>
     </item>
     
   </channel>
