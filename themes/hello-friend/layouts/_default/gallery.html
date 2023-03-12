@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="gallery-photos page">
+  {{ range (sort (readDir "./static/photos") "Name" "desc")}}
+    {{ if ( .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
+    <div class="gallery-photo">
+      <img class="photo-img" loading='lazy' decoding="async" src="/photos/{{ .Name }}" alt="{{ .Name }}" />
+      <span class="photo-title">{{ .Name | replaceRE "^[0-9 -]+(.*)[.].*" "$1"}}</span><span class="photo-time">{{ .Name | replaceRE "^([0-9-]+).*[.].*" "$1" }}</span>
+    </div>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}
+
+{{ define "footer" }}
+<script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/imgStatus.min.js"></script>
+<script>
+imgStatus.watch('.photo-img', function(imgs) {
+  if(imgs.isDone()){
+    waterfall('.gallery-photos');
+    let pagePhoto = document.querySelectorAll('.gallery-photo');
+    for(var i=0;i < pagePhoto.length;i++){pagePhoto[i].className += " visible"};
+  }
+});
+window.addEventListener('resize', function () {
+  waterfall('.gallery-photos');
+});
+</script>
+
+<script type="text/javascript" src="/view-image.js"></script>
+<script type="text/javascript" src="/lately.min.js"></script>
+<script>
+//相对时间
+window.Lately && Lately.init({ target: '.photo-time'});
+//图片灯箱
+window.ViewImage && ViewImage.init('.gallery-photo img')
+</script>
+
+<script type="text/javascript" src="/theme-main-1.js"></script>
+<script>
+//随机日志
+function randomPost() {
+  fetch('/sitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {
+      let ls = data.querySelectorAll('url loc');
+      let locationHref,locSplit;
+      do {
+          locationHref = ls[Math.floor(Math.random() * ls.length)].innerHTML
+          locSplit = locationHref.split('/')[3] || ''
+      } while (locSplit == '' || locSplit == 'tags' || locSplit == 'posts'); 
+      location.href = locationHref
+  })
+}
+</script>
+{{ end }}

@@ -1,24 +1,45 @@
 {{ define "main" }}
 <div class="post">
   <h2 class="post-title">{{.Title}}</h2>
-  <div class="post-content">
-    <!-- 挂载友链朋友圈的容器 -->
-    <div id="cf-container">与主机通讯中……</div>
-  </div>
+  <div id="hexo-circle-of-friends-root"></div>
 </div>
-<link rel="stylesheet" href="/fcircle-beta.css">
-<script type="text/javascript" src='https://fastly.jsdelivr.net/npm/jquery@3/dist/jquery.min.js'></script>
-<script type="text/javascript">
-  var fdataUser = {
-    //jsonurl: 'https://cdn.edui.fun/lmm.json',  //【推荐】json 匹配模式
-    apiurl: 'https://cf.immmmm.com/',  //自部署api
-  }
-</script>
-<script type="text/javascript" src="/fcircle-beta.js"></script>
-
-<style>.post:first-of-type{margin:0;padding-bottom: 0;}.content{margin-bottom: 0;}</style>
+<style>
+  .dark #cf-overlay,.dark .is-light{background-color:rgba(59,61,66,.42)}.dark .cf-overshow{background:#292a2d}.dark .cf-overshow p a{color:var(--lmm-fontcolor)}.dark .cf-overshow .cf-overshow-content,.dark .cf-overshow .cf-overshow-content-tail{background:#eaeaea}.dark #cf-more,.dark #cf-state{background:var(--lmm-dack-background);color:var(--lmm-dark-fontcolor)}.dark #cf-change,.dark .cf-article-floor,.dark .cf-time-created,.dark .cf-time-updated{color:var(--lmm-dark-floorcolor)}.dark .cf-article-author,.dark .cf-article a.cf-article-title{color:var(--lmm-dark-fontcolor)}.dark .cf-article{background:var(--lmm-dack-background)}.dark .cf-article:hover .cf-article-floor,.dark .cf-article:hover .cf-time-created,.dark .cf-article:hover .cf-time-updated,.dark .cf-overshow p span{color:var(--lmm-dark-fontcolor)}.dark .is-light{border: #292a2d;}
+  .dark .is-light .el-popper__arrow:before{display: none;}
+</style>
 {{ end }}
 
+
 {{ define "footer" }}
+<script>
+  let UserConfig = {
+      // 填写你的api地址
+      private_api_url: 'https://cf.immmmm.com/',
+      // 点击加载更多时，一次最多加载几篇文章，默认10
+      page_turning_number: 10,
+      // 头像加载失败时，默认头像地址
+      error_img: 'https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c',
+      // 进入页面时第一次的排序规则
+      sort_rule: 'created',
+      // 本地文章缓存数据过期时间（天）
+      expire_days: 1,
+  }
+</script>
+<script type="text/javascript" src="https://npm.elemecdn.com/fcircle-theme-yyyz@1.0.12/dist/fcircle.min.js"></script>
+
 <script type="text/javascript" src="/theme-main-1.js"></script>
+<script>
+//随机日志
+function randomPost() {
+  fetch('/sitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {
+      let ls = data.querySelectorAll('url loc');
+      let locationHref,locSplit;
+      do {
+          locationHref = ls[Math.floor(Math.random() * ls.length)].innerHTML
+          locSplit = locationHref.split('/')[3] || ''
+      } while (locSplit == '' || locSplit == 'tags' || locSplit == 'posts'); 
+      location.href = locationHref
+  })
+}
+</script>
 {{ end }}

@@ -54,6 +54,7 @@
 <script type="text/javascript" src="/theme-main-1.js"></script>
 <script type="text/javascript" src="/lately.min.js"></script>
 <script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/imgStatus.min.js"></script>
 <script type="text/javascript" src="/view-image.js"></script>
 <script type="text/javascript" src="/theme-lmm-20230123.js"></script>
 <script type="text/javascript" src="/pangu.min.js"></script>
@@ -65,13 +66,14 @@
 
 {{ if .IsHome }}
   <script>
+document.addEventListener("DOMContentLoaded", () => {
   var bbUrl = "https://me.edui.fun/api/memo?creatorId=101&rowStatus=NORMAL&limit=10"
   fetch(bbUrl).then(res => res.json()).then( resdata =>{
       var result = '',resultAll="",data = resdata.data
       for(var i=0;i < data.length;i++){
           var bbTime = new Date(data[i].createdTs * 1000).toLocaleString()
           var bbCont = data[i].content
-          var newbbCont = bbCont.replace(/(https?:[^:<>"]*\/)([^:<>"]*)(\.((png!thumbnail)|(png)|(jpg)|(webp)|(jpeg)|(gif))(!blogimg)?)/g,' 🌅 ').replace(/\bhttps?:\/\/(?!\S+(?:jpe?g|png|bmp|gif|webp|jfif|gif))\S+/g,' 🔗 ')
+          var newbbCont = bbCont.replace(/!\[.*?\]\((.*?)\)/g,' <a href="$1" target="_blank">🌅</a> ').replace(/\[(.*?)\]\((.*?)\)/g,' <a href="$2" target="_blank">$1 🔗</a> ')
           result += `<li class="item"><span class="datetime">${bbTime}</span>： <a href="/bb/">${newbbCont}</a></li>`;
       }
       var bbDom = document.querySelector('#bber-talk');
@@ -87,6 +89,7 @@
       setTimeout(function() {
         n.appendChild(e[0])
       },1000)
-  },1000)
+  },2000)
+});
   </script>
 {{ end }}

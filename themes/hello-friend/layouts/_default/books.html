@@ -1,37 +1,6 @@
 {{ define "main" }}
 <div class="post">
   <h2 class="post-title">{{.Title}}</h2>
-  <style>
-    .gFnzgG,.gFnzgG *{box-sizing:border-box}
-    .fIuTG{display:flex;flex-wrap:wrap;margin:0 -2%;background:0 0;line-height:100%}
-    .dfdORB{width:16%;margin:0 2% 30px;padding:0;font-size:15px}
-    .dfdORB a{text-decoration:none}
-    .kMthTr{margin-top:12px;line-height:1.3;max-height:2.6rem;overflow:hidden}
-    .eysHZq{display:flex;-webkit-box-align:center;align-items:center;margin-top:5px;min-height:16px;line-height:1}
-    .HPRth{position:relative;min-height:87px;overflow:hidden;color:transparent}
-    .HPRth:hover{box-shadow:rgb(48 55 66 / 30%) 0 1rem 2.1rem}
-    .jcTaHb{display:flex;-webkit-box-align:center;align-items:center}
-    .lhtmRw{margin-right:1px;width:12px;height:12px;color:#fccd59}
-    .gaztka{margin-right:1px;width:12px;height:12px;color:#eee}
-    .iibjPt{margin-left:5px;color:#555;font-size:14px}
-    .jvCTkj{margin-bottom:10px}
-    .kEoOHR{display:inline-block;margin-right:15px;text-decoration:none;color:#157efb}
-    .dvtjjf{display:inline-block;color:#555;text-decoration:none;padding:0 5px}
-    .dvtjjf.active{background:rgba(85,85,85,.1)}
-    .hide{display:none}
-    .sort-by{text-align:right;margin-top:-15px}
-    .sort-by-item{margin-left:10px;padding:0 5px;line-height:20px}
-    .sort-by-item.active{background:rgba(85,85,85,.1)}
-    .sort-by-item svg{margin-right:5px}
-    .sc-hKFxyN img{max-width:100%!important;height:auto!important;display:block!important;vertical-align:middle!important}
-    @media(min-width:1024px){
-      .lg\:col-span-6{grid-column:span 6/span 6!important}
-      .lg\:col-start-2{grid-column-start:2!important}
-    }
-    @media (max-width:550px){
-      .jcTaHb,.sc-bdnxRM{display:none}
-    }
-  </style>
   <script type="text/javascript">
     function search(e) {
       document.querySelectorAll('.dfdORB').forEach(item => item.classList.add('hide'));
@@ -63,16 +32,16 @@
       document.querySelector('.sort-by-item.active')?.classList.remove('active');
       e.target.classList.add('active');
       if(sortBy === 'rating') {
-        const books = Array.from(document.querySelectorAll('.dfdORB'));
-        books.sort((bookA, bookB) => {
-          const ratingA = parseFloat(bookA.dataset.rating) || 0;
-          const ratingB = parseFloat(bookB.dataset.rating) || 0;
+        const items = Array.from(document.querySelectorAll('.dfdORB'));
+        items.sort((itemA, itemB) => {
+          const ratingA = parseFloat(itemA.dataset.rating) || 0;
+          const ratingB = parseFloat(itemB.dataset.rating) || 0;
           if(ratingA === ratingB) {
             return 0;
           }
           return ratingA > ratingB ? -1 : 1;
         });
-        const stylesheet = books.map((book, idx) => `.dfdORB[data-rating="${book.dataset.rating}"] { order: ${idx}; }`).join('\r\n');
+        const stylesheet = items.map((item, idx) => `.dfdORB[data-rating="${item.dataset.rating}"] { order: ${idx}; }`).join('\r\n');
         style.innerHTML = stylesheet;
         document.body.appendChild(style);
       }
@@ -85,18 +54,11 @@
     });
   </script>
 <div class="lg:col-start-2 lg:col-span-6">
-  {{$books := getCSV "," "data/douban/book.csv" }}
-  {{$scratch := newScratch}}
-  {{$scratch.Add "genres" slice}}
-  {{range $idx, $book := $books}}
-    {{if ne $idx 0}}
-      {{$scratch.Set "genres" (union ($scratch.Get "genres") (split (index $book 7) ","))}}
-    {{end}}
-  {{end}}
+  {{$items := getCSV "," "data/douban/book.csv" }}
   <div class="sc-ksluID gFnzgG">
     <div class="sc-bdnxRM">
       <a href="javascript:void 0;" class="sc-gtsrHT kEoOHR" data-search="year" data-method="equal" data-value="">全部</a>
-      {{range $year := (seq 2022 -1 2009)}}
+      {{range $year := (seq now.Year -1 2012)}}
       <a href="javascript:void 0;" class="sc-gtsrHT dvtjjf" data-search="year" data-method="equal" data-value="{{$year}}">{{$year}}</a>
       {{end}}
     </div>
@@ -114,37 +76,31 @@
       <a href="javascript:void 0;" class="sort-by-item" data-order="rating">评分排序</a>
     </div>
     <div class="sc-dIsUp fIuTG">
-      {{range $idx, $book := $books}}
-      {{if ne $idx 0 }}
+      {{range $idx,$item := $items}}
+      {{if ne $idx 0}}
+        {{$rating := 0}}
+        {{if index $item 6 }}
+          {{ $rating = float (index $item 6) }}
+        {{end}}
       <div 
         class="sc-gKAaRy dfdORB" 
-        data-year="{{index $book 11}}" 
-        data-star="{{index $book 8}}"
-        data-rating="{{index $book 7}}"
+        data-year="{{index $item 11}}" 
+        data-star="{{index $item 8}}"
+        data-rating="{{$rating}}"
       >
-        <a rel="link" href="{{index $book 6}}" target="_blank">
           <div class="sc-hKFxyN HPRth">
-            <div class="lazyload-wrapper ">
-              <img class="avatar" src="{{index $book 4}}" referrer-policy="no-referrer" loading="lazy" alt="{{index $book 1}}" width="150" height="220">
+            <div class="lazyload-wrapper">
+              <img class="avatar" src="{{ index $item 3 }}" referrer-policy="no-referrer" decoding="async" loading="lazy" alt="{{ index $item 9 }}"  title="{{ index $item 1 }}" width="150" height="220">
             </div>
           </div>
-          <div class="sc-iCoGMd kMthTr">{{index $book 1}}</div>
           <div class="sc-fujyAs eysHZq">
-            <span class="sc-jSFjdj jcTaHb">
-              {{range $star := (seq 0 2 8)}}
-              <svg viewBox="0 0 24 24" width="24" height="24" class="sc-dlnjwi {{if gt (index $book 7) $star}}lhtmRw{{else}}gaztka{{end}}">
-                <path fill="none" d="M0 0h24v24H0z"></path>
-                <path fill="currentColor" d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"></path>
-              </svg>
-              {{end}}
-            </span>
-            <span class="sc-pNWdM iibjPt">{{index $book 7}}</span>
+            <div class="rating"><span class="allstardark"><span class="allstarlight" style="width:{{mul  10 $rating }}%"></span></span><span class="rating_nums">{{$rating}}</span></div>
           </div>
-        </a>
+          <div class="sc-iCoGMd kMthTr"><a rel="link" href="{{ index $item 5 }}" target="_blank">{{ index $item 1 }}</a></div>
       </div>
       {{end}}
       {{end}}
-    </div>  
+    </div>
   </div>
 </div>
 
