@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/新的博客方案.md",
+                "file": "content/posts/new-blog-sys.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/新的博客方案.md",
+                "file": "content/posts/new-blog-sys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/新的博客方案.md",
+                "file": "content/posts/new-blog-sys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/新的博客方案.md"
+                "file": "content/posts/new-blog-sys.md"
               }
             }
           },
@@ -188,7 +188,7 @@
   "lastOpenFiles": [
     "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
     "content/posts/reading/《纳瓦尔宝典》财富篇：自己产品化.md",
-    "content/posts/新的博客方案.md",
+    "content/posts/new-blog-sys.md",
     "content/posts/obsidian/obsidian-hugo-cloudflare.md",
     "_Templates/hugo博客模板.md",
     "content/posts/obsidian/obsidian-flashcards.md",

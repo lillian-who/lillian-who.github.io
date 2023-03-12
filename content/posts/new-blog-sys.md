@@ -1,5 +1,5 @@
 ---
-title: 新的博客方案
+title: 新的免费博客方案
 tags: [折腾]
 date: 2023-03-12 15:29:42
 published: true
