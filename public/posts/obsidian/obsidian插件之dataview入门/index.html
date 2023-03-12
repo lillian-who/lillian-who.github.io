@@ -17,9 +17,17 @@
 <meta name="keywords" content=""/>
 <link href="/atom.xml" title="喜于微" type="application/rss+xml">
 <link rel="canonical" href="https://lillianwho.com/posts/obsidian/obsidian%E6%8F%92%E4%BB%B6%E4%B9%8Bdataview%E5%85%A5%E9%97%A8/" />
+<link rel="stylesheet" href="//cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="/theme-20230215.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
 <link rel="shortcut icon" href="https://lillianwho.com/favicon.ico">
+
+<link rel="apple-touch-icon" href="https://lillianwho.com/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="喜于微">
+<link rel="bookmark" href="https://lillianwho.com/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://lillianwho.com/favicon.ico" >
+
 
 <meta property="og:title" content="obsidian插件之dataview入门" />
 <meta property="og:description" content="写在前面
@@ -31,7 +39,8 @@ Dataview可谓是ob用户的必备的插件了，当你积累了10&#43;篇自己
 
 
 
-<script async defer data-website-id="ee96bbf4-60f4-48de-995b-9b990db2b4ca" src="https://u.edui.fun/umami.js"></script>
+
+<script async defer data-website-id="c27bd84b-02a3-4c3f-a168-0d7fadec9c74" src="https://u.edui.fun/lmmtj.js"></script>
 
     
   <link rel="prefetch" href="https://lillianwho.com/posts/obsidian/admonition-%E7%94%9F%E6%9D%A5%E5%A4%9A%E5%BD%A9/">
@@ -39,7 +48,7 @@ Dataview可谓是ob用户的必备的插件了，当你积累了10&#43;篇自己
 
   </head>
   <body class="">
-    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark-theme")}else if(getTheme == 'light'){document.body.classList.remove("dark-theme")}</script>
+    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark")}else if(getTheme == 'light'){document.body.classList.remove("dark")}</script>
     <div class="container">
       <header class="header">
   <span class="header__inner">
@@ -168,7 +177,7 @@ Dataview可谓是ob用户的必备的插件了，当你积累了10&#43;篇自己
     </div>
     
       
-        <img loading='lazy' src="https://cdn.sspai.com/2021/08/10/a1f1042c929b17d5da65747184662e49.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" class="post-cover" />
+        <img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/10/a1f1042c929b17d5da65747184662e49.jpg?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" class="post-cover" />
       
     
   
@@ -232,7 +241,7 @@ Dataview可谓是ob用户的必备的插件了，当你积累了10&#43;篇自己
 <h3 id="从文件名">从文件名</h3>
 <p>场景：假设，现在你有多篇关于【习惯】的笔记，并且这些笔记的<strong>名称中都有“习惯”两个字</strong>。记录了好几个习惯养成的方法，今天你忽然意识到，关于习惯的方法论已经看了好几个了，想把它们列出来放到一起看看能不能产生什么化学效果。</p>
 <p>老规矩，先贴一个语法和效果图：
-<img loading='lazy' src="https://i.loli.net/2021/08/08/qFhjgzCyNfoUcOV.png" alt=""  /></p>
+<img loading='lazy' decoding="async" src="https://i.loli.net/2021/08/08/qFhjgzCyNfoUcOV.png" alt=""  /></p>
 <p>下面讲讲规则，别害怕看“代码”，总共就5行，大部分还是不用改的，比如我上面的代码，其实你只用替换双引号里面的内容哟，是不是简单多了？</p>
 <p>首先，dv语法要写到代码块里，如果有了解过markdown的小伙伴，应该对代码块不陌生。上下三个上撇，就是一个代码块。</p>
 <p>在首行写上<code>dataview</code>，插件就可以识别这部分代码了。</p>
@@ -281,7 +290,7 @@ where contains(file.name,&#34;习惯&#34;)
 </ul>
 <p>如果你需要排序，就写sort，不需要，留空就可以。</p>
 <p>你应该发现了<code>file.name</code>和<code>file.ctime</code>的写法，没错，这是dataview内置的。下面是dataview官网中描述的支持的元数据，都可以供搜索和排序语法使用。在后面将要说到的创建table，还可以作为列显示。</p>
-<p><img loading='lazy' src="https://i.loli.net/2021/08/08/7JDtQ6MczTY3nxl.png" alt=""  /></p>
+<p><img loading='lazy' decoding="async" src="https://i.loli.net/2021/08/08/7JDtQ6MczTY3nxl.png" alt=""  /></p>
 <p>上面的从文件名创建列表你看懂了的话，用从标签创建列表练习一下吧～其实上面有包含哦，但我们还是练习以下，以防有人没看懂。</p>
 <h3 id="从标签">从标签</h3>
 <p>场景：假设，你有几篇笔记，打了同一个标签，比如<code>#时间管理</code>。现在你想要把时间管理标签下的笔记形成一个目录。</p>
@@ -326,7 +335,7 @@ from &#34;&#34;
 where contains(作者,&#34;鲁迅&#34;)
 ```
 </code></pre><p>看下效果：
-<img loading='lazy' src="https://cdn.sspai.com/2021/08/09/675d393d3b83df3765bbc942088c2a85.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="937.png"  /></p>
+<img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/09/675d393d3b83df3765bbc942088c2a85.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="937.png"  /></p>
 <p>上面依次是：包含作者为“鲁迅”的原笔记、聚合作者为“鲁迅”的目录编辑模式、聚合作者为“鲁迅”的目录预览模式。</p>
 <p>嗯哼，鲁迅合集就做好了。</p>
 <h2 id="扩展创建一个书目列表吧">扩展：创建一个书目列表吧！</h2>
@@ -336,7 +345,7 @@ where contains(作者,&#34;鲁迅&#34;)
 <p>对，就是dataview语法的第一行那个<code>list</code>，现在我们来变一下，写个<code>table</code>吧。</p>
 <p>不过我们的语法有一点小小的改动。既然是table，那么列名就必不可少。</p>
 <p>先贴一下代码看看吧:</p>
-<p><img loading='lazy' src="https://i.loli.net/2021/08/08/Xm4DFryzwWnsA61.png" alt=""  /></p>
+<p><img loading='lazy' decoding="async" src="https://i.loli.net/2021/08/08/Xm4DFryzwWnsA61.png" alt=""  /></p>
 <p>上面唯一的变化就是table这一行：
 <code>table 作者,from,tags</code> 。table后面这三个字段就是我为表格设计的列。而作者是我为笔记中的作者元素，from是书籍来源，tags是标签。这三个元素都写在来yaml，如今被dataview识别，就可以展现我想要的列表。</p>
 <p>where条件里，我写的匹配字段是<code>type</code>，这也是我yaml里面的元素，表示输入内容，自定义了三个值：book、page、video。</p>
@@ -644,7 +653,7 @@ where contains(作者,&#34;鲁迅&#34;)
 <footer class="footer">
   <div class="footer__inner">
     <div class="copyright copyright-font">
-      <span>共 190408 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
+      <span>共 190397 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
     </div>
     <a class="dark-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/wormhole_1.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
     <a class="light-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank" > <img src="/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
@@ -659,6 +668,7 @@ where contains(作者,&#34;鲁迅&#34;)
 <script type="text/javascript" src="/theme-main-1.js"></script>
 <script type="text/javascript" src="/lately.min.js"></script>
 <script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/imgStatus.min.js"></script>
 <script type="text/javascript" src="/view-image.js"></script>
 <script type="text/javascript" src="/theme-lmm-20230123.js"></script>
 <script type="text/javascript" src="/pangu.min.js"></script>

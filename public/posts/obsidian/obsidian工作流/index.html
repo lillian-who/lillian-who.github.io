@@ -18,9 +18,17 @@
 <meta name="keywords" content=""/>
 <link href="/atom.xml" title="喜于微" type="application/rss+xml">
 <link rel="canonical" href="https://lillianwho.com/posts/obsidian/obsidian%E5%B7%A5%E4%BD%9C%E6%B5%81/" />
+<link rel="stylesheet" href="//cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="/theme-20230215.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
 <link rel="shortcut icon" href="https://lillianwho.com/favicon.ico">
+
+<link rel="apple-touch-icon" href="https://lillianwho.com/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="喜于微">
+<link rel="bookmark" href="https://lillianwho.com/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://lillianwho.com/favicon.ico" >
+
 
 <meta property="og:title" content="我的 Obsidian 工作流：模板&#43;QuickAdd&#43;Dataview 快速创建和自动索引" />
 <meta property="og:description" content="你可以想象到的最优雅的输入方式
@@ -33,7 +41,8 @@
 
 
 
-<script async defer data-website-id="ee96bbf4-60f4-48de-995b-9b990db2b4ca" src="https://u.edui.fun/umami.js"></script>
+
+<script async defer data-website-id="c27bd84b-02a3-4c3f-a168-0d7fadec9c74" src="https://u.edui.fun/lmmtj.js"></script>
 
     
   <link rel="prefetch" href="https://lillianwho.com/posts/obsidian/obsidian%E4%BC%98%E8%B4%A8%E5%86%85%E5%AE%B9%E5%90%88%E9%9B%86/">
@@ -41,7 +50,7 @@
 
   </head>
   <body class="">
-    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark-theme")}else if(getTheme == 'light'){document.body.classList.remove("dark-theme")}</script>
+    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark")}else if(getTheme == 'light'){document.body.classList.remove("dark")}</script>
     <div class="container">
       <header class="header">
   <span class="header__inner">
@@ -170,7 +179,7 @@
     </div>
     
       
-        <img loading='lazy' src="https://cdn.sspai.com/2021/08/17/3ac8155f9f356af8a3538152a056d698.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" class="post-cover" />
+        <img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/3ac8155f9f356af8a3538152a056d698.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1" class="post-cover" />
       
     
   
@@ -219,7 +228,7 @@
 <p>这个工作流对我来说大大精简了笔记操作步骤，让重点回归到写作本身。相信对于阅读笔记和输出笔记都会有帮助。</p>
 <h2 id="我的工作流演示">我的工作流演示</h2>
 <p>先来演示一下提案笔记的一整个流程：</p>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/a8f990ac41e8237724ba4982beceafde.gif" alt="Aug-16-2021 22-11-51.gif"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/a8f990ac41e8237724ba4982beceafde.gif" alt="Aug-16-2021 22-11-51.gif"  /></p>
 <h3 id="它们在做什么">它们在做什么？</h3>
 <ol>
 <li>我用快捷键【Ctrl+Shift+T】唤起了快速输入【提案笔记】</li>
@@ -259,7 +268,7 @@
 读完时间:: 
 </code></pre><p>先在一个读书笔记中写上这些内容，将已有的信息对应填上去，作为备用。如果你还没有读书笔记文件，也可以跟着建一个测试的文件，将上方内容复制进去，一会儿我们会看到效果。</p>
 <p>下面是我的演示文件：</p>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/1d0406b3d23dba5fbc9f808d5ec7c46e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817213048.png|400"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/1d0406b3d23dba5fbc9f808d5ec7c46e.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817213048.png|400"  /></p>
 <h3 id="第三步dataview-建立索引">第三步：Dataview 建立索引</h3>
 <p><strong>Dataview是什么？</strong> 一句话解释就是：用于生成文件目录。Dataview入门级教程见这篇：</p>
 
@@ -300,7 +309,7 @@ sort file.ctime desc
 <p><code>where</code>：检索条件。我这里暂时没有写，则不做过滤。</p>
 <p><code>sort</code>：排序。使用了Dataview给文件默认添加的属性<code>file.ctime</code>，意思是文件创建时间。<code>desc</code>是排序方式，倒叙。想要正序效果，请使用<code>asc</code>。</p>
 <p>最后来看看效果。刚才的测试文件已经被加载出来了。</p>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/8336a7b8b7b66a51de9da880d4006bd1.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817213648.png"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/8336a7b8b7b66a51de9da880d4006bd1.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817213648.png"  /></p>
 <h3 id="第四步新建模板">第四步：新建模板</h3>
 <p>既然我们设计的字段可以展现出想要的索引效果，那么就可以把它存成模板了。</p>
 <p>在你的模板文件夹，新建一个文件，命名“阅读笔记模板”。模板内写入一下内容：</p>
@@ -365,7 +374,7 @@ sort file.ctime desc
 <p>请先安装quickAdd插件。</p>
 <h5 id="1新建一个快加指令">1、新建一个快加指令</h5>
 <p>打开quickAdd设置界面。我们选择使用<code>Template</code>类型，输入一个名字作为命令名。点击<code>Add Choice</code>确认添加。</p>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/10dd42fa3ace3d4ccdecdd82b900d497.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817220953.png"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/10dd42fa3ace3d4ccdecdd82b900d497.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817220953.png"  /></p>
 <p>操作过后一个新的命令就新建好了</p>
 <p><strong>quickAdd的类型：</strong></p>
 <ol>
@@ -376,8 +385,8 @@ sort file.ctime desc
 </ol>
 <h5 id="2设置该指令">2、设置该指令</h5>
 <p>点击该命令右侧的齿轮⚙️进行设置。</p>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/097880897fb15929e6239aa80e6c3d4d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817221947.png"  />
-<img loading='lazy' src="https://cdn.sspai.com/2021/08/17/921f4d7ddd72b89b81e81ff6338180e2.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817222013.png"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/097880897fb15929e6239aa80e6c3d4d.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817221947.png"  />
+<img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/921f4d7ddd72b89b81e81ff6338180e2.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817222013.png"  /></p>
 <p>下面解释一下各设置项的意思：</p>
 <ul>
 <li><code>Template Path</code>：模板文件路径。在这里选择上一步我们创建好的模板文件。</li>
@@ -400,17 +409,17 @@ sort file.ctime desc
 <p>你可以先照着我截图中的设置，来设置自己的设置项。这样有助于你快速看到和本文一样的效果。</p>
 <p>关闭这个设置面板，设置会自动保存。</p>
 <h5 id="3添加到命令并设置快捷键">3、添加到命令，并设置快捷键</h5>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/1470a2267b21e4f9388bde9872d34cf0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817224035.png|200"  /></p>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/4ea19d9c24e8f4df8fa08d7fbf655923.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817223956.png"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/1470a2267b21e4f9388bde9872d34cf0.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817224035.png|200"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/4ea19d9c24e8f4df8fa08d7fbf655923.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817223956.png"  /></p>
 <p>点亮阅读笔记命令右侧的闪电⚡️图标，将“阅读笔记”命令添加到命令面板。</p>
 <p>现在，我们可以在命令面板找到这个命令了。如果你想要快速找到它，可以给该<strong>命令置顶</strong>。</p>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/b501c99493eb490cca6dad331ee39aef.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817224617.png"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/b501c99493eb490cca6dad331ee39aef.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817224617.png"  /></p>
 <p>如果你想要<strong>更快</strong>的操作，还可以给这个命令添加快捷键。</p>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/a467b80d2ee95fe71be30bb25e2ceaf2.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817224731.png"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/a467b80d2ee95fe71be30bb25e2ceaf2.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1" alt="20210817224731.png"  /></p>
 <p>现在我们就能用快捷键【Command/Ctrl+shift+B】来唤起【QuickAdd:阅读笔记】命令了。</p>
 <h2 id="验收成果">验收成果</h2>
 <p>现在我们来使用快捷键唤起【QuickAdd:阅读笔记】命令，并输入一个书名试一下。</p>
-<p><img loading='lazy' src="https://cdn.sspai.com/2021/08/17/dcba11c49f836590f65fb4fd13befc35.gif" alt="Aug-17-2021 22-55-58.gif"  /></p>
+<p><img loading='lazy' decoding="async" src="https://cdn.sspai.com/2021/08/17/dcba11c49f836590f65fb4fd13befc35.gif" alt="Aug-17-2021 22-55-58.gif"  /></p>
 <h2 id="后记">后记</h2>
 <p>这篇文章很长，介绍了我在Obsidian里的工作流，它能够帮我节省很多诸如新建文件、移动文件到文件夹、插入模板等操作，对我来说十分的方便与顺手。</p>
 <p>但是你不一定要和我一样，这只是一个抛砖引玉，希望能给你一点灵感打造自己的工作流。</p>
@@ -715,7 +724,7 @@ sort file.ctime desc
 <footer class="footer">
   <div class="footer__inner">
     <div class="copyright copyright-font">
-      <span>共 190408 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
+      <span>共 190397 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
     </div>
     <a class="dark-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/wormhole_1.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
     <a class="light-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank" > <img src="/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
@@ -730,6 +739,7 @@ sort file.ctime desc
 <script type="text/javascript" src="/theme-main-1.js"></script>
 <script type="text/javascript" src="/lately.min.js"></script>
 <script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/imgStatus.min.js"></script>
 <script type="text/javascript" src="/view-image.js"></script>
 <script type="text/javascript" src="/theme-lmm-20230123.js"></script>
 <script type="text/javascript" src="/pangu.min.js"></script>

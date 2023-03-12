@@ -19,9 +19,17 @@
 <meta name="keywords" content=""/>
 <link href="/atom.xml" title="喜于微" type="application/rss+xml">
 <link rel="canonical" href="https://lillianwho.com/posts/obsidian/obsidian-flashcards/" />
+<link rel="stylesheet" href="//cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="/theme-20230215.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
 <link rel="shortcut icon" href="https://lillianwho.com/favicon.ico">
+
+<link rel="apple-touch-icon" href="https://lillianwho.com/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="喜于微">
+<link rel="bookmark" href="https://lillianwho.com/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://lillianwho.com/favicon.ico" >
+
 
 <meta property="og:title" content="obsidian复习插件-flashcards" />
 <meta property="og:description" content="最近要考试，整理的笔记有点多，背的时候觉得不管是对着电脑背还是打印出来背，效果都差强人意，忽然想到借助一点工具。 既然我题都整理好了，如果能利用 Obsidian 的复习插件进行背诵，岂不是更好？
@@ -34,7 +42,8 @@
 
 
 
-<script async defer data-website-id="ee96bbf4-60f4-48de-995b-9b990db2b4ca" src="https://u.edui.fun/umami.js"></script>
+
+<script async defer data-website-id="c27bd84b-02a3-4c3f-a168-0d7fadec9c74" src="https://u.edui.fun/lmmtj.js"></script>
 
     
   <link rel="prefetch" href="https://lillianwho.com/posts/20230101/">
@@ -42,7 +51,7 @@
 
   </head>
   <body class="">
-    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark-theme")}else if(getTheme == 'light'){document.body.classList.remove("dark-theme")}</script>
+    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark")}else if(getTheme == 'light'){document.body.classList.remove("dark")}</script>
     <div class="container">
       <header class="header">
   <span class="header__inner">
@@ -201,8 +210,8 @@
 <p>连接 anki ，在 Obsidian 里面编辑内容，通过命令创建卡片，自动同步到Anki里。</p>
 <h3 id="安装">安装</h3>
 <p>从插件市场安装。</p>
-<p>详细信息请访问 github 主页： <a href="https://github.com/reuseman/flashcards-obsidian">reuseman/flashcards-obsidian</a></p>
-<p>使用教程： <a href="https://github.com/reuseman/flashcards-obsidian/wiki">https://github.com/reuseman/flashcards-obsidian/wiki</a></p>
+<p>详细信息请访问 github 主页： <a href="https://github.com/reuseman/flashcards-obsidian" target="_blank" rel="noopener nofollow noreferrer" >reuseman/flashcards-obsidian</a></p>
+<p>使用教程： <a href="https://github.com/reuseman/flashcards-obsidian/wiki" target="_blank" rel="noopener nofollow noreferrer" >https://github.com/reuseman/flashcards-obsidian/wiki</a></p>
 <h2 id="使用方法">使用方法</h2>
 <h3 id="1安装插件并连接anki">1、安装插件并连接anki</h3>
 <ol>
@@ -216,28 +225,28 @@
 <li>返回 Obsidian ，打开 flashcards 插件的设置项， 点击 <code>give permission</code> 后面的按钮，获取 Anki 权限</li>
 <li>点击 <code>test anki</code> 测试连接，检查权限，提示 <code>anki work</code> 表示连接成功</li>
 </ol>
-<p><img loading='lazy' src="https://s2.loli.net/2022/10/20/yXR93ZizmsHIpdF.png" alt=""  /></p>
+<p><img loading='lazy' decoding="async" src="https://s2.loli.net/2022/10/20/yXR93ZizmsHIpdF.png" alt=""  /></p>
 <h3 id="2写抽认卡">2、写抽认卡</h3>
 <h4 id="cards-标签"><code>cards</code> 标签</h4>
 <p>只要给小标题加上 <code>#cards</code> 标签，即可，该标签可以在设置项里指定。只有被指定的标签才会被 flashcards 插件识别为抽认卡</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span><span style="color:#75715e">## 这是一个问题 #cards 
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>这是一个答案
 </span></span></code></pre></div><p>在设置项里，可以修改识别的标签。</p>
-<p><img loading='lazy' src="https://s2.loli.net/2022/10/20/AVTeEa1xwGqRpJO.png" alt=""  /></p>
+<p><img loading='lazy' decoding="async" src="https://s2.loli.net/2022/10/20/AVTeEa1xwGqRpJO.png" alt=""  /></p>
 <h4 id="内联样式">内联样式</h4>
 <p>语法是两个英文冒号</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>这是第二个问题:: 这是第二问题的答案
 </span></span></code></pre></div><h4 id="指定牌组">指定牌组</h4>
 <p>牌组是 Anki 中的概念。</p>
 <p>要指定牌组，可以设置一个默认牌组，或者在每一个笔记里指定一个牌组。</p>
-<p><img loading='lazy' src="https://s2.loli.net/2022/10/20/hzAUmaeRxnZXcB5.png" alt=""  /></p>
+<p><img loading='lazy' decoding="async" src="https://s2.loli.net/2022/10/20/hzAUmaeRxnZXcB5.png" alt=""  /></p>
 <p>笔记里指定牌组名称，使用 yaml 语法：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>cards-deck: 管理数量方法
 </span></span><span style="display:flex;"><span>---
 </span></span></code></pre></div><h3 id="3生成卡片到-anki-中">3、生成卡片到 Anki 中</h3>
 <p>在 Obsidian 中 <code>ctrl/command + P</code> 打开命令面板，运行命令 <code>Flashcards: Generate for the current file</code> 。该命令的作用是从当前文件生成卡片到 Anki 中</p>
-<p><img loading='lazy' src="https://s2.loli.net/2022/10/20/SjlqtJmTRZ9vye5.png" alt=""  /></p>
+<p><img loading='lazy' decoding="async" src="https://s2.loli.net/2022/10/20/SjlqtJmTRZ9vye5.png" alt=""  /></p>
 <h4 id="复习">复习</h4>
 <p>打开 Anki ，在 Anki 中复习相应牌组即可。</p>
       
@@ -539,7 +548,7 @@
 <footer class="footer">
   <div class="footer__inner">
     <div class="copyright copyright-font">
-      <span>共 190408 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
+      <span>共 190397 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
     </div>
     <a class="dark-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/wormhole_1.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
     <a class="light-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank" > <img src="/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
@@ -554,6 +563,7 @@
 <script type="text/javascript" src="/theme-main-1.js"></script>
 <script type="text/javascript" src="/lately.min.js"></script>
 <script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/imgStatus.min.js"></script>
 <script type="text/javascript" src="/view-image.js"></script>
 <script type="text/javascript" src="/theme-lmm-20230123.js"></script>
 <script type="text/javascript" src="/pangu.min.js"></script>

@@ -17,9 +17,17 @@
 <meta name="keywords" content=""/>
 <link href="/atom.xml" title="喜于微" type="application/rss+xml">
 <link rel="canonical" href="https://lillianwho.com/posts/lili-docs-ban-zhuan-zhong/" />
+<link rel="stylesheet" href="//cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="/theme-20230215.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
 <link rel="shortcut icon" href="https://lillianwho.com/favicon.ico">
+
+<link rel="apple-touch-icon" href="https://lillianwho.com/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="喜于微">
+<link rel="bookmark" href="https://lillianwho.com/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://lillianwho.com/favicon.ico" >
+
 
 <meta property="og:title" content="Lili-Docs搬砖中" />
 <meta property="og:description" content="昨天发布 docsify 做的文档站点 Lili-Docs 之后，还有一些未完成的事项在记挂着。" />
@@ -30,7 +38,8 @@
 
 
 
-<script async defer data-website-id="ee96bbf4-60f4-48de-995b-9b990db2b4ca" src="https://u.edui.fun/umami.js"></script>
+
+<script async defer data-website-id="c27bd84b-02a3-4c3f-a168-0d7fadec9c74" src="https://u.edui.fun/lmmtj.js"></script>
 
     
   <link rel="prefetch" href="https://lillianwho.com/posts/jie-jue-liao-breek-zhu-ti-valine-shu-ju-tong-ji-de-wen-ti/">
@@ -38,7 +47,7 @@
 
   </head>
   <body class="">
-    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark-theme")}else if(getTheme == 'light'){document.body.classList.remove("dark-theme")}</script>
+    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark")}else if(getTheme == 'light'){document.body.classList.remove("dark")}</script>
     <div class="container">
       <header class="header">
   <span class="header__inner">
@@ -160,13 +169,13 @@
     </div>
     
       
-        <img loading='lazy' src="https://s2.loli.net/2022/09/22/9uaRzvxgT8YBF6y.png" class="post-cover" />
+        <img loading='lazy' decoding="async" src="https://s2.loli.net/2022/09/22/9uaRzvxgT8YBF6y.png" class="post-cover" />
       
     
   
     <div class="post-content">
       
-      <p>昨天发布 docsify 做的文档站点 <a href="http://docs.lillianwho.com/#/">Lili-Docs</a> 之后，还有一些未完成的事项在记挂着。</p>
+      <p>昨天发布 docsify 做的文档站点 <a href="http://docs.lillianwho.com/#/" target="_blank" rel="noopener nofollow noreferrer" >Lili-Docs</a> 之后，还有一些未完成的事项在记挂着。</p>
 <p>比如：</p>
 <ul>
 <li>想加个Twikoo 评论</li>
@@ -180,7 +189,7 @@
 <p>要符合逻辑，要优雅。</p>
 <p>于是一个网站雏形扔到线上之后，不意味着结束，而是开始，这里补一点，那里调一点。</p>
 <h2 id="添加评论未成功">添加评论，未成功</h2>
-<p>看了 <a href="https://immmmm.com/hi-docsify/">hi-docsify</a> 这篇教程后，Twikoo 倒是被加载出来了，但是样式不知道为什么有些错乱，没解决，暂时搁置。</p>
+<p>看了 <a href="https://immmmm.com/hi-docsify/" target="_blank" rel="noopener nofollow noreferrer" >hi-docsify</a> 这篇教程后，Twikoo 倒是被加载出来了，但是样式不知道为什么有些错乱，没解决，暂时搁置。</p>
 <p>访客统计可以直接用 Twikoo 的，等处理 Twikoo 时一起搞。</p>
 <h2 id="站内搜索奇怪的状况">站内搜索，奇怪的状况</h2>
 <p>站内搜索是用的官方提供的插件，可是加载上之后，上方导航栏不见了&hellip;&hellip; 莫名其妙，不解其意</p>
@@ -222,13 +231,13 @@
 </ul>
 <h2 id="线上服务器读取不到根目录的readmemd">线上服务器读取不到根目录的readme.md</h2>
 <p>导致主页显示一直404 ，上网搜索了一下，发现这个问题挺普遍的，是服务器配置的问题，README.md 被设置到忽略文件里了，删除就解决了。</p>
-<p><img loading='lazy' src="https://s2.loli.net/2022/09/22/kVWc74rFaxLmusn.png" alt=""  /></p>
+<p><img loading='lazy' decoding="async" src="https://s2.loli.net/2022/09/22/kVWc74rFaxLmusn.png" alt=""  /></p>
 <h2 id="搬运笔记">搬运笔记</h2>
 <p>把当前obsidian 知识库里的笔记，陆续搬到 Lili-Docs 网站上。放了 Python 基础语法，和一点点正在学的 NodeJS.</p>
 <p>不得不说，文档类网站写教程写学习笔记都超好用！给自己看也非常直观。直接一个文件夹下放一个项目的多个笔记，而且每一章节单独写，再编辑左侧导航栏，条理清晰。在ob里面，文件是散列的，正缺一个可以组织笔记结构的功能，当前很多用户大概是用的手写MOC。用 docsify 这个问题就解决了。</p>
 <p>我干脆也不在原先的知识库记技术学习笔记了，直接把 docsify项目下的 docs 文件夹当做一个库，在obsidian 中打开。在obsidian 中写笔记，由 docsify 展现组织好结构和顺序的笔记，美滋滋。</p>
 <p>导航条长了不好看，于是做了折叠导航栏。比较简单，用 Markdown 的多级列表语法就可以了。甚至左侧的目录也可以用这种方式构建。</p>
-<p><img loading='lazy' src="https://s2.loli.net/2022/09/22/9uaRzvxgT8YBF6y.png" alt=""  /></p>
+<p><img loading='lazy' decoding="async" src="https://s2.loli.net/2022/09/22/9uaRzvxgT8YBF6y.png" alt=""  /></p>
 <h2 id="后记">后记</h2>
 <p>还有一些待处理的，当前时间有限，只能先搁置了。</p>
 <p>上个星期和 Docker 杠上了，一直挂载不成功，结果以不正确的坐姿坐了太久，第二天就体会到了腰间盘突出患者的痛苦。偏偏从那天开始，专注的事情有点多，往往在桌子前面一坐就是五六个小时，腰椎反反复复，恶化，好转，又恶化。忽然就明白为什么人工力学椅子大几万能卖的出去了，程序员太需要了。</p>
@@ -531,7 +540,7 @@
 <footer class="footer">
   <div class="footer__inner">
     <div class="copyright copyright-font">
-      <span>共 190408 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
+      <span>共 190397 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
     </div>
     <a class="dark-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/wormhole_1.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
     <a class="light-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank" > <img src="/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
@@ -546,6 +555,7 @@
 <script type="text/javascript" src="/theme-main-1.js"></script>
 <script type="text/javascript" src="/lately.min.js"></script>
 <script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/imgStatus.min.js"></script>
 <script type="text/javascript" src="/view-image.js"></script>
 <script type="text/javascript" src="/theme-lmm-20230123.js"></script>
 <script type="text/javascript" src="/pangu.min.js"></script>

@@ -19,9 +19,17 @@ obsidian 创建文章并写作。 利用 obsidian-git 插件将文件自动同�
 <meta name="keywords" content=""/>
 <link href="/atom.xml" title="喜于微" type="application/rss+xml">
 <link rel="canonical" href="https://lillianwho.com/posts/obsidian/obsidian-hugo-cloudflare/" />
+<link rel="stylesheet" href="//cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="/theme-20230215.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
 <link rel="shortcut icon" href="https://lillianwho.com/favicon.ico">
+
+<link rel="apple-touch-icon" href="https://lillianwho.com/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="喜于微">
+<link rel="bookmark" href="https://lillianwho.com/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://lillianwho.com/favicon.ico" >
+
 
 <meta property="og:title" content="obsidian&#43;hugo&#43;cloudflare自动发布博客" />
 <meta property="og:description" content="
@@ -39,7 +47,8 @@ cloudflare 自动拉取 github 仓库，并自动构建为hugo 项目，相当�
 
 
 
-<script async defer data-website-id="ee96bbf4-60f4-48de-995b-9b990db2b4ca" src="https://u.edui.fun/umami.js"></script>
+
+<script async defer data-website-id="c27bd84b-02a3-4c3f-a168-0d7fadec9c74" src="https://u.edui.fun/lmmtj.js"></script>
 
     
   <link rel="prefetch" href="https://lillianwho.com/posts/new-blog-sys/">
@@ -47,7 +56,7 @@ cloudflare 自动拉取 github 仓库，并自动构建为hugo 项目，相当�
 
   </head>
   <body class="">
-    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark-theme")}else if(getTheme == 'light'){document.body.classList.remove("dark-theme")}</script>
+    <script>var getTheme = localStorage.getItem("theme") || '';if(getTheme == 'dark'){document.body.classList.add("dark")}else if(getTheme == 'light'){document.body.classList.remove("dark")}</script>
     <div class="container">
       <header class="header">
   <span class="header__inner">
@@ -178,7 +187,7 @@ cloudflare 自动拉取 github 仓库，并自动构建为hugo 项目，相当�
   
     <div class="post-content">
       
-      <p><img loading='lazy' src="https://s2.loli.net/2023/03/11/Syh5zjeiBVRP76E.png" alt="image.png"  /></p>
+      <p><img loading='lazy' decoding="async" src="https://s2.loli.net/2023/03/11/Syh5zjeiBVRP76E.png" alt="image.png"  /></p>
 <p>自从我更换博客系统到 hugo 之后，我越来越少发博客了。原因除了最近写得少之外，就是发布起来不如之前使用 Gridea 那么方便了。</p>
 <p>参考了几篇文章，现在的发布流程为：</p>
 <ol>
@@ -204,7 +213,7 @@ cloudflare 自动拉取 github 仓库，并自动构建为hugo 项目，相当�
 <ol>
 <li>创建一个 <code>Template</code> 类型的quickadd 命令</li>
 </ol>
-<p><img loading='lazy' src="https://s2.loli.net/2023/03/11/HXaVj2uZneSE9l6.png" alt="image.png"  /></p>
+<p><img loading='lazy' decoding="async" src="https://s2.loli.net/2023/03/11/HXaVj2uZneSE9l6.png" alt="image.png"  /></p>
 <ol start="2">
 <li>在根目录新建一个 <code>_Templates</code> 文件夹，并创建模板文件 <code>hugo博客模板</code></li>
 </ol>
@@ -220,30 +229,30 @@ feature:
 </code></pre><p>published 字段是发布，默认设置为false，草稿。等到文章写完并修改无误后，再修改为 true 进行发布。</p>
 <ol start="4">
 <li>设置quickadd 命令：
-<img loading='lazy' src="https://s2.loli.net/2023/03/11/Z9BDtVHJr2uaIyq.png" alt="image.png"  /></li>
+<img loading='lazy' decoding="async" src="https://s2.loli.net/2023/03/11/Z9BDtVHJr2uaIyq.png" alt="image.png"  /></li>
 </ol>
 <h4 id="obsidian-git">obsidian-git</h4>
 <p>用于自动备份文件到 github。</p>
 <p>插件设置修改如下：
-<img loading='lazy' src="https://s2.loli.net/2023/03/11/cxTJiutPEfkHFW8.png" alt="image.png"  /></p>
+<img loading='lazy' decoding="async" src="https://s2.loli.net/2023/03/11/cxTJiutPEfkHFW8.png" alt="image.png"  /></p>
 <h3 id="启用-cloudflare">启用 Cloudflare</h3>
-<p>打开 <a href="https://dash.cloudflare.com/">Cloudflare Dash</a> 导航栏 <code>Pages</code> ，点 <code>创建项目</code>，授权 Github 项目，选择博客所在仓库，选择正确的分支。</p>
+<p>打开 <a href="https://dash.cloudflare.com/" target="_blank" rel="noopener nofollow noreferrer" >Cloudflare Dash</a> 导航栏 <code>Pages</code> ，点 <code>创建项目</code>，授权 Github 项目，选择博客所在仓库，选择正确的分支。</p>
 <p>添加环境变量，指定高版本 <code>HUGO_VERSION</code> 为 <code>0.92.0</code></p>
 <p>然后部署即可。</p>
 <p>部署完成后就可以使用 cloudflare 的二级域名访问博客了。如果你像我一样有自己的独立域名，那么可以进行域名绑定。</p>
 <h3 id="cloudflare-绑定独立域名">Cloudflare 绑定独立域名</h3>
-<p>首先第一步，把自己的域名托管到 cloudflare。参考： <a href="https://www.back2me.cn/skills/cloudflare.html">如何将域名托管到cloudflare</a> 这篇文章。</p>
+<p>首先第一步，把自己的域名托管到 cloudflare。参考： <a href="https://www.back2me.cn/skills/cloudflare.html" target="_blank" rel="noopener nofollow noreferrer" >如何将域名托管到cloudflare</a> 这篇文章。</p>
 <p>然后打开导航栏 Pages ，在右侧找到刚刚的博客站点，在设置或者部署中找到 【自定义域】，设置自定义域名，输入之前托管进来的域名，按照指引完成绑定。</p>
-<p><img loading='lazy' src="https://s2.loli.net/2023/03/11/mToq84ZpMhFjyGN.png" alt="image.png"  /></p>
+<p><img loading='lazy' decoding="async" src="https://s2.loli.net/2023/03/11/mToq84ZpMhFjyGN.png" alt="image.png"  /></p>
 <p>以上，所有设置都已完成。</p>
 <p>现在我要发布一篇新博客时，只要在 obsidian 中打开 hugo博客的这个库，然后使用 quickadd 新建一篇博客，写上内容，然后把yaml 中的 <code>published</code>  字段值改为 <code>true</code> 即可（从草稿改为发布）。等待3分钟后 obsidian-git 插件自动同步到 github，博客就自动更新发布好了。</p>
 <p>这篇文章就是使用新方式发布的，优雅不是一点点。</p>
 <h3 id="参考">参考</h3>
 <ul>
-<li>木木木木木： <a href="https://immmmm.com/hugo-with-obsidian/">Hugo With Obsidian</a></li>
-<li>木木木木木： <a href="https://immmmm.com/hi-cloudflare/">Hi , Cloudflare Pages</a></li>
-<li><a href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/">Hugo 博客写作最佳实践</a></li>
-<li><a href="https://www.back2me.cn/skills/cloudflare.html">如何将域名托管到cloudflare</a></li>
+<li>木木木木木： <a href="https://immmmm.com/hugo-with-obsidian/" target="_blank" rel="noopener nofollow noreferrer" >Hugo With Obsidian</a></li>
+<li>木木木木木： <a href="https://immmmm.com/hi-cloudflare/" target="_blank" rel="noopener nofollow noreferrer" >Hi , Cloudflare Pages</a></li>
+<li><a href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/" target="_blank" rel="noopener nofollow noreferrer" >Hugo 博客写作最佳实践</a></li>
+<li><a href="https://www.back2me.cn/skills/cloudflare.html" target="_blank" rel="noopener nofollow noreferrer" >如何将域名托管到cloudflare</a></li>
 </ul>
       
     </div>
@@ -544,7 +553,7 @@ feature:
 <footer class="footer">
   <div class="footer__inner">
     <div class="copyright copyright-font">
-      <span>共 190408 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
+      <span>共 190397 字 <br/> 写完一本 亚米契斯 的</br>《爱的教育》了！</span>
     </div>
     <a class="dark-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank"> <img src="/wormhole_1.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
     <a class="light-wormhole" href="https://www.foreverblog.cn/go.html" target="_blank" > <img src="/wormhole_3.gif" alt="" style="width:auto;height:32px;" title="穿梭虫洞-随机访问十年之约友链博客"> </a>
@@ -559,6 +568,7 @@ feature:
 <script type="text/javascript" src="/theme-main-1.js"></script>
 <script type="text/javascript" src="/lately.min.js"></script>
 <script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/imgStatus.min.js"></script>
 <script type="text/javascript" src="/view-image.js"></script>
 <script type="text/javascript" src="/theme-lmm-20230123.js"></script>
 <script type="text/javascript" src="/pangu.min.js"></script>

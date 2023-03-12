@@ -22,7 +22,7 @@
       <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://lillianwho.com/posts/obsidian/obsidian-hugo-cloudflare/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#39;lazy&#39; src=&#34;https://s2.loli.net/2023/03/11/Syh5zjeiBVRP76E.png&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#39;lazy&#39; decoding=&#34;async&#34; src=&#34;https://s2.loli.net/2023/03/11/Syh5zjeiBVRP76E.png&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;自从我更换博客系统到 hugo 之后，我越来越少发博客了。原因除了最近写得少之外，就是发布起来不如之前使用 Gridea 那么方便了。&lt;/p&gt;
 &lt;p&gt;参考了几篇文章，现在的发布流程为：&lt;/p&gt;
 &lt;ol&gt;
@@ -38,9 +38,9 @@
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lillianwho.com/posts/hello-hugo/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#39;lazy&#39; src=&#34;https://s2.loli.net/2022/10/18/zIW2G7T4FldPCy8.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img loading=&#39;lazy&#39; decoding=&#34;async&#34; src=&#34;https://s2.loli.net/2022/10/18/zIW2G7T4FldPCy8.png&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;为什么换hugo&#34;&gt;为什么换hugo？&lt;/h2&gt;
-&lt;p&gt;纯粹是喜欢 &lt;a href=&#34;https://immmmm.com/&#34;&gt;木木的博客&lt;/a&gt;，想要像他一样&lt;strong&gt;在文章列表里面显示丰富的文章内容&lt;/strong&gt;。在gridea里没有找到心仪的主题，干脆折腾一下，搞个hugo 的 demo 看一下。&lt;/p&gt;
+&lt;p&gt;纯粹是喜欢 &lt;a href=&#34;https://immmmm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;木木的博客&lt;/a&gt;，想要像他一样&lt;strong&gt;在文章列表里面显示丰富的文章内容&lt;/strong&gt;。在gridea里没有找到心仪的主题，干脆折腾一下，搞个hugo 的 demo 看一下。&lt;/p&gt;
 &lt;p&gt;地址：http://hugoblog.lillianwho.com/&lt;/p&gt;</description>
     </item>
     
@@ -60,7 +60,7 @@
       <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lillianwho.com/posts/lili-docs-ban-zhuan-zhong/</guid>
-      <description>&lt;p&gt;昨天发布 docsify 做的文档站点 &lt;a href=&#34;http://docs.lillianwho.com/#/&#34;&gt;Lili-Docs&lt;/a&gt; 之后，还有一些未完成的事项在记挂着。&lt;/p&gt;</description>
+      <description>&lt;p&gt;昨天发布 docsify 做的文档站点 &lt;a href=&#34;http://docs.lillianwho.com/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener nofollow noreferrer&#34; &gt;Lili-Docs&lt;/a&gt; 之后，还有一些未完成的事项在记挂着。&lt;/p&gt;</description>
     </item>
     
   </channel>
