@@ -7,7 +7,7 @@ hideInList: false
 isTop: false
 ---
 
-<https://book.douban.com/subject/34434309/>
+{{< douban "https://book.douban.com/subject/34434309/">}}
 
 这令人窒息的，女性难逃的命运。她的母亲为了孩子放弃了自己的人生，她又因为孩子而失去了自己的人生。从来没有选择。
 

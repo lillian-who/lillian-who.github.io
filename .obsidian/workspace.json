@@ -4,36 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1410ad0ef1b29d42",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a8f197f0372e32a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/obsidian/obsidian-hugo-cloudflare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "861e7cf3edeec61d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "发布目录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "a2e0eaa5359e5650",
         "type": "tabs",
         "children": [
@@ -48,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4947ca24ef59a436",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/reading/shui-shi-jin-zhi-ying.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "picgo",
+                "query": "douban",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -115,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
+                "file": "content/posts/reading/shui-shi-jin-zhi-ying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
+                "file": "content/posts/reading/shui-shi-jin-zhi-ying.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/reading/《心之道：致焦虑的年代》读后记.md"
+                "file": "content/posts/reading/shui-shi-jin-zhi-ying.md"
               }
             }
           },
@@ -184,17 +168,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "18f8dd9a835b67c4",
+  "active": "4947ca24ef59a436",
   "lastOpenFiles": [
-    "content/posts/new-blog-sys.md",
-    "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
-    "content/posts/reading/《纳瓦尔宝典》财富篇：自己产品化.md",
-    "content/posts/obsidian/obsidian-hugo-cloudflare.md",
-    "_Templates/hugo博客模板.md",
-    "content/posts/obsidian/obsidian-flashcards.md",
-    "content/posts/ji-yi-ci-picgo-shang-chuan-shi-bai-de-chu-li-smms-tu-chuang.md",
+    "content/posts/imm20221010.md",
+    "content/posts/hello-hugo.md",
     "content/posts/reading/a-book-that-make-you-want-to-share.md",
-    "发布目录.md",
-    "未命名.md"
+    "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
+    "content/posts/2022-psychology-book-list.md",
+    "content/posts/reading/《自信的陷阱》：你可以有拖延症，并同时把事做完.md",
+    "content/posts/reading/从《也许你该找个人聊聊》中看到什么？.md",
+    "content/posts/reading/我读：《福格行为模型》.md",
+    "content/posts/reading/用认知行为疗法改善动力不足：行为激活.md",
+    "content/posts/new-blog-sys.md"
   ]
 }
