@@ -7,7 +7,7 @@ hideInList: false
 isTop: false
 ---
 
-https://book.douban.com/subject/26357206/
+{{< douban "https://book.douban.com/subject/26357206/">}}
 
 《Show Your Work》读书分享第二期，主题是：**什么内容值得秀？**
 

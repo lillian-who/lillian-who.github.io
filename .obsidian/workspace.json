@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/chat/2023-03-12.md",
+                "file": "content/posts/reading/show-shi-me.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ad7c755baf6d4b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7c882ee53c46521",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/reading/shui-shi-jin-zhi-ying.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/chat/2023-03-12.md",
+                "file": "content/posts/reading/shui-shi-jin-zhi-ying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/chat/2023-03-12.md",
+                "file": "content/posts/reading/shui-shi-jin-zhi-ying.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/chat/2023-03-12.md"
+                "file": "content/posts/reading/shui-shi-jin-zhi-ying.md"
               }
             }
           },
@@ -154,17 +179,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "18f8dd9a835b67c4",
+  "active": "e7c882ee53c46521",
   "lastOpenFiles": [
+    "content/posts/reading/show-shi-me.md",
     "content/posts/reading/《心之道：致焦虑的年代》读后记.md",
-    "content/posts/3个系统，制定2023年生活体系.md",
-    "_Templates/hugo博客模板.md",
-    "_Templates/chat模板.md",
-    "content/posts/chat/2023-03-12.md",
     "content/posts/reading/shui-shi-jin-zhi-ying.md",
+    "content/posts/reading/savers-ren-sheng-zheng-jiu-ji-hua.md",
+    "content/posts/reading/readnote-Morning-Elite-Time-Management.md",
+    "content/posts/reading/iread-cognitive-behavior -therapy.md",
+    "content/posts/reading/du-shu-bi-ji-lesslessshu-chu-shi-yue-du-fa-ba-xue-dao-de-zhi-shi-yong-qi-lai-greatergreater.md",
+    "content/posts/reading/du-shu-bi-ji-lesslesskuai-su-yue-du-zhu-greatergreater.md",
     "content/posts/reading/a-book-that-make-you-want-to-share.md",
-    "content/posts/imm20221010.md",
-    "content/posts/hello-hugo.md",
-    "content/posts/2022-psychology-book-list.md"
+    "content/posts/chat/2023-03-12.md"
   ]
 }
