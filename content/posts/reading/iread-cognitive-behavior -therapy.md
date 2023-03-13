@@ -1,7 +1,7 @@
 ---
 title: '我读：《认知疗法基础与应用》'
 date: 2021-12-23
-tags: [认知行为疗法,读书笔记]
+tags: [认知行为疗法,Read]
 published: true
 hideInList: false
 feature: https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg
