@@ -25,7 +25,7 @@ rssLimit = 5
   url="/archives/"
   weight="3"
   [[menu.main]]
-  name="关于"
+  name="关于我"
   url="/about/"
   weight="6"
 
