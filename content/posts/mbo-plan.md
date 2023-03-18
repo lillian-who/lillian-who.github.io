@@ -1,7 +1,7 @@
 ---
 title: '目标管理之目标设定'
 date: 2021-12-24
-tags: [目标管理,目标设定,smart原则,生命之花,九宫格目标管理]
+tags: [目标管理]
 published: true
 hideInList: false
 feature: https://images.pexels.com/photos/262438/pexels-photo-262438.jpeg

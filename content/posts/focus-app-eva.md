@@ -1,7 +1,7 @@
 ---
 title: '专注类APP测评'
 date: 2022-09-30
-tags: [软件]
+tags: [折腾]
 published: true
 hideInList: false
 feature: https://s2.loli.net/2022/09/30/V5CDInrXJeuWk4v.png

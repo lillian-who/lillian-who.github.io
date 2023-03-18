@@ -1,7 +1,7 @@
 ---
 title: '不在任何时候贬低自己'
 date: 2021-11-29
-tags: [内在课题]
+tags: [思考]
 published: true
 hideInList: false
 feature: https://images.pexels.com/photos/4711018/pexels-photo-4711018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260

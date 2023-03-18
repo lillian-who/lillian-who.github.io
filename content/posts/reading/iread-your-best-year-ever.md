@@ -1,7 +1,7 @@
 ---
 title: '我读：《规划最好的一年：今年必须是突破的一年》'
 date: 2021-12-24
-tags: [目标管理,目标设定,读书笔记]
+tags: [目标管理,Read]
 published: true
 hideInList: false
 feature: https://s2.loli.net/2021/12/24/NFPqeHaBpogVJDl.png

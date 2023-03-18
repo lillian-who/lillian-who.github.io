@@ -1,7 +1,7 @@
 ---
 title: '在VSCode中搭建Python开发环境'
 date: 2022-09-14
-tags: [python,vscode,技术]
+tags: [技术/python,vscode]
 published: true
 hideInList: false
 feature: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.cnpython.com%2Fmedia%2Findex%2Ft1.png&refer=http%3A%2F%2Fimg.cnpython.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1666101121&t=c8d943c088b543522c769b286a8a4d8d

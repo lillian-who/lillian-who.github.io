@@ -1,7 +1,7 @@
 ---
 title: 'PM计划法'
 date: 2021-12-19
-tags: [个人管理,效率]
+tags: [自我控制,效率]
 published: true
 hideInList: false
 feature: https://s2.loli.net/2021/12/19/bpiRGFcLm84hsT5.png

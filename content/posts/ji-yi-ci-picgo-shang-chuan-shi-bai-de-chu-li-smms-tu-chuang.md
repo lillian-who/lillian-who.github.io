@@ -1,7 +1,7 @@
 ---
 title: '记一次picgo上传失败的处理-SM.MS图床'
 date: 2022-09-18
-tags: [软件]
+tags: [折腾]
 published: true
 hideInList: false
 feature: https://s2.loli.net/2022/09/21/PBxXcsSJeUKf6dM.png

@@ -19,14 +19,22 @@ rssLimit = 5
   [[menu.main]]
   name="Obsidian"
   url="/posts/obsidian/"
-  weight="1"
+  weight="2"
+  [[menu.main]]
+  name="闲聊"
+  url="/posts/chat/"
+  weight="3"
   [[menu.main]]
   name="归档"
   url="/archives/"
-  weight="3"
+  weight="4"
   [[menu.main]]
   name="关于我"
   url="/about/"
+  weight="6"
+  [[menu.main]]
+  name="🔍"
+  url="/search/"
   weight="6"
 
 

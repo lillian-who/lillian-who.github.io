@@ -1,7 +1,7 @@
 ---
 title: 'S.A.V.E.R.S. 人生拯救计划'
 date: 2022-07-03
-tags: [早起,晨间惯例,Read]
+tags: [晨间惯例,Read]
 published: true
 hideInList: false
 feature: https://images.pexels.com/photos/1765033/pexels-photo-1765033.jpeg?auto=compress&cs=tinysrgb&w=800

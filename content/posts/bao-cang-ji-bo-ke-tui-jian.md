@@ -1,7 +1,7 @@
 ---
 title: '宝藏级博客推荐'
 date: 2022-02-20
-tags: [博客推荐]
+tags: [博客]
 published: true
 hideInList: false
 feature: /post-images/bao-cang-ji-bo-ke-tui-jian.jpg

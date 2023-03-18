@@ -1,7 +1,7 @@
 ---
 title: '一本让人分享欲爆棚的书'
 date: 2022-09-18
-tags: [Read,创意]
+tags: [Read]
 published: true
 hideInList: false
 isTop: false
