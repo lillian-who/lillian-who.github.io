@@ -8,8 +8,7 @@ isTop: false
 feature: 
 ---
 
-![image.png](https://s2.loli.net/2023/03/11/Syh5zjeiBVRP76E.png)
-
+![image.png](https://s2.loli.net/2023/03/18/WzmvgDcoRysPAhi.png)
 
 自从我更换博客系统到 hugo 之后，我越来越少发博客了。原因除了最近写得少之外，就是发布起来不如之前使用 Gridea 那么方便了。
 
