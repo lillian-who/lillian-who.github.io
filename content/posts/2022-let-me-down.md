@@ -1,6 +1,6 @@
 ---
 title: '2022，让我继续下坠吧'
-date: 2021-12-31 18:00:00
+date: 2021-12-31
 tags: []
 published: true
 hideInList: false
