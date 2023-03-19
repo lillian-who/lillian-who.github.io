@@ -2,7 +2,7 @@
 title: '小惊喜：用obsidian自制答案之书'
 date: 2021-10-09
 tags: [Obsidian,Obsidian插件]
-published: true
+draft: false
 hideInList: false
 feature: https://i.loli.net/2021/10/09/t9BCgxmcTIKSqhl.png
 isTop: false

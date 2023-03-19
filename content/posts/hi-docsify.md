@@ -2,7 +2,7 @@
 title: '用docsify生成文档网站'
 date: 2022-09-21
 tags: [折腾]
-published: true
+draft: false
 hideInList: false
 feature: https://s2.loli.net/2022/09/21/EKr6bulWe31mRMq.png
 isTop: false

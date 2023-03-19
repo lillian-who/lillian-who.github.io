@@ -2,7 +2,7 @@
 title: '再探ACT：不加评判的接纳'
 date: 2022-02-05
 tags: [ACT]
-published: true
+draft: false
 hideInList: false
 feature: /post-images/twice-meet-act.jpg
 isTop: false

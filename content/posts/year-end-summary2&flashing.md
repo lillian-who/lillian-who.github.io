@@ -2,7 +2,7 @@
 title: '年终总结Day-2 & 改变故事'
 date: 2021-12-22
 tags: [生活,手帐]
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/704219/pexels-photo-704219.jpeg
 isTop: false

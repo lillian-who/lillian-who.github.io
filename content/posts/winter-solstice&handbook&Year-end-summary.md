@@ -2,7 +2,7 @@
 title: '冬至、手帐与年终总结'
 date: 2021-12-21
 tags: [手帐,生活]
-published: true
+draft: false
 hideInList: false
 feature: https://s2.loli.net/2021/12/21/oOgixfwAS1dQ4DB.jpg
 isTop: false

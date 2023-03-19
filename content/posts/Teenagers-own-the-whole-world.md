@@ -2,7 +2,7 @@
 title: '年少者拥有全世界'
 date: 2022-07-20
 tags: [生活]
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/1752806/pexels-photo-1752806.jpeg?auto=compress&cs=tinysrgb&w=800
 isTop: false

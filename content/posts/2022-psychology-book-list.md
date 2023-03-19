@@ -2,7 +2,7 @@
 title: '2022心理学书单'
 date: 2022-01-25
 tags: [书单,心理学]
-published: true
+draft: false
 hideInList: false
 feature: /post-images/2022-psychology-book-list.jpg
 isTop: false

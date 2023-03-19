@@ -2,7 +2,7 @@
 title: '写作启示录：短文、长文、newsletter'
 date: 2022-02-22
 tags: [写作]
-published: true
+draft: false
 hideInList: false
 feature: /post-images/写作启示录：短文、长文、newsletter.jpg
 isTop: false

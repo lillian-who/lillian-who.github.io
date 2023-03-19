@@ -2,7 +2,7 @@
 title: '不记笔记的后果是重复学那些已经学到的东西'
 date: 2022-09-20
 tags: [思考]
-published: true
+draft: false
 hideInList: false
 isTop: false
 ---

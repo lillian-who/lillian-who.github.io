@@ -2,7 +2,7 @@
 title: '2022，让我继续下坠吧'
 date: 2021-12-31
 tags: []
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/2541310/pexels-photo-2541310.jpeg
 isTop: false

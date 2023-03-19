@@ -2,7 +2,7 @@
 title: 新的免费博客方案
 tags: [折腾,博客]
 date: 2023-03-12
-published: true
+draft: false
 hideInList: false
 isTop: false
 feature: 

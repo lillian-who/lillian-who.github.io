@@ -2,7 +2,7 @@
 title: '我承认，我错待了flomo'
 date: 2022-06-08
 tags: [折腾,笔记软件]
-published: true
+draft: false
 hideInList: false
 feature: 
 isTop: false

@@ -2,7 +2,7 @@
 title: '文章的一个小改变'
 date: 2022-07-14
 tags: [写作,生活]
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/6120220/pexels-photo-6120220.jpeg?auto=compress&cs=tinysrgb&w=800
 isTop: false

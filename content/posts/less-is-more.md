@@ -2,7 +2,7 @@
 title: '给行动设置上限 & 少而精地获取信息'
 date: 2022-05-09
 tags: [自我控制,思考]
-published: true
+draft: false
 hideInList: false
 feature: /post-images/less-is-more.jpg
 isTop: false

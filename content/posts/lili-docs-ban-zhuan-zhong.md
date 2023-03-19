@@ -2,7 +2,7 @@
 title: 'Lili-Docs搬砖中'
 date: 2022-09-22
 tags: [折腾]
-published: true
+draft: false
 hideInList: false
 feature: https://s2.loli.net/2022/09/22/9uaRzvxgT8YBF6y.png
 isTop: false

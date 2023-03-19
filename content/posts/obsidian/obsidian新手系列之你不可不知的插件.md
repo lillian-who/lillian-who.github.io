@@ -1,6 +1,6 @@
 ---
 title: obsidian新手系列之你不可不知的插件
-published: true
+draft: false
 date: 2021-07-09
 tags: [Obsidian,Obsidian插件]
 feature: https://cdn.sspai.com/2021/07/10/4924403d889cd827d6637a5efb6c5ce2.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1

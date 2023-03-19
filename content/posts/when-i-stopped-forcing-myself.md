@@ -2,7 +2,7 @@
 title: '当我不再强迫自己'
 date: 2022-01-13
 tags: []
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/1230665/pexels-photo-1230665.jpeg
 isTop: false

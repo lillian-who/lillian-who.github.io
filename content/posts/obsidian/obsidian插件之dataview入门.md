@@ -1,6 +1,6 @@
 ---
 title: obsidian插件之dataview入门
-published: true
+draft: false
 date: 2021-08-09
 toc: true
 tags: [Obsidian,Obsidian插件]

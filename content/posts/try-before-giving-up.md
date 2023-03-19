@@ -2,7 +2,7 @@
 title: '把 “这太难了，我放弃”变为“我试一试”'
 date: 2021-11-29
 tags: [思考]
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/1527828/pexels-photo-1527828.jpeg
 isTop: false

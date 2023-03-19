@@ -2,7 +2,7 @@
 title: '认识一位作家的过程'
 date: 2022-03-30
 tags: []
-published: true
+draft: false
 hideInList: false
 feature: /post-images/ren-shi-yi-wei-zuo-jia-de-guo-cheng.png
 isTop: false

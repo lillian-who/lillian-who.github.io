@@ -2,7 +2,7 @@
 title: '喝咖啡的原因'
 date: 2022-09-16
 tags: [生活]
-published: true
+draft: false
 hideInList: false
 feature: https://pixabay.com/get/gc2db90930029fd37c73b7ebbc6fa487836cb98d3479115a265a953e07772fd9d1f8c720de4d59edde225e0e36b7e51315382dd394df7a9625f9f32830719db0e_1280.jpg?permalink
 isTop: false

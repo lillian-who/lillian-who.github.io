@@ -2,7 +2,7 @@
 title: obsidian+hugo+cloudflare自动发布博客
 tags: [折腾,博客]
 date: 2023-03-11
-published: true
+draft: false
 hideInList: false
 isTop: false
 feature: 
@@ -51,7 +51,7 @@ feature:
 title: {{NAME}}
 tags: [{{VALUE:tag？}}]
 date: {{DATE:YYYY-MM-DD HH:mm:ss}}
-published: false
+draft: true
 hideInList: false
 isTop: false
 feature: 

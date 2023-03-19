@@ -2,7 +2,7 @@
 title: '在VSCode中搭建Flask环境'
 date: 2022-09-14
 tags: [技术/python,vscode,flask]
-published: true
+draft: false
 hideInList: false
 feature: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg-blog.csdnimg.cn%2Fimg_convert%2Fe7fcf8b0b298ddb26f73d69389f0b606.png&refer=http%3A%2F%2Fimg-blog.csdnimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1666101252&t=09967d69b54e47cf0ada1dd9b717ca5a
 isTop: false

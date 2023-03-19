@@ -2,7 +2,7 @@
 title: '一周通信【第01期】'
 date: 2022-09-23
 tags: [生活]
-published: true
+draft: false
 hideInList: false
 isTop: false
 ---

@@ -2,7 +2,7 @@
 title: '如果当初也写日志就好了'
 date: 2022-06-08
 tags: [生活,手帐]
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/834897/pexels-photo-834897.jpeg?auto=compress&cs=tinysrgb&w=800
 isTop: false

@@ -3,7 +3,6 @@ languageCode = 'zh-CN'
 timeZone = 'Asia/Shanghai'
 title = '喜于微'
 
-
 # 主题
 theme  =  "hello-friend"
 summaryLength = 140
@@ -12,6 +11,7 @@ hasCJKLanguage = true
 paginate =  10
 # rss 输出数量
 rssLimit = 5
+
 
 [menu]
   [[menu.main]]
@@ -56,7 +56,9 @@ rssLimit = 5
   DateFormatList = "2006-01-02 15:04:05"
   DateFormatSingle = "2006-01-02 15:04:05"
   ReadMore = "阅读全文"
-
+  
+  description = "生命就是反重力的过程"
+	keywords = "博客、app、折腾、生活、阅读、自律"
  
 
 [markup]

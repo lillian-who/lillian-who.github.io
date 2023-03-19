@@ -2,7 +2,7 @@
 title: '我的 Obsidian 工作流：模板+QuickAdd+Dataview 快速创建和自动索引'
 date: 2021-08-18
 tags: [Obsidian,工作流]
-published: true
+draft: false
 hideInList: false
 feature: https://cdn.sspai.com/2021/08/17/3ac8155f9f356af8a3538152a056d698.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1
 isTop: false

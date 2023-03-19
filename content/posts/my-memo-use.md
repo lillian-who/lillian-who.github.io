@@ -2,7 +2,7 @@
 title: '用途大于工具，再谈flomo'
 date: 2022-10-12
 tags: [折腾]
-published: true
+draft: false
 hideInList: false
 feature: 
 isTop: false

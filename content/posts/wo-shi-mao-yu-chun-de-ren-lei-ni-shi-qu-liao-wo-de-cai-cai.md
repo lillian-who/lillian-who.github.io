@@ -2,7 +2,7 @@
 title: '我是猫：愚蠢的人类，你失去了我的踩踩'
 date: 2022-05-24
 tags: [小说,猫]
-published: true
+draft: false
 hideInList: false
 feature: 
 isTop: false

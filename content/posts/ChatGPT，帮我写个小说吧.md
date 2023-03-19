@@ -3,7 +3,7 @@ title: 'ChatGPT，帮我写个小说吧'
 tags: [AI]
 date: 2023-02-11
 feature: 
-published: true
+draft: false
 hideInList: false
 isTop: false
 toc: true

@@ -2,7 +2,7 @@
 title: '如何重建生活节律'
 date: 2022-03-02
 tags: [生活系统]
-published: true
+draft: false
 hideInList: false
 feature: /post-images/ru-he-chong-jian-sheng-huo-jie-lu.jpg
 isTop: false

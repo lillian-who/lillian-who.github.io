@@ -3,7 +3,7 @@ title: obsidian复习插件-flashcards
 date: 2022-10-20
 tags: [Obsidian,Obsidian插件]
 toc: true
-published: true
+draft: false
 hideInList: false
 isTop: false
 ---

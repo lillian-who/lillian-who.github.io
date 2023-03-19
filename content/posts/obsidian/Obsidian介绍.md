@@ -2,7 +2,7 @@
 title: 'Obsidian是什么以及它能用来做什么'
 date: 2021-06-20
 tags: [Obsidian,笔记软件]
-published: true
+draft: false
 hideInList: false
 feature: https://i.loli.net/2021/09/28/vodFs3j6pMeD1J4.png
 isTop: false

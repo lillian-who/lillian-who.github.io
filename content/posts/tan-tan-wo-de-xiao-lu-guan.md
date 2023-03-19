@@ -2,7 +2,7 @@
 title: '谈谈我的效率观'
 date: 2022-07-13
 tags: [效率,生活]
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/4200823/pexels-photo-4200823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 isTop: false

@@ -2,7 +2,7 @@
 title: '心理学是什么'
 date: 2022-01-25
 tags: [心理学]
-published: true
+draft: false
 hideInList: false
 feature: /post-images/What-is-psychology.jpg
 isTop: false

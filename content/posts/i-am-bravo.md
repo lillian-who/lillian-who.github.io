@@ -2,7 +2,7 @@
 title: '跟我念：我真棒！'
 date: 2021-11-02
 tags: [心灵]
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/3790805/pexels-photo-3790805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 isTop: false

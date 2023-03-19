@@ -2,7 +2,7 @@
 title: '目标管理之目标设定'
 date: 2021-12-24
 tags: [目标管理]
-published: true
+draft: false
 hideInList: false
 feature: https://images.pexels.com/photos/262438/pexels-photo-262438.jpeg
 isTop: false

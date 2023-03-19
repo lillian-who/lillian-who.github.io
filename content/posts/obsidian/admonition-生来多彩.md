@@ -2,7 +2,7 @@
 title: 'Admonition：生来多彩'
 date: 2021-08-12
 tags: [Obsidian,Obsidian插件]
-published: true
+draft: false
 hideInList: false
 feature: https://cdn.sspai.com/2021/08/12/aea88d75b085110dc7e7ed1e0444823d.png?imageMogr2/auto-orient/quality/95/thumbnail/!1420x708r/gravity/Center/crop/1420x708/interlace/1
 isTop: false
