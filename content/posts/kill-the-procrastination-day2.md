@@ -52,3 +52,10 @@ feature:
 	- 我习惯用小鹤双拼，好在这个方案很多输入法都已经内置了，微信输入法里也可以选择小鹤的双拼方案，不然我可能就要弃用了。
 	- 只要输入字词就可以推荐表情包，不用自己到微信表情里搜索，其实这点有些输入法的智能方案好像早就支持了。
 	- 最丝滑的是输入书名或者音乐名，它会自动识别，点击可以直接发送音乐或图书，这个功能体验非常好！
+	
+<gallery>
+    <img src="https://s2.loli.net/2023/03/20/mcaCtiKAfMIe4wX.jpg">
+    <img src="https://s2.loli.net/2023/03/20/Y8ctleZCTyOfMSQ.jpg">
+    <img src="https://s2.loli.net/2023/03/20/uFbVot8PXYcGvNe.jpg">
+</gallery>
+
