@@ -1,5 +1,5 @@
 ---
-title: obsidian+hugo+cloudflare自动发布博客
+title: obsidian配合hugo、cloudflare：让发布博客简单到不可思议
 tags: [折腾,博客]
 date: 2023-03-11
 draft: false
