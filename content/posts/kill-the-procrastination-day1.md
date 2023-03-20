@@ -84,7 +84,7 @@ feature: https://s2.loli.net/2023/03/19/JZMzrviySOYKPwG.png
 ![image.png](https://s2.loli.net/2023/03/19/6lBGAzVkaOTywbN.png)
 
 
-今日新增 anki 卡片：70张。
+今日新增 anki 卡片：54张。
 ![image.png](https://s2.loli.net/2023/03/19/DxCfslTgSABZ1VY.png)
 
 ## 写小说
