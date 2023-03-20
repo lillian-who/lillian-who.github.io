@@ -26,3 +26,13 @@ feature:
 还可以在博客公布习惯养成计划，每日打卡。博客标题就是 「习惯名-天数」。
 
 并将每次正在执行的计划置顶。
+
+---
+
+## 我的实践
+
+杀死拖延症计划，第一期为期15天，目标是备考复习和写小说。
+
+{{<link "kill-the-procrastination-day1">}}
+
+{{<link "kill-the-procrastination-day2">}}
