@@ -36,3 +36,11 @@ feature:
 {{<link "kill-the-procrastination-day1">}}
 
 {{<link "kill-the-procrastination-day2">}}
+
+{{<link "kill-the-procrastination-day3">}}
+
+{{<link "kill-the-procrastination-day4">}}
+
+{{<link "kill-the-procrastination-day5">}}
+
+{{<link "kill-the-procrastination-day6">}}
