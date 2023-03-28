@@ -8,10 +8,13 @@ toc: true
 feature: https://s2.loli.net/2023/03/19/JZMzrviySOYKPwG.png
 ---
 
-# 日计划
-## 目标
-- 考试复习：《项目风险管理》整理考点笔记
-- 小说写作：策划阶段
+## 🎯 目标：在2023-04-16前完成5门课备考
+当前进度：
+1. 管理经济学：✅整理笔记 → 背 1 遍 → 背 2 遍 → 背 3 遍 → 找题目做一遍
+2. 管理数量方法：整理笔记 → 背 1 遍 → 背 2 遍 → 背 3 遍 → 找题目做一遍
+3. 项目成本管理：整理笔记 → 背 1 遍 → 背 2 遍 → 背 3 遍 → 找题目做一遍
+4. 项目风险管理：整理笔记（🔴 进行中） → 背 1 遍 → 背 2 遍 → 背 3 遍 → 找题目做一遍
+5. 项目管理软件：✅整理笔记 → 背 1 遍 → 背 2 遍 → 背 3 遍 → 找题目做一遍
 
 ## 关键计划
 *关键计划是直击目标的任务分解*
@@ -45,9 +48,8 @@ feature: https://s2.loli.net/2023/03/19/JZMzrviySOYKPwG.png
 
 
 ---
-
-# 复盘
-## 修改头像
+## 复盘
+### 修改头像
 网站上有2处头像，一个是chat（短博客）的显示，另一个是Twikoo 评论的头像显示。
 
 按照Twikoo官网的指引，访问 [https://cravatar.cn](https://cravatar.cn/) 通过邮箱注册并设定头像。
@@ -65,7 +67,7 @@ feature: https://s2.loli.net/2023/03/19/JZMzrviySOYKPwG.png
 ![image.png](https://s2.loli.net/2023/03/19/DAKwGmibQUIgv8V.png)
 
 
-## 规划复习和写作计划
+### 规划复习
 
 粗略安排了两门的复习计划，和一周的写作计划。
 
@@ -77,7 +79,7 @@ feature: https://s2.loli.net/2023/03/19/JZMzrviySOYKPwG.png
 - [📝干货｜如何制定“成长型计划”🧠详细流程⏰](https://www.bilibili.com/video/BV1n24y1u7NH)
 - [苹果日历+提醒事项的「个人管理体系」建设｜系统app太香了，又何必舍近求远？](https://www.bilibili.com/video/BV1rf4y1t7sZ/?share_source=copy_web&vd_source=f44b1cb3a4e56e90e1d1c75ac3c8c242)
 
-## 复习计划
+### 💯 备考任务执行情况
 
 完成了《项目风险管理》「第5章 风险评价」、「第六章 风险应对」的考点笔记。并使用 obsidian-flashcards 插件同步到 Anki 中。
 
@@ -87,7 +89,7 @@ feature: https://s2.loli.net/2023/03/19/JZMzrviySOYKPwG.png
 今日新增 anki 卡片：54张。
 ![image.png](https://s2.loli.net/2023/03/19/DxCfslTgSABZ1VY.png)
 
-## 写小说
+### 写小说
 冲突：要么主角有一个强大的对手，要么有一个非常难以战胜的情景，从而推动主角的行动。欲扬先抑，低谷越低，战胜之后的高峰才更让人有「爽感」。
 
 对主角要舍得下手，把能想到的尽可能不利的情况都加给TA。
