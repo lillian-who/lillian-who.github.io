@@ -1,6 +1,6 @@
 ---
-name: 'kill-the-procrastination-day8'
-title: '杀死拖延症计划：8/15'
+name: 'axam-diary-day8'
+title: '备考日记-day8'
 tags: [日常]
 date: 2023-03-28 14:23:48
 UID: 20230328142348
@@ -8,6 +8,8 @@ draft: false
 toc: false
 feature: 
 ---
+
+杀死拖延症计划改名为：【备考日记】。原因是这段时间最重要的一个目标就是备考，这个公开计划直接用目标明明更合适一点。
 
 ## 🎯 目标：在 📅2023-04-16前完成5门课备考
 当前进度：
