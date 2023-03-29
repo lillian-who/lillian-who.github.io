@@ -6,7 +6,7 @@ date: 2023-03-28 14:23:48
 UID: 20230328142348
 draft: false
 toc: false
-feature: 
+feature: https://s2.loli.net/2023/03/29/EPqzQka31dL8VIC.png
 ---
 
 杀死拖延症计划改名为：【备考日记】。原因是这段时间最重要的一个目标就是备考，这个公开计划直接用目标命名更合适一点。
