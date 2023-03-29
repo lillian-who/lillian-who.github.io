@@ -66,10 +66,5 @@ feature: https://s2.loli.net/2023/03/29/VteyRjaG2dUHqE1.png
 - 👍🏻 做了一张手机壁纸，把日常惯例写在了上面，这样就不用打开手机看便签了（手机首页也用了小组件显示惯例内容）。
 - ✨ 发现微信读书改版了，「我的」页面上，阅读时长从原来的本周阅读时长变为了总阅读时长。一开始看到1410小时，吓我一跳。点进阅读时长，变为了「我的阅读」界面，这个界面是新做的，里面是一些数据分析，有阅读时长分布和个人阅读偏好，还有偏好的作者和偏好版权方。挺有意思的。
 
-<gallery>
-<img src='https://s2.loli.net/2023/03/30/iEdf56QsUjW28AI.jpg'>
+![image.png](https://s2.loli.net/2023/03/30/yJnMGhNzxIWYsAV.png)
 
-<img src='https://s2.loli.net/2023/03/30/fXaiADxzGU2mkur.jpg'>
-
-<img src='https://s2.loli.net/2023/03/30/NItrgiOj2XYuK76.jpg'>
-</gallery>
