@@ -44,3 +44,11 @@ feature:
 {{<link "kill-the-procrastination-day5">}}
 
 {{<link "kill-the-procrastination-day6">}}
+
+{{<link "kill-the-procrastination-day7">}}
+
+{{<link "axam-diary-day8">}}
+
+{{<link "exam-diary-day9">}}
+
+{{<link "exam-diary-day10">}}
