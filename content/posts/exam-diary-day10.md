@@ -6,9 +6,8 @@ date: 2023-03-30 22:44:05
 UID: 20230330224405
 draft: false
 toc: true
-feature: 
+feature: https://s2.loli.net/2023/03/30/f3VYoPl98TgNheU.png
 ---
-
 
 > ⭐️ 今日新增「注意力日报」模块 ⭐️
 
@@ -32,11 +31,6 @@ feature:
 
 <!--more-->
 
-
-## TODO
-*TODO 是非关键任务，不影响目标的实现*
-- [x] 上微博，下载壁纸。
-	- ![2361680183056_.pic.jpg](https://s2.loli.net/2023/03/30/oPA3Wk98QrDGlYh.jpg)
 
 ## 🔋 动力
 
