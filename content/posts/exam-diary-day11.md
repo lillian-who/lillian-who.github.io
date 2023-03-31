@@ -43,7 +43,8 @@ feature: https://s2.loli.net/2023/03/31/aOYCh6DMwjqxNef.jpg
 	- 今天开始学习之前，先用一张A4纸画了个图表，回忆自测风险管理过程的前4个过程的重点内容。
 	- 管理经济学的复习很简单。8分钟刷完，轻松。
 
-![](https://s2.loli.net/2023/03/31/sXVgEwFPrx58t37.png)
+![image.png](https://s2.loli.net/2023/03/31/oXEqNwhbDVAIkY8.png)
+（这个思维导图是昨天做的，今天补充了2章内容）
 
 ## 🎉 Happiness
 
