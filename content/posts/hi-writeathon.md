@@ -5,7 +5,7 @@ date: 2023-05-13 01:24:34
 UID: 20230513012434
 draft: false
 toc: false
-feature: 
+feature: https://s2.loli.net/2023/05/13/WLUB2jyESVHovmh.png
 ---
 
 > 写作就像马拉松，贵在坚持。
@@ -15,6 +15,8 @@ feature:
 教程：[Writeathon 教程](https://guide.writeathon.cn/guide/v3/writeathon-v3-part-one.html#writeathon的诞生) ，建议从产品计划开始看。
 
 我始终认为一个产品的创造初衷里面包含着这个产品的哲学。产品哲学说起来好像有点玄乎，其实就是产品的内在逻辑，就是隐藏在产品设计背后的游戏规则和通道。很多产品看似可以随意使用，但其实「玩法」已经被限制在产品设计里了，你顺着产品的逻辑去用，就会感觉如虎添翼，反过来如果你没摸准产品的内在逻辑，用起来就总感觉哪里不对。所以再简单的软件应用也会有人觉得难用、不会用。
+
+<!--more-->
 
 ## 产品名片
 （就是产品简介的意思啦）
