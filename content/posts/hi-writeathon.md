@@ -10,7 +10,7 @@ feature: https://s2.loli.net/2023/05/13/WLUB2jyESVHovmh.png
 
 > 写作就像马拉松，贵在坚持。
 
-官网（含教程）：[writeathon.cn](https://www.writeathon.cn)
+官网：[writeathon.cn](https://www.writeathon.cn)
 
 教程：[Writeathon 教程](https://guide.writeathon.cn/guide/v3/writeathon-v3-part-one.html#writeathon的诞生) ，建议从产品计划开始看。
 
@@ -22,7 +22,7 @@ feature: https://s2.loli.net/2023/05/13/WLUB2jyESVHovmh.png
 （就是产品简介的意思啦）
 
 - Writeathon 是一款写作软件。
-- Markdown 格式
+- Markdown 写作
 
 ### 基础功能
 - **写作**：以【笔记本-故事-文章】的分层结构
@@ -33,6 +33,7 @@ feature: https://s2.loli.net/2023/05/13/WLUB2jyESVHovmh.png
 ### 其他
 - **同步**：自动同步
 - **离线**：数据保存在本地，安全性得到了一定的保障
+- **Zen模式**：即禅模式，特色功能。除当前行外其他内容都变成浅灰色以达到突出当下的效果。
 - **发布功能**：它还有个人主页，像博客页面一样。这是我的writeathon主页 https://www.writeathon.cn/u/Lilimonster
 
 #### 发布功能
@@ -56,7 +57,7 @@ P.S. 你可以扫描图上的二维码来阅读这篇文章
 - 桌面端：Mac 和 Windows ，桌面端还是beta版（意思是功能还不完全，正在开发中）
 - 手机端APP：安卓和 iOS 都有，如果应用市场找不到，就从web端去找下载链接（方法见下图）。我目前下载了安卓端，完成度较高，web端有的功能基本手机上都有（写作&卡片盒&写作日报&统计）。
 
-![image.png](https://s2.loli.net/2023/05/12/bKa2ZIjSoPC4mHp.png)
+![image.png](https://s2.loli.net/2023/05/13/k3iRHP9FwXM5BVs.png)
 
 ## 界面
 ### Web 端
