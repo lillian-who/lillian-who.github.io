@@ -41,7 +41,13 @@ P.S. 你可以扫描图上的二维码来阅读这篇文章
 还能直接生成分享海报：
 ![image.png](https://s2.loli.net/2023/05/13/BIC3Xi9gTdS5FMD.png)
 
+这是发布后的个人主页（web端）：
+![image.png](https://s2.loli.net/2023/05/13/2Cu8wkfsqZxAPDE.png)
 
+发布后的文章详情页（web端）：
+![image.png](https://s2.loli.net/2023/05/13/7msjIXR4YFcEbKQ.png)
+
+看左侧的导航栏，貌似可以当做文档来用。
 
 ### 各端
 - Web 版：功能最全
