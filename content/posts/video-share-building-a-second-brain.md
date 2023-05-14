@@ -8,10 +8,11 @@ toc: false
 feature: 
 ---
 
-这是一个视频分享，来自台湾的Youtuber 的视频：
+这是一个视频笔记，视频来自台湾的Youtuber 姜饼资。
 
+
+这里是原视频：
 - [B站搬运|如何記得所有看過的東西？](https://www.bilibili.com/video/BV1mL411m7ic/?spm_id_from=333.999.0.0&vd_source=ebb94d57c4e84cc0314c73e881f25a9c)
-
 - [Youtube原视频|如何記得所有看過的東西？](https://youtu.be/iYb3O2MockQ)
 
 
