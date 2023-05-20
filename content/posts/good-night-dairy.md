@@ -5,7 +5,7 @@ date: 2023-05-20 07:42:01
 UID: 20230520074201
 draft: false
 toc: false
-feature: https://img9.doubanio.com/view/photo/l/public/p2584552775.jpg
+feature: https://s2.loli.net/2023/05/20/P2k1doCzpa4uRgm.png
 ---
 
 今天看了韩剧《天气好的话我会来找你》，男主经营一家书店，并在网上写博客，博客的名字叫做「晚安日记」。书店的名字叫「晚安书店」，大部分时间书店都没有客人，男主靠在网上卖一些书挣点钱，可他好像也不缺钱的样子。
