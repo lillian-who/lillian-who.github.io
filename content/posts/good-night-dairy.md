@@ -28,6 +28,7 @@ feature: https://s2.loli.net/2023/05/20/P2k1doCzpa4uRgm.png
 
 在这个新媒体时代，巷子太深就最好不要卖酒了，把酒拿到繁华酒楼去卖比较好。
 
+🌲
 就在失眠的时候，我看到的一则信息突然打通了我的任督二脉。
 
 ![2601684539810_.pic.jpg](https://s2.loli.net/2023/05/20/zAXjvmsZbRd9oJ6.jpg)
