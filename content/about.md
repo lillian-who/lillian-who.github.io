@@ -45,5 +45,5 @@ RSS地址： feed://lillianwho.com/atom.xml ，欢迎订阅！
 
 - 公众号：莉莉安成长备忘录（微信号：Lillian_Memo），博主的另一个分身
 - Email： [📩ciwiehenfan@sina.com](mailto:ciwiehenfan@sina.com) 
-- 博客站现已开通评论，欢迎留言哦（刷不出来评论区的就算了，我twikoo部署的问题好像需要梯子）
+- 博客站现已开通评论，欢迎留言哦（评论被墙问题已解决，请多多的评论吧）
 
