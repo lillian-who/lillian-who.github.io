@@ -10,7 +10,7 @@ feature:
 
 今天看了一个视频，其中一个点对我很有启发。
 
-B站up [Chaologies](https://space.bilibili.com/394165725) 分享的《some day is today》中的一个点，让他很有启发。
+B站up [Chaologies](https://space.bilibili.com/394165725) 分享的《Some Day Is Today》中的一个点，让他很有启发。
  ![](https://s2.loli.net/2023/05/29/NrV12sXmvCO6hGq.png)
 我听了以后，想到之前的几次类似经历，也忽然和作者分享的经历产生了回响。
 
