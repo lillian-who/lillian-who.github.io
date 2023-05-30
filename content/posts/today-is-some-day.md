@@ -10,7 +10,7 @@ feature:
 
 今天看了一个视频，其中一个点对我很有启发。
 
-B站up [Chaologies](https://space.bilibili.com/394165725) 分享的《Some Day Is Today》中的一个点，让他很有启发。
+B站up [Chaologies](https://space.bilibili.com/394165725) 分享的《Someday Is Today》中的一个点，让他很有启发。
  ![](https://s2.loli.net/2023/05/29/NrV12sXmvCO6hGq.png)
 我听了以后，想到之前的几次类似经历，也忽然和作者分享的经历产生了回响。
 
@@ -57,3 +57,9 @@ B站up [Chaologies](https://space.bilibili.com/394165725) 分享的《Some Day I
 计划写一篇文章导致拖延，而用手机随便写两句话却导致写得停不下来。
 
 希望你能明白我的意思。别等正式做某事，等一个some day、 some time，要忽略掉时间界限，消除「找个时间」的思维，今天、此刻就做一个小小的行为。
+
+### 附录
+
+原书附上，暂无中文版，没法找来读了。
+
+![image.png](https://s2.loli.net/2023/05/30/sdZRucgM3Fj4pXh.png)
