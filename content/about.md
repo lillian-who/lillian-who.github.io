@@ -17,6 +17,7 @@ RSS地址： feed://lillianwho.com/atom.xml ，欢迎订阅！
 
 - hugo：[https://gohugo.io](https://gohugo.io)
 - 主题：[木木](https://immmmm.com) 的 [hello-friend](https://github.com/lmm214/immmmm/tree/master/themes/hello-friend)
+- 博客方案（免费）：[obsidian+hugo+cloudflare](https://lillianwho.com/posts/obsidian-hugo-cloudflare/)
 
 ## 👨‍💻 关于博主
 
