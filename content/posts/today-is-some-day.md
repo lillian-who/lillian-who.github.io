@@ -6,6 +6,7 @@ UID: 20230529215455
 draft: false
 toc: false
 feature: 
+description: 别等正式做某事，等一个some day、 some time，要忽略掉时间界限，消除「找个时间」的思维，今天、此刻就做一个小小的行为。
 ---
 
 今天看了一个视频，其中一个点对我很有启发。
