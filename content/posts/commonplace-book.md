@@ -47,7 +47,7 @@ feature:
 
 ## 资源
 
-### 一些 youtube 视频
+### 视频
 
 - [How To Keep A Commonplace Book - 2022 Edition](https://youtu.be/NPqjgN-pNDw) 
 
@@ -61,6 +61,5 @@ feature:
 ### 文章
 
 - [How And Why To Keep A “Commonplace Book” - Ryan Holiday](https://ryanholiday.net/how-and-why-to-keep-a-commonplace-book/) 
-- [Commonplace Books Are Like a Diary Without the Risk of Annoying Yourself](https://www.nytimes.com/2022/03/22/magazine/commonplace-books-recommendation.html)
-
+- [Commonplace Books Are Like a Diary Without the Risk of Annoying Yourself](https://www.nytimes.com/2022/03/22/magazine/commonplace-books-recommendation.html) 
 - [How to Keep a Commonplace Book: 4 Benefits of Commonplacing](https://www.masterclass.com/articles/how-to-keep-a-commonplace-book) 
