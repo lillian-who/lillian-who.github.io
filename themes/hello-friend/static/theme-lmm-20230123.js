@@ -44,7 +44,7 @@
         do {
             locationHref = ls[Math.floor(Math.random() * ls.length)].innerHTML
             locSplit = locationHref.split('/')[3] || ''
-        } while (locSplit == '' || locSplit == 'tags' || locSplit == 'posts'); 
+        } while (locSplit == '' || locSplit == 'tags'); 
         location.href = locationHref
     })
   }
