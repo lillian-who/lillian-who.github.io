@@ -47,7 +47,9 @@ _**我的错误**_ 不失为一个下饭剧，好久不看这种恋爱小甜剧�
 ### 开始学uni-app
 研究了一下「做APP最简单易行的方案」，发现uni-app。这个之前做项目的时候听说过，前端用这个框架做出来的应用可以打包成微信小程序和安卓app以及苹果app，挺强大的。
 
-自己看文档写demo，看了一个教程，结果因为教程太老，很不适用于当前的框架版本，于是求助于全能的B站，总算是找到了靠谱的教程。
+自己看文档写demo。看了一个教程，结果因为教程太老，很不适用于当前的框架版本，代码总是跑不起来。
+
+于是求助于全能的B站，总算是找到了靠谱的教程：
 
 [新课uniapp零基础入门到项目打包（微信小程序/H5/vue/安卓apk）全掌握](https://www.bilibili.com/video/BV1mT411K7nW/?p=31&share_source=copy_web&vd_source=f44b1cb3a4e56e90e1d1c75ac3c8c242) 
 
@@ -62,7 +64,6 @@ _**我的错误**_ 不失为一个下饭剧，好久不看这种恋爱小甜剧�
 官方提示有Blog更新，点进去一看，哇！出桌面客户端了耶！有macOS版、Win版、Linux版和安卓版。
 
 地址：[Introducing Desktop launcher and updated Android app, share buttons, news channels](https://lib-gzgggov2otfvlun5idsshdlg.1lib.cz/blog/44) （用的个人域链接，不知道能不能打开）
-
 
 ![z-lib下载客户端截图](https://s2.loli.net/2023/06/27/JoECadjXpTrUwcP.png)
 
