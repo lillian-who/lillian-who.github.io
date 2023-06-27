@@ -49,12 +49,12 @@ rssLimit = 5
   # if you set this to 0, only submenu trigger will be visible
   # showMenuItems = 4
   # Enable to show reading time in minutes for posts
-  showReadingTime = false
+  showReadingTime = true
   logoText = "hello friend"
 
   MenuMore = "更多"
-  DateFormatList = "2006-01-02 15:04:05"
-  DateFormatSingle = "2006-01-02 15:04:05"
+  DateFormatList = "2006-01-02"
+  DateFormatSingle = "2006-01-02"
   ReadMore = "阅读全文"
   
   description = "生命就是反重力的过程"

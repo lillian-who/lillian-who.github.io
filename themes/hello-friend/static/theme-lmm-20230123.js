@@ -1,5 +1,5 @@
   //相对时间
-  window.Lately && Lately.init({ target: '.post-date,.datetime,.datatime,.photo-time'});
+  // window.Lately && Lately.init({ target: '.post-date,.datetime,.datatime,.photo-time'});
   //图片灯箱
   window.ViewImage && ViewImage.init('.post-content img:not(.avatar,.tk-avatar-img)')
   //外链 gallery 标签相册瀑布流
