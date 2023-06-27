@@ -5,15 +5,18 @@ date: 2023-06-27 20:24:37
 UID: 20230627202437
 draft: false
 toc: false
-feature: 
+feature: https://s2.loli.net/2023/06/27/yl4PXakHutnjI2E.png
 ---
+
+事情开始于，有读者问邮件订阅。
+<!--more-->
 
 ![image.png](https://s2.loli.net/2023/06/27/REPtuUZjTlHgMN3.png)
 
 当我看到这条评论，心里是十分开心的，这说明有人想要邮件订阅我的博客，接收博客更新通知。哇！很感动好么！
 
 好的，于是我开始找解决方案。
-<!--more-->
+
 
 就我所知不太容易，没有现成的简易轮子可以用。从中文圈各大博客都没有邮件订阅就能看出来了（除了使用wordpress的博客站，有自带的邮件订阅功能）。
 
