@@ -2,6 +2,10 @@
 title: "Hello Hugo"
 date: 2022-10-18
 tags: [折腾]
+draft: false
+hideInList: false
+feature: 
+isTop: false
 ---
 
 
