@@ -23,7 +23,9 @@ feature: https://s2.loli.net/2023/06/27/yl4PXakHutnjI2E.png
 好在让我找到一篇：
 [给静态博客添加newsletter的几种推荐方案](https://irithys.com/p/blog-newsletter/#tinyletter) 
 
-最终选择了 [TinyLetter](https://app.tinyletter.com).
+最终选择了 [TinyLetter](https://app.tinyletter.com). 👆🏻文章中有教程，我就不再写啦。Tinyletter 对国内支持还算比较友好，这是我选择它的最大原因。
+
+💫
 
 我在文章底部增加了订阅表单，填写你的邮箱进行订阅吧~
 
