@@ -30,3 +30,7 @@ feature: https://s2.loli.net/2023/06/27/yl4PXakHutnjI2E.png
 或者点击 [这里](https://tinyletter.com/lillianwho) 进行订阅。（关于页面也增加了邮件订阅链接，不迷路）
 
 有新文章时就能在邮件收到推送啦！
+
+### 缺点
+
+缺点就是我博客文章发布之后经常捉虫，进行修改，这样的修改邮件中是看不到的。
