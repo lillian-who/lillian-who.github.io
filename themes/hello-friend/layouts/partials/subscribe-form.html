@@ -1,0 +1,17 @@
+<!-- 邮件订阅 -->
+<link rel="stylesheet" href="/subscribe.css">
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">📮邮件订阅</span>
+    <hr />
+  </div>
+  <p style="text-align: center;">想我每次发布新东西时都收到电子邮件吗？</p>
+  <div class="sub_box">
+    <form id="sub-form" action="https://tinyletter.com/lillianwho" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/lillianwho', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <p id="subscribe-email"><input type="email" class="sub-input input-email"  name="email" id="tlemail" placeholder="输入你的邮箱地址..." required />
+      <input type="hidden" value="1" name="embed"/></p>
+      <p id="subscribe-submit"><input type="submit" value="订阅" class="sub-input input-submit"  /></p>
+
+    </form>
+</div>
+</div>  
