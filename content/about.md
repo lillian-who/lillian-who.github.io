@@ -11,7 +11,10 @@ hideInList: false
 
 这是博主的个人博客，~~分享喜欢的软件、在读的好书，以及任何博主的思考，或许还有生活记录📝~~ 记录我的见闻、思考、生活，哦，还有发疯。
 
-RSS地址： feed://lillianwho.com/atom.xml ，欢迎订阅！
+### 订阅我
+
+- RSS地址： feed://lillianwho.com/atom.xml 
+- 邮件订阅：[欢迎订阅](https://tinyletter.com/lillianwho) 
 
 ### 博客程序
 

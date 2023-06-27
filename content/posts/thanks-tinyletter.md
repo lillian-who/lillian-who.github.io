@@ -24,6 +24,6 @@ feature:
 
 我在文章底部增加了订阅表单，填写你的邮箱进行订阅吧~
 
-或者点击 [邮件订阅](https://tinyletter.com/lillianwho) 进行订阅。
+或者点击 [这里](https://tinyletter.com/lillianwho) 进行订阅。（关于页面也增加了邮件订阅链接，不迷路）
 
 有新文章时就能在邮件收到推送啦！
