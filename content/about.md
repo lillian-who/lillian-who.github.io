@@ -9,7 +9,7 @@ hideInList: false
 
 ## 🏠 关于本站
 
-这是博主的个人博客，分享喜欢的软件、在读的好书，生活记录，以及任何博主的思考。
+这是博主的个人博客，分享喜欢的软件、在读的好书，生活记录，以及思考。可以说是我的线上[commonplace book](https://lillianwho.com/posts/commonplace-book/)。
 
 ### 订阅我
 
@@ -51,12 +51,17 @@ hideInList: false
 - 想收到新文章推送，请使用 RSS/邮件订阅
 
 ## 博客变迁
-
-- 2021-09-23 [博客上线](https://lillianwho.com/posts/我的博客上线啦/)，当时使用的是github page，使用的博客系统是hexo，主题用的是好看的butterfly。
-- 2022-01-25 [博客改版](https://lillianwho.com/posts/博客改版/)。网站名改为「**喜于微**」。
-- 2022-02-25 [博客迁移](https://lillianwho.com/posts/博客迁移通知/)。有了独立域名，购买了腾讯云云服务器，访问地址变为：http://lillianwho.com
-- 2022年9月，博客系统换成了 [Gridea](https://gridea.dev) ，用了非常好看的主题「Break」。当时写了文章推荐该主题： [宝藏主题Break](https://lillianwho.com/posts/bao-cang-gridea-zhu-ti-break/) 
-- 2022-10-18 受[木木大佬](https://immmmm.com/) 影响，博客系统换为hugo：[Hello Hugo](https://lillianwho.com/posts/hello-hugo/)。主题使用了木木分享的同款[hello-friend](https://github.com/lmm214/immmmm/tree/master/themes/hello-friend) 
-- 2023-03-11 因原有腾讯云服务器到期，博客重新搬回github，但是保留了域名。用了[新的免费博客方案](https://lillianwho.com/posts/new-blog-sys/) ，将网站托管到了 cloudflare，它可以自动拉取托管到github的源码，然后用hugo的系统进行解析。同时改造了obsidian写博客和发博客的轮子，能够不离开ob就能一键发布博客。
-- 2023-03-18 给博客加入了twikoo评论
 - 2023-06-27 给博客增加邮件订阅。方案是 [tinyletter](https://app.tinyletter.com). 你可以在文章的底部表单，或者点击 [这里](https://tinyletter.com/lillianwho) 填写你的邮件地址进行订阅。
+- 2023-03-18 给博客加入了twikoo评论
+- 2023-03-11 因原有腾讯云服务器到期，博客重新搬回github，但是保留了域名。用了[新的免费博客方案](https://lillianwho.com/posts/new-blog-sys/) ，将网站托管到了 cloudflare，它可以自动拉取托管到github的源码，然后用hugo的系统进行解析。同时改造了obsidian写博客和发博客的轮子，能够不离开ob就能一键发布博客。
+- 2022-10-18 受[木木大佬](https://immmmm.com/) 影响，博客系统换为hugo：[Hello Hugo](https://lillianwho.com/posts/hello-hugo/)。主题使用了木木分享的同款[hello-friend](https://github.com/lmm214/immmmm/tree/master/themes/hello-friend) 
+- 2022年9月，博客系统换成了 [Gridea](https://gridea.dev) ，用了非常好看的主题「Break」。当时写了文章推荐该主题： [宝藏主题Break](https://lillianwho.com/posts/bao-cang-gridea-zhu-ti-break/) 
+- 2022-02-25 [博客迁移](https://lillianwho.com/posts/博客迁移通知/)。有了独立域名，购买了腾讯云云服务器，访问地址变为：http://lillianwho.com
+- 2022-01-25 [博客改版](https://lillianwho.com/posts/博客改版/)。网站名改为「**喜于微**」。
+- 2021-09-23 [博客上线](https://lillianwho.com/posts/我的博客上线啦/)，当时使用的是github page，使用的博客系统是hexo，主题用的是好看的butterfly。
+
+
+
+
+
+
