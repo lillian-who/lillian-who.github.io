@@ -20,7 +20,7 @@ hideInList: false
 
 - hugo：[https://gohugo.io](https://gohugo.io)
 - 主题：[木木](https://immmmm.com) 的 [hello-friend](https://github.com/lmm214/immmmm/tree/master/themes/hello-friend)
-- 博客方案（免费）：[obsidian+hugo+cloudflare](https://lillianwho.com/posts/obsidian-hugo-cloudflare/)
+- 博客方案（免费）：[obsidian+hugo+cloudflare](https://lillianwho.com/posts-hugo-cloudflare/)
 - 本站源码：https://github.com/lillian-who/lillian-who.github.io
 
 ## 👨‍💻 关于博主

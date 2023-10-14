@@ -9,7 +9,7 @@ isTop: false
 feature: 
 ---
 
-今天又收到了[obsidian入门教程](https://lillianwho.com/posts/obsidian/obsidian入门/) 的读者评论，说这个教程真的帮到了他。这样的感谢信息我经常会收到。
+今天又收到了[obsidian入门教程](https://lillianwho.com/posts/obsidian入门/) 的读者评论，说这个教程真的帮到了他。这样的感谢信息我经常会收到。
 
 可教程刚发出去的时候其实不是这样的，当时为了让更多的人看到，我不仅发了公众号，还发到了少数派上，就有人评论说这样的教程太没技术含量了，一个打开文件就写了好几个步骤。
 

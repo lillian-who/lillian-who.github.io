@@ -94,5 +94,5 @@ feature:
 
 #### 如何做？
 
--   让发博客更易行：采用[自动化的发布方案](https://lillianwho.com/posts/obsidian-hugo-cloudflare/)，或者 [Gridea](https://open.gridea.dev) 这样操作简单的博客客户端。或者直接使用线上博客或动态博客方案。
+-   让发博客更易行：采用[自动化的发布方案](https://lillianwho.com/posts-hugo-cloudflare/)，或者 [Gridea](https://open.gridea.dev) 这样操作简单的博客客户端。或者直接使用线上博客或动态博客方案。
 -   让写博客变简单：降低期待和标准，不必非得写出优秀的文章，有趣的事。哪怕写得很短也没关系。

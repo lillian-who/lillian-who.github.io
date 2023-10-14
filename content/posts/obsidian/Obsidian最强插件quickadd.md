@@ -33,7 +33,7 @@ QuickAdd，有人称呼它为“快加”，虽然有点不那么优美，可是
 我没有按照官方的顺序来列这4种类型，而是按照我认为的使用的难易程度排列，或者说这是我认为对于新接触这个插件的用户来说比较容易上手的渐进式的使用过程。
 
 
-之前在介绍工作流的时候（[我的 Obsidian 工作流：模板+QuickAdd+Dataview 快速创建和自动索引](http://www.lillianwho.com/posts/obsidian/Obsidian工作流/#quickAdd-是什么？)），简单介绍过这个插件，所以基础的怎么创建命令，以及每个设置的释义就不再重复介绍了。本次重点在于这4个快加类型的应用，让我们来看看它们能做到什么，以及如何操作。
+之前在介绍工作流的时候（[我的 Obsidian 工作流：模板+QuickAdd+Dataview 快速创建和自动索引](http://www.lillianwho.com/posts/Obsidian工作流/#quickAdd-是什么？)），简单介绍过这个插件，所以基础的怎么创建命令，以及每个设置的释义就不再重复介绍了。本次重点在于这4个快加类型的应用，让我们来看看它们能做到什么，以及如何操作。
 
 ## 📸 Capture 捕捉
 
@@ -175,7 +175,7 @@ QuickAdd，有人称呼它为“快加”，虽然有点不那么优美，可是
 
 介绍：快加文件，即用指定模板新建一个文件。
 
-关于quickadd模板类型的用法，我在[我的 Obsidian 工作流：模板+QuickAdd+Dataview 快速创建和自动索引](http://www.lillianwho.com/posts/obsidian/Obsidian工作流/#quickAdd-是什么？)
+关于quickadd模板类型的用法，我在[我的 Obsidian 工作流：模板+QuickAdd+Dataview 快速创建和自动索引](http://www.lillianwho.com/posts/Obsidian工作流/#quickAdd-是什么？)
 中有写过，而且用法也比较简单，在此就不再复述了。（工作流那篇文章中对每个设置项做了翻译，基本上看完翻译就都懂了）。
 
 
