@@ -12,6 +12,9 @@ paginate =  10
 # rss 输出数量
 rssLimit = 5
 
+[permalinks]
+  posts = "/:filename/"
+  tags = "/tags/:slug/"
 
 [menu]
   [[menu.main]]
