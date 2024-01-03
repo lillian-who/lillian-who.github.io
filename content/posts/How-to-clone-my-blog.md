@@ -15,7 +15,7 @@ feature:
 <!--more-->
 ### 修改评论账号
 
-评论是使用的Twikoo，有单独的账号，不是开箱即用哈，你需要去**部署**自己的Twikoo，然后把`envId` 更换为自己的。
+评论是使用的Twikoo，请参考[Twikoo中文文档](https://twikoo.js.org/)。不是开箱即用哈，你需要去**部署**自己的Twikoo，然后把主题模板里的 twikoo `envId` 更换为自己的。
 
 需要修改的文件在：
 ```
