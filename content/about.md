@@ -23,6 +23,8 @@ hideInList: false
 - 博客方案（免费）：[obsidian+hugo+cloudflare](https://lillianwho.com/posts-hugo-cloudflare/)
 - 本站源码：https://github.com/lillian-who/lillian-who.github.io
 
+如果你想要克隆我的博客，请看这里:
+{{<link "How-to-clone-my-blog">}}
 ## 👨‍💻 关于博主
 
 我是莉莉蒙（Lillian who），大家叫我莉莉。

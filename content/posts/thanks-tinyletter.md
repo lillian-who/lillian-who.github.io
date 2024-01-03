@@ -41,7 +41,7 @@ feature: https://s2.loli.net/2023/06/27/yl4PXakHutnjI2E.png
 
 原始的表单比较丑，于是用我磕磕绊绊的前端技术美化了一下。
 
-`subscribe-form.html` 单独一个文件，使用时在 `single,html`模板中引入：
+`subscribe-form.html` 单独一个文件，使用时在 `single.html`模板中引入：
 ```html
 <!-- 邮件订阅  -->
 <link rel="stylesheet" href="/subscribe.css">
