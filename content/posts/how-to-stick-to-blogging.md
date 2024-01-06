@@ -1,11 +1,13 @@
 ---
 title: 如何养成写博客的习惯
-tags: [日常,思考]
+tags:
+  - 思考
+  - 写作
 date: 2023-03-21 17:30:00
 UID: 20230321034200
 draft: false
 toc: false
-feature: 
+feature:
 ---
 
 来自《小习惯》的启发：

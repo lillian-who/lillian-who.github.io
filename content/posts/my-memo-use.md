@@ -1,7 +1,9 @@
 ---
-title: '用途大于工具，再谈flomo'
+title: 用途大于工具，再谈flomo
 date: 2022-10-12
-tags: [折腾]
+tags:
+  - 折腾
+  - flomo
 draft: false
 hideInList: false
 feature: 
