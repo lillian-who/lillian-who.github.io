@@ -1,7 +1,7 @@
 baseURL = 'https://lillianwho.com/'
 languageCode = 'zh-CN'
 timeZone = 'Asia/Shanghai'
-title = '夜猫日记'
+title = 'Lillian Who'
 
 # 主题
 theme  =  "hello-friend"
