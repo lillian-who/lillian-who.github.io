@@ -2,6 +2,7 @@
 title: 最近的memos集合
 tags:
   - 日常
+  - memos
 date: 2024-06-18 23:15:37
 UID: 20240618231537
 draft: false
