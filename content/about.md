@@ -5,17 +5,46 @@ layout: 'posts'
 hideInList: false
 ---
 
-> 欢迎来到我的博客
+> 欢迎来到我的博客。当我断更时，可以用评论召唤我。
+
+
+## 👨‍💻 关于我
+
+我是莉莉蒙（Lillian who），叫我莉莉安也可以。
+
+双子座，INFJ。
+
+爱折腾，但很菜。
+
+喜欢大家带我一起玩，但社恐。
+
+偶尔爆发写作欲，但三分钟热度。
+
+理论上的巨人，行动上的彩笔。
+
+### ❤️ 兴趣爱好
+
+- 💻折腾
+- 📚阅读
+- 📝写作
+- 📒手帐
+- 🖋文具
+- 软件
+
+
+### 📬 如何找到我
+
+- 公众号：莉莉蒙（微信号：Lillian_Memo）
+- Email： [📩ciwiehenfan@sina.com](mailto:ciwiehenfan@sina.com) 
+- 博客站现已开通评论，欢迎留言哦
+- 想收到新文章推送，请使用 RSS
 
 ## 🏠 关于本站
 
-这是博主的个人博客，分享喜欢的软件、在读的好书，生活记录，以及思考。可以说是我的线上[commonplace book](https://lillianwho.com/posts/commonplace-book/)。
 
 ### 订阅我
 
 - RSS地址： feed://lillianwho.com/atom.xml 
-- 邮件订阅：[欢迎订阅](https://tinyletter.com/lillianwho) 
-
 ### 博客程序
 
 - hugo：[https://gohugo.io](https://gohugo.io)
@@ -25,35 +54,9 @@ hideInList: false
 
 如果你想要克隆我的博客，请看这里:
 {{<link "How-to-clone-my-blog">}}
-## 👨‍💻 关于博主
 
-我是莉莉蒙（Lillian who），大家叫我莉莉。
-
-双子座，坐标河南郑州。
-
-### ⛹ 兴趣爱好
-
-- 💻折腾
-- 📚阅读
-- 📝写作
-- 📒手帐
-- 🖋文具
-- 软件
-
-### 常用工具推荐（使用三年以上）
-- Markdown 笔记工具 「Obsidian」，平时写博客用的也是ob
-- 图床管理工具 「PicGo」，用它配合图床，写md文件时可以做到自动上传图片
-- 阅读软件「微信读书」，它帮助我打败了对书的占有欲望，让我培养起阅读习惯。真正的占有是读完它而不是拥有它。
-
-### 📬 如何找到我
-
-- 公众号：莉莉蒙（微信号：Lillian_Memo）
-- Email： [📩ciwiehenfan@sina.com](mailto:ciwiehenfan@sina.com) 
-- 博客站现已开通评论，欢迎留言哦
-- 想收到新文章推送，请使用 RSS/邮件订阅
-
-## 博客变迁
-- 2023-06-27 给博客增加邮件订阅。方案是 [tinyletter](https://app.tinyletter.com). 你可以在文章的底部表单，或者点击 [这里](https://tinyletter.com/lillianwho) 填写你的邮件地址进行订阅。
+### 博客变迁
+- 2023-06-27 给博客增加邮件订阅。方案是 [tinyletter](https://app.tinyletter.com). 你可以在文章的底部表单，或者点击 [这里](https://tinyletter.com/lillianwho) 填写你的邮件地址进行订阅。（已去除）
 - 2023-03-18 给博客加入了twikoo评论
 - 2023-03-11 因原有腾讯云服务器到期，博客重新搬回github，但是保留了域名。用了[新的免费博客方案](https://lillianwho.com/posts/new-blog-sys/) ，将网站托管到了 cloudflare，它可以自动拉取托管到github的源码，然后用hugo的系统进行解析。同时改造了obsidian写博客和发博客的轮子，能够不离开ob就能一键发布博客。
 - 2022-10-18 受[木木大佬](https://immmmm.com/) 影响，博客系统换为hugo：[Hello Hugo](https://lillianwho.com/posts/hello-hugo/)。主题使用了木木分享的同款[hello-friend](https://github.com/lmm214/immmmm/tree/master/themes/hello-friend) 
