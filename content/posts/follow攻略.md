@@ -132,3 +132,8 @@ A：目前看来power币就一个功能，兑换邀请码。（兑换在菜单�
 就看到下面这个弹窗。点击mint按钮领取即可。
 
 ![image.png](https://s2.loli.net/2024/09/30/sVqQaERXyxD3unF.png)
+
+---
+Follow官网： https://follow.is/
+
+官方文档： https://docs.rsshub.app/zh/routes/social-media
