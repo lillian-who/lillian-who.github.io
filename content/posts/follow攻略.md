@@ -6,7 +6,7 @@ tags:
 date: 2024-10-03T16:18:40
 UID: 20240930220240
 draft: false
-toc: false
+toc: true
 feature: https://s2.loli.net/2024/10/04/YNywoMKUOad5r2c.png
 ---
 Follow 最近大家都玩儿了吗？这篇文章写给刚上手的小白，包含了如何添加订阅和如何攒Power币。
